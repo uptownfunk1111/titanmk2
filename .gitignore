@@ -1,0 +1,15 @@
+# Ignore all Excel outputs
+*.xlsx
+*.xls
+
+# Ignore logs and caches
+__pycache__/
+*.log
+
+# Ignore local virtual environments
+venv/
+.env/
+
+# Ignore OS clutter
+.DS_Store
+Thumbs.db
