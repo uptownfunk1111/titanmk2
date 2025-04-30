@@ -1,89 +1,52 @@
 # titan_main.py
 
-import os
-import pandas as pd
 from titan_fetch import fetch_nrl_data
-from titan_model import predict_tips
 from titan_teamlist import fetch_team_lists
+from titan_model import predict_tips
+import pandas as pd
+from datetime import datetime
+import os
 
-# Team Name Normalization (match tipping names to player team list names)
-TEAM_NAME_FIXES = {
-    "Sharks": "Cronulla-Sutherland Sharks",
-    "Eels": "Parramatta Eels",
-    "Roosters": "Sydney Roosters",
-    "Dolphins": "The Dolphins",
-    "Rabbitohs": "South Sydney Rabbitohs",
-    "Knights": "Newcastle Knights",
-    "Warriors": "New Zealand Warriors",
-    "Cowboys": "North Queensland Cowboys",
-    "Wests Tigers": "Wests Tigers",
-    "Dragons": "St George Illawarra Dragons",
-    "Titans": "Gold Coast Titans",
-    "Bulldogs": "Canterbury-Bankstown Bulldogs",
-    "Panthers": "Penrith Panthers",
-    "Broncos": "Brisbane Broncos",
-    "Storm": "Melbourne Storm",
-    "Raiders": "Canberra Raiders"
-}
+def ensure_output_folder():
+    if not os.path.exists("outputs"):
+        os.makedirs("outputs")
 
-def main():
+def save_tips_to_excel(tips):
+    df = pd.DataFrame(tips)
+    now = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    timestamped_path = f"outputs/titan_tips_{now}.xlsx"
+    latest_path = "outputs/titan_tips_latest.xlsx"
+    
+    df.to_excel(timestamped_path, index=False)
+    df.to_excel(latest_path, index=False)
+    
+    print(f"✅ Tips saved to '{timestamped_path}' and 'titan_tips_latest.xlsx'.")
+
+if __name__ == "__main__":
     print("TITAN: Starting tipping process...")
+    ensure_output_folder()
 
-    # Step 1: Fetch match data
+    # Step 1: Fetch matchups
     print("Step 1: Fetching NRL match data...")
     matches = fetch_nrl_data()
     if not matches:
-        print("No match data fetched. Exiting.")
-        return
+        print("⚠️ No matches found. Skipping prediction.")
+    else:
+        print(f"Fetched match data: {matches}")
 
-    # Step 2: Fetch team lists
-    print("Step 2: Fetching team lists...")
-    team_lists = fetch_team_lists()
-    if not team_lists:
-        print("Warning: Team lists could not be fetched. Proceeding without player data.")
+        # Step 2: Fetch team lists
+        print("Step 2: Fetching team lists...")
+        team_lists = fetch_team_lists()
+        if not team_lists:
+            print("⚠️ Team lists could not be fetched. Proceeding without player data.")
+        else:
+            print(f"Fetched {len(team_lists)} player entries.")
 
-    # Step 3: Predict tips
-    print("Step 3: Predicting tips...")
-    predictions = predict_tips(matches)
+        # Step 3: Predict tips
+        print("Step 3: Predicting tips...")
+        tips = predict_tips(matches, team_lists)
 
-    # Step 4: Build DataFrame of results
-    df = pd.DataFrame(predictions)
-
-    # Step 5: Attach player lineups (if available)
-    if team_lists:
-        home_lineups = []
-        away_lineups = []
-
-        for row in df.itertuples():
-            home_team = getattr(row, "Home_Team")
-            away_team = getattr(row, "Away_Team")
-
-            # Normalize team names
-            home_lookup = TEAM_NAME_FIXES.get(home_team, home_team)
-            away_lookup = TEAM_NAME_FIXES.get(away_team, away_team)
-
-            home_players = team_lists.get(home_lookup, [])
-            away_players = team_lists.get(away_lookup, [])
-
-            # Convert to readable strings
-            home_lineup_str = ", ".join(f"{p['number']} {p['name']}" for p in home_players)
-            away_lineup_str = ", ".join(f"{p['number']} {p['name']}" for p in away_players)
-
-            home_lineups.append(home_lineup_str)
-            away_lineups.append(away_lineup_str)
-
-        df["Home Team Lineup"] = home_lineups
-        df["Away Team Lineup"] = away_lineups
-
-    # Step 6: Save to Excel
-    output_folder = "outputs"
-    os.makedirs(output_folder, exist_ok=True)
-    output_path = os.path.join(output_folder, "titan_tips.xlsx")
-
-    print("Step 4: Saving tips to Excel...")
-    df.to_excel(output_path, index=False)
-
-    print(f"TITAN: Process complete. Tips saved to '{output_path}'.")
-
-if __name__ == "__main__":
-    main()
+        # Step 4: Save to Excel
+        print("Step 4: Saving tips to Excel...")
+        save_tips_to_excel(tips)
+        print("TITAN: Process complete.")
