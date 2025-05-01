@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
+<<<<<<< HEAD
 BASE_URL = "https://www.nrl.com"
 TOPIC_URL = "https://www.nrl.com/news/topic/team-lists/"
 
