@@ -22,7 +22,7 @@ def save_tips_to_excel(tips):
     
 <<<<<<< HEAD
     print(f"✅ Tips saved to '{timestamped_path}' and 'titan_tips_latest.xlsx'.")
-=======
+=======>>>>>>>
 
 if __name__ == "__main__":
     print("TITAN: Starting tipping process...")

@@ -67,3 +67,4 @@ def fetch_team_lists():
     except Exception as e:
         print(f"❌ Error fetching team lists: {e}")
         return []
+    =======>>>>>>> 
