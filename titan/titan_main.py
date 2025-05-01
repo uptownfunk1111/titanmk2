@@ -20,7 +20,9 @@ def save_tips_to_excel(tips):
     df.to_excel(timestamped_path, index=False)
     df.to_excel(latest_path, index=False)
     
-    print(f"✅ Tips saved to '{timestamped_path}' and '{latest_path}'.")
+<<<<<<< HEAD
+    print(f"✅ Tips saved to '{timestamped_path}' and 'titan_tips_latest.xlsx'.")
+=======>>>>>>>
 
 if __name__ == "__main__":
     print("TITAN: Starting tipping process...")
@@ -37,7 +39,11 @@ if __name__ == "__main__":
         # Step 2: Fetch team lists
         print("Step 2: Fetching team lists...")
         team_lists = fetch_team_lists()
+<<<<<<< HEAD
+        if not team_lists:
+=======
         if team_lists.empty:
+>>>>>>> cfcdcaa (Initial commit)
             print("⚠️ Team lists could not be fetched. Proceeding without player data.")
         else:
             print(f"Fetched {len(team_lists)} player entries.")
@@ -49,5 +55,8 @@ if __name__ == "__main__":
         # Step 4: Save to Excel
         print("Step 4: Saving tips to Excel...")
         save_tips_to_excel(tips)
+<<<<<<< HEAD
+=======
 
+>>>>>>> cfcdcaa (Initial commit)
         print("TITAN: Process complete.")

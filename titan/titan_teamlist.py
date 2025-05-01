@@ -4,71 +4,67 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
+<<<<<<< HEAD
+BASE_URL = "https://www.nrl.com"
+TOPIC_URL = "https://www.nrl.com/news/topic/team-lists/"
+
 def fetch_team_lists():
+    """
+    Scrape the most recent team list article and extract player names and jersey numbers
+    """
+
     try:
-        # Prompt for article URL
-        article_url = input("Paste the full NRL Team List article URL (e.g., https://www.nrl.com/news/2025/...): ").strip()
-        if not article_url.startswith("http"):
-            print("❌ Invalid URL.")
-            return pd.DataFrame()
+        # Step 1: Find the latest article
+        topic_html = requests.get(TOPIC_URL).text
+        soup = BeautifulSoup(topic_html, "html.parser")
 
-        # Load and parse the article
-        article_html = requests.get(article_url, timeout=15).text
-        article_soup = BeautifulSoup(article_html, "html.parser")
+        article_link = soup.find("a", href=True, text=lambda t: t and "team lists" in t.lower())
+        if not article_link:
+            print("❌ No team list article found.")
+            return []
 
-        match_blocks = article_soup.find_all("section", class_="match-teams")
+        article_url = BASE_URL + article_link['href']
+        print(f"📰 Found latest team list article: {article_url}")
+
+        # Step 2: Fetch and parse the article
+        article_html = requests.get(article_url).text
+        soup = BeautifulSoup(article_html, "html.parser")
+
         teams_data = []
+        team_blocks = soup.find_all("li", class_="team-list")
 
-        for match in match_blocks:
-            home_team = match.find("p", class_="match-team__name--home")
-            away_team = match.find("p", class_="match-team__name--away")
-            home_name = home_team.text.strip() if home_team else "Unknown"
-            away_name = away_team.text.strip() if away_team else "Unknown"
+        for block in team_blocks:
+            try:
+                number = block.find("span", class_="team-list-position__number").text.strip()
 
-            player_rows = match.find_all("li", class_="team-list")
+                home = block.find("div", class_="team-list-profile--home")
+                if home:
+                    fname = home.find_all("span")[1].previous_sibling.strip()
+                    lname = home.find("span", class_="u-font-weight-700").text.strip()
+                    teams_data.append({
+                        "Team_Side": "Home",
+                        "Full_Name": f"{fname} {lname}",
+                        "Jersey_Number": number
+                    })
 
-            for row in player_rows:
-                number = row.find("span", class_="team-list-position__number")
-                number = number.text.strip() if number else ""
+                away = block.find("div", class_="team-list-profile--away")
+                if away:
+                    fname = away.find_all("span")[1].previous_sibling.strip()
+                    lname = away.find("span", class_="u-font-weight-700").text.strip()
+                    teams_data.append({
+                        "Team_Side": "Away",
+                        "Full_Name": f"{fname} {lname}",
+                        "Jersey_Number": number
+                    })
 
-                home_block = row.find("div", class_="team-list-profile--home")
-                if home_block:
-                    try:
-                        name_block = home_block.find("div", class_="team-list-profile__name")
-                        spans = name_block.find_all("span")
-                        first_name = spans[1].previous_sibling.strip()
-                        last_name = spans[1].text.strip()
-                        teams_data.append({
-                            "Team": home_name,
-                            "Side": "Home",
-                            "First_Name": first_name,
-                            "Last_Name": last_name,
-                            "Jersey_Number": number
-                        })
-                    except Exception:
-                        continue
+            except Exception as e:
+                print(f"⚠️ Skipping a malformed player block: {e}")
+                continue
 
-                away_block = row.find("div", class_="team-list-profile--away")
-                if away_block:
-                    try:
-                        name_block = away_block.find("div", class_="team-list-profile__name")
-                        spans = name_block.find_all("span")
-                        first_name = spans[1].previous_sibling.strip()
-                        last_name = spans[1].text.strip()
-                        teams_data.append({
-                            "Team": away_name,
-                            "Side": "Away",
-                            "First_Name": first_name,
-                            "Last_Name": last_name,
-                            "Jersey_Number": number
-                        })
-                    except Exception:
-                        continue
-
-        df = pd.DataFrame(teams_data)
-        print(f"✅ Extracted {len(df)} players from provided article.")
-        return df
+        print(f"✅ Extracted {len(teams_data)} players from latest team list.")
+        return teams_data
 
     except Exception as e:
         print(f"❌ Error fetching team lists: {e}")
-        return pd.DataFrame()
+        return []
+    =======>>>>>>> 

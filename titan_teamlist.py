@@ -1,102 +1,68 @@
 # titan_teamlist.py
 
-import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+import requests
 from bs4 import BeautifulSoup
+import pandas as pd
+
+BASE_URL = "https://www.nrl.com"
+TOPIC_URL = "https://www.nrl.com/news/topic/team-lists/"
 
 def fetch_team_lists():
     """
-    Uses Selenium to scrape team lists from the NRL.com Magic Round 2025 page (or later pages).
+    Scrape the most recent team list article and extract player names and jersey numbers
     """
 
-    url = input("Paste the full NRL Team List article URL (e.g., https://www.nrl.com/news/2025/...):\n").strip()
-    if not url:
-        print("No URL provided. Cannot fetch team lists.")
-        return {}
-
-    # Setup Chrome options
-    chrome_options = Options()
-    # chrome_options.add_argument("--headless")  # Optional: uncomment to make browser invisible
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-
-    driver_path = "drivers/chromedriver/chromedriver.exe"
-
     try:
-        service = Service(executable_path=driver_path)
-        driver = webdriver.Chrome(service=service, options=chrome_options)
-    except Exception as e:
-        print(f"Error launching Chrome WebDriver: {e}")
-        return {}
+        # Step 1: Find the latest article
+        topic_html = requests.get(TOPIC_URL).text
+        soup = BeautifulSoup(topic_html, "html.parser")
 
-    try:
-        driver.get(url)
+        article_link = soup.find("a", href=True, text=lambda t: t and "team lists" in t.lower())
+        if not article_link:
+            print("❌ No team list article found.")
+            return []
 
-        # Step 1: Wait for full page load
-        try:
-            WebDriverWait(driver, 45).until(
-                lambda d: d.execute_script("return document.readyState") == "complete"
-            )
-            print("Document loaded fully.")
-        except Exception:
-            print("Warning: Page did not fully finish loading within timeout.")
-            driver.quit()
-            return {}
+        article_url = BASE_URL + article_link['href']
+        print(f"📰 Found latest team list article: {article_url}")
 
-        # Step 2: Pull HTML source and parse with BeautifulSoup
-        page_source = driver.page_source
-        soup = BeautifulSoup(page_source, "html.parser")
+        # Step 2: Fetch and parse the article
+        article_html = requests.get(article_url).text
+        soup = BeautifulSoup(article_html, "html.parser")
 
-        team_lists = {}
+        teams_data = []
+        team_blocks = soup.find_all("li", class_="team-list")
 
-        # Step 3: Find all team blocks
-        team_blocks = soup.find_all("div", class_="team-list__team")
-        print(f"Found {len(team_blocks)} team blocks.")
-
-        for team_block in team_blocks:
+        for block in team_blocks:
             try:
-                # Find team name
-                team_name_tag = team_block.find("h2", class_="team-list__team-name")
-                if not team_name_tag:
-                    continue
-                team_name = team_name_tag.get_text(strip=True)
+                number = block.find("span", class_="team-list-position__number").text.strip()
 
-                # Initialize list
-                team_lists[team_name] = []
+                home = block.find("div", class_="team-list-profile--home")
+                if home:
+                    fname = home.find_all("span")[1].previous_sibling.strip()
+                    lname = home.find("span", class_="u-font-weight-700").text.strip()
+                    teams_data.append({
+                        "Team_Side": "Home",
+                        "Full_Name": f"{fname} {lname}",
+                        "Jersey_Number": number
+                    })
 
-                # Find players under this team
-                players = team_block.find_all("li", class_="team-list__player")
-                for player in players:
-                    try:
-                        jersey_span = player.find("span", class_="team-list__player-jumper-number")
-                        name_span = player.find("span", class_="team-list__player-name")
+                away = block.find("div", class_="team-list-profile--away")
+                if away:
+                    fname = away.find_all("span")[1].previous_sibling.strip()
+                    lname = away.find("span", class_="u-font-weight-700").text.strip()
+                    teams_data.append({
+                        "Team_Side": "Away",
+                        "Full_Name": f"{fname} {lname}",
+                        "Jersey_Number": number
+                    })
 
-                        if jersey_span and name_span:
-                            jersey_number = int(jersey_span.get_text(strip=True))
-                            player_name = name_span.get_text(strip=True)
-
-                            team_lists[team_name].append({
-                                "number": jersey_number,
-                                "name": player_name
-                            })
-                    except Exception:
-                        continue
-
-            except Exception:
+            except Exception as e:
+                print(f"⚠️ Skipping a malformed player block: {e}")
                 continue
 
-        driver.quit()
-
-        if not team_lists:
-            print("No team data could be extracted.")
-        return team_lists
+        print(f"✅ Extracted {len(teams_data)} players from latest team list.")
+        return teams_data
 
     except Exception as e:
-        print(f"Error fetching team lists: {e}")
-        driver.quit()
-        return {}
+        print(f"❌ Error fetching team lists: {e}")
+        return []
