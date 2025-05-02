@@ -1,0 +1,5332 @@
+[
+  {
+    "Round": "Round 1",
+    "MatchName": "Storm v Rabbitohs",
+    "MatchID": "2021-1-StormvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 548,
+      "away": 492
+    },
+    "errors": {
+      "home": 2,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 22,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Knights v Bulldogs",
+    "MatchID": "2021-1-KnightsvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 594,
+      "away": 691
+    },
+    "errors": {
+      "home": 0,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Broncos v Eels",
+    "MatchID": "2021-1-BroncosvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 754,
+      "away": 527
+    },
+    "errors": {
+      "home": 3,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Warriors v Titans",
+    "MatchID": "2021-1-WarriorsvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 553,
+      "away": 545
+    },
+    "errors": {
+      "home": 4,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Roosters v Sea Eagles",
+    "MatchID": "2021-1-RoostersvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 600,
+      "away": 542
+    },
+    "errors": {
+      "home": 13,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Panthers v Cowboys",
+    "MatchID": "2021-1-PanthersvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 508,
+      "away": 366
+    },
+    "errors": {
+      "home": 17,
+      "away": 18
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Raiders v Wests Tigers",
+    "MatchID": "2021-1-RaidersvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 472,
+      "away": 380
+    },
+    "errors": {
+      "home": 14,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Dragons v Sharks",
+    "MatchID": "2021-1-DragonsvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 442,
+      "away": 811
+    },
+    "errors": {
+      "home": 3,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Eels v Storm",
+    "MatchID": "2021-2-EelsvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Showers",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 902,
+      "away": 649
+    },
+    "errors": {
+      "home": 10,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Warriors v Knights",
+    "MatchID": "2021-2-WarriorsvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 812,
+      "away": 649
+    },
+    "errors": {
+      "home": 6,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Titans v Broncos",
+    "MatchID": "2021-2-TitansvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 443,
+      "away": 365
+    },
+    "errors": {
+      "home": 15,
+      "away": 17
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Bulldogs v Panthers",
+    "MatchID": "2021-2-BulldogsvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Rain",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 698,
+      "away": 668
+    },
+    "errors": {
+      "home": 5,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Sea Eagles v Rabbitohs",
+    "MatchID": "2021-2-SeaEaglesvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 560,
+      "away": 691
+    },
+    "errors": {
+      "home": 13,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Cowboys v Dragons",
+    "MatchID": "2021-2-CowboysvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 502,
+      "away": 630
+    },
+    "errors": {
+      "home": 13,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 13
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Wests Tigers v Roosters",
+    "MatchID": "2021-2-WestsTigersvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 443,
+      "away": 606
+    },
+    "errors": {
+      "home": 11,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Sharks v Raiders",
+    "MatchID": "2021-2-SharksvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 485,
+      "away": 577
+    },
+    "errors": {
+      "home": 17,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Panthers v Storm",
+    "MatchID": "2021-3-PanthersvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 788,
+      "away": 708
+    },
+    "errors": {
+      "home": 11,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Dragons v Sea Eagles",
+    "MatchID": "2021-3-DragonsvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 811,
+      "away": 490
+    },
+    "errors": {
+      "home": 8,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Rabbitohs v Roosters",
+    "MatchID": "2021-3-RabbitohsvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 475,
+      "away": 503
+    },
+    "errors": {
+      "home": 1,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Raiders v Warriors",
+    "MatchID": "2021-3-RaidersvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Drew Oultram",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 684,
+      "away": 381
+    },
+    "errors": {
+      "home": 1,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 25,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Broncos v Bulldogs",
+    "MatchID": "2021-3-BroncosvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 745,
+      "away": 560
+    },
+    "errors": {
+      "home": 2,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Eels v Sharks",
+    "MatchID": "2021-3-EelsvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 453,
+      "away": 530
+    },
+    "errors": {
+      "home": 2,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Knights v Wests Tigers",
+    "MatchID": "2021-3-KnightsvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 422,
+      "away": 656
+    },
+    "errors": {
+      "home": 0,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Cowboys v Titans",
+    "MatchID": "2021-3-CowboysvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 364,
+      "away": 472
+    },
+    "errors": {
+      "home": 5,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 26
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Sea Eagles v Panthers",
+    "MatchID": "2021-4-SeaEaglesvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 550,
+      "away": 614
+    },
+    "errors": {
+      "home": 10,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 22
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Bulldogs v Rabbitohs",
+    "MatchID": "2021-4-BulldogsvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 581,
+      "away": 414
+    },
+    "errors": {
+      "home": 11,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Storm v Broncos",
+    "MatchID": "2021-4-StormvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 712,
+      "away": 855
+    },
+    "errors": {
+      "home": 9,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Sharks v Cowboys",
+    "MatchID": "2021-4-SharksvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 672,
+      "away": 497
+    },
+    "errors": {
+      "home": 21,
+      "away": 20
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 13
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Titans v Raiders",
+    "MatchID": "2021-4-TitansvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 517,
+      "away": 552
+    },
+    "errors": {
+      "home": 6,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Knights v Dragons",
+    "MatchID": "2021-4-KnightsvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 773,
+      "away": 657
+    },
+    "errors": {
+      "home": 5,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 7,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Roosters v Warriors",
+    "MatchID": "2021-4-RoostersvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 328,
+      "away": 538
+    },
+    "errors": {
+      "home": 10,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Wests Tigers v Eels",
+    "MatchID": "2021-4-WestsTigersvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 620,
+      "away": 610
+    },
+    "errors": {
+      "home": 8,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Rabbitohs v Broncos",
+    "MatchID": "2021-5-RabbitohsvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 483,
+      "away": 631
+    },
+    "errors": {
+      "home": 3,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Warriors v Sea Eagles",
+    "MatchID": "2021-5-WarriorsvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 609,
+      "away": 872
+    },
+    "errors": {
+      "home": 12,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Panthers v Raiders",
+    "MatchID": "2021-5-PanthersvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 704,
+      "away": 568
+    },
+    "errors": {
+      "home": 17,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Titans v Knights",
+    "MatchID": "2021-5-TitansvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 517,
+      "away": 354
+    },
+    "errors": {
+      "home": 9,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 22,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Bulldogs v Storm",
+    "MatchID": "2021-5-BulldogsvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 665,
+      "away": 458
+    },
+    "errors": {
+      "home": 6,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 30
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Roosters v Sharks",
+    "MatchID": "2021-5-RoostersvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 587,
+      "away": 685
+    },
+    "errors": {
+      "home": 7,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Wests Tigers v Cowboys",
+    "MatchID": "2021-5-WestsTigersvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 400,
+      "away": 690
+    },
+    "errors": {
+      "home": 11,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Eels v Dragons",
+    "MatchID": "2021-5-EelsvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 389,
+      "away": 777
+    },
+    "errors": {
+      "home": 14,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Broncos v Panthers",
+    "MatchID": "2021-6-BroncosvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 720,
+      "away": 871
+    },
+    "errors": {
+      "home": 10,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Knights v Sharks",
+    "MatchID": "2021-6-KnightsvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 700,
+      "away": 638
+    },
+    "errors": {
+      "home": 9,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Storm v Roosters",
+    "MatchID": "2021-6-StormvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 468,
+      "away": 479
+    },
+    "errors": {
+      "home": 12,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Sea Eagles v Titans",
+    "MatchID": "2021-6-SeaEaglesvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 510,
+      "away": 201
+    },
+    "errors": {
+      "home": 5,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 26,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Rabbitohs v Wests Tigers",
+    "MatchID": "2021-6-RabbitohsvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 502,
+      "away": 704
+    },
+    "errors": {
+      "home": 10,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Raiders v Eels",
+    "MatchID": "2021-6-RaidersvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 652,
+      "away": 691
+    },
+    "errors": {
+      "home": 1,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Dragons v Warriors",
+    "MatchID": "2021-6-DragonsvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 687,
+      "away": 662
+    },
+    "errors": {
+      "home": 5,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Cowboys v Bulldogs",
+    "MatchID": "2021-6-CowboysvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 435,
+      "away": 685
+    },
+    "errors": {
+      "home": 15,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Panthers v Knights",
+    "MatchID": "2021-7-PanthersvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 647,
+      "away": 896
+    },
+    "errors": {
+      "home": 10,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Titans v Rabbitohs",
+    "MatchID": "2021-7-TitansvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 631,
+      "away": 641
+    },
+    "errors": {
+      "home": 5,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Eels v Broncos",
+    "MatchID": "2021-7-EelsvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 532,
+      "away": 384
+    },
+    "errors": {
+      "home": 11,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Sharks v Bulldogs",
+    "MatchID": "2021-7-SharksvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 375,
+      "away": 519
+    },
+    "errors": {
+      "home": 2,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Cowboys v Raiders",
+    "MatchID": "2021-7-CowboysvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 797,
+      "away": 428
+    },
+    "errors": {
+      "home": 5,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 24
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Wests Tigers v Sea Eagles",
+    "MatchID": "2021-7-WestsTigersvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 436,
+      "away": 475
+    },
+    "errors": {
+      "home": 9,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Roosters v Dragons",
+    "MatchID": "2021-7-RoostersvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 542,
+      "away": 568
+    },
+    "errors": {
+      "home": 3,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Storm v Warriors",
+    "MatchID": "2021-7-StormvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 439,
+      "away": 434
+    },
+    "errors": {
+      "home": 2,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 26,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Raiders v Rabbitohs",
+    "MatchID": "2021-8-RaidersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 586,
+      "away": 577
+    },
+    "errors": {
+      "home": 8,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Storm v Sharks",
+    "MatchID": "2021-8-StormvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 512,
+      "away": 369
+    },
+    "errors": {
+      "home": 9,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Broncos v Titans",
+    "MatchID": "2021-8-BroncosvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 484,
+      "away": 516
+    },
+    "errors": {
+      "home": 8,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Panthers v Sea Eagles",
+    "MatchID": "2021-8-PanthersvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 576,
+      "away": 670
+    },
+    "errors": {
+      "home": 11,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Bulldogs v Eels",
+    "MatchID": "2021-8-BulldogsvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 584,
+      "away": 604
+    },
+    "errors": {
+      "home": 10,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Knights v Roosters",
+    "MatchID": "2021-8-KnightsvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 210,
+      "away": 309
+    },
+    "errors": {
+      "home": 2,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Warriors v Cowboys",
+    "MatchID": "2021-8-WarriorsvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 495,
+      "away": 560
+    },
+    "errors": {
+      "home": 1,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Dragons v Wests Tigers",
+    "MatchID": "2021-8-DragonsvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 520,
+      "away": 494
+    },
+    "errors": {
+      "home": 8,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Rabbitohs v Storm",
+    "MatchID": "2021-9-RabbitohsvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 370,
+      "away": 691
+    },
+    "errors": {
+      "home": 11,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Panthers v Sharks",
+    "MatchID": "2021-9-PanthersvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 704,
+      "away": 551
+    },
+    "errors": {
+      "home": 7,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Eels v Roosters",
+    "MatchID": "2021-9-EelsvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 647,
+      "away": 407
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Raiders v Knights",
+    "MatchID": "2021-9-RaidersvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 489,
+      "away": 499
+    },
+    "errors": {
+      "home": 1,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Wests Tigers v Titans",
+    "MatchID": "2021-9-WestsTigersvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 474,
+      "away": 516
+    },
+    "errors": {
+      "home": 1,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 24
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Cowboys v Broncos",
+    "MatchID": "2021-9-CowboysvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 603,
+      "away": 423
+    },
+    "errors": {
+      "home": 2,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2021-9-SeaEaglesvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 397,
+      "away": 418
+    },
+    "errors": {
+      "home": 12,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 20
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Dragons v Bulldogs",
+    "MatchID": "2021-9-DragonsvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 471,
+      "away": 604
+    },
+    "errors": {
+      "home": 6,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Wests Tigers v Knights",
+    "MatchID": "2021-10-WestsTigersvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 461,
+      "away": 418
+    },
+    "errors": {
+      "home": 7,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Sea Eagles v Broncos",
+    "MatchID": "2021-10-SeaEaglesvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 455,
+      "away": 322
+    },
+    "errors": {
+      "home": 9,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Bulldogs v Raiders",
+    "MatchID": "2021-10-BulldogsvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 557,
+      "away": 528
+    },
+    "errors": {
+      "home": 5,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Sharks v Rabbitohs",
+    "MatchID": "2021-10-SharksvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 450,
+      "away": 282
+    },
+    "errors": {
+      "home": 10,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Roosters v Cowboys",
+    "MatchID": "2021-10-RoostersvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 330,
+      "away": 481
+    },
+    "errors": {
+      "home": 12,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Warriors v Eels",
+    "MatchID": "2021-10-WarriorsvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 257,
+      "away": 630
+    },
+    "errors": {
+      "home": 6,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Storm v Dragons",
+    "MatchID": "2021-10-StormvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 368,
+      "away": 368
+    },
+    "errors": {
+      "home": 4,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Titans v Panthers",
+    "MatchID": "2021-10-TitansvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 433,
+      "away": 345
+    },
+    "errors": {
+      "home": 12,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 11
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Cowboys v Knights",
+    "MatchID": "2021-11-CowboysvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 453,
+      "away": 518
+    },
+    "errors": {
+      "home": 11,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Warriors v Wests Tigers",
+    "MatchID": "2021-11-WarriorsvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Noyen",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 471,
+      "away": 491
+    },
+    "errors": {
+      "home": 10,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Sharks v Dragons",
+    "MatchID": "2021-11-SharksvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 751,
+      "away": 729
+    },
+    "errors": {
+      "home": 11,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Titans v Bulldogs",
+    "MatchID": "2021-11-TitansvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 664,
+      "away": 543
+    },
+    "errors": {
+      "home": 4,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Roosters v Broncos",
+    "MatchID": "2021-11-RoostersvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 262,
+      "away": 600
+    },
+    "errors": {
+      "home": 19,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 12,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Raiders v Storm",
+    "MatchID": "2021-11-RaidersvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 576,
+      "away": 461
+    },
+    "errors": {
+      "home": 3,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Rabbitohs v Panthers",
+    "MatchID": "2021-11-RabbitohsvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 283,
+      "away": 506
+    },
+    "errors": {
+      "home": 12,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 30
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Eels v Sea Eagles",
+    "MatchID": "2021-11-EelsvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 526,
+      "away": 653
+    },
+    "errors": {
+      "home": 8,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2021-12-BroncosvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 311,
+      "away": 314
+    },
+    "errors": {
+      "home": 12,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Cowboys v Warriors",
+    "MatchID": "2021-12-CowboysvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 595,
+      "away": 501
+    },
+    "errors": {
+      "home": 2,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Wests Tigers v Dragons",
+    "MatchID": "2021-12-WestsTigersvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 544,
+      "away": 581
+    },
+    "errors": {
+      "home": 11,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 13,
+      "away": 12
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Panthers v Bulldogs",
+    "MatchID": "2021-12-PanthersvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Noyen",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 654,
+      "away": 869
+    },
+    "errors": {
+      "home": 11,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Rabbitohs v Eels",
+    "MatchID": "2021-12-RabbitohsvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 566,
+      "away": 465
+    },
+    "errors": {
+      "home": 10,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Roosters v Raiders",
+    "MatchID": "2021-12-RoostersvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 336,
+      "away": 272
+    },
+    "errors": {
+      "home": 10,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Sharks v Titans",
+    "MatchID": "2021-12-SharksvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 440,
+      "away": 324
+    },
+    "errors": {
+      "home": 8,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Knights v Sea Eagles",
+    "MatchID": "2021-12-KnightsvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 777,
+      "away": 845
+    },
+    "errors": {
+      "home": 12,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Dragons v Broncos",
+    "MatchID": "2021-13-DragonsvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 551,
+      "away": 469
+    },
+    "errors": {
+      "home": 22,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 11
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Wests Tigers v Panthers",
+    "MatchID": "2021-13-WestsTigersvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 409,
+      "away": 390
+    },
+    "errors": {
+      "home": 10,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 11,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Storm v Titans",
+    "MatchID": "2021-13-StormvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 415,
+      "away": 391
+    },
+    "errors": {
+      "home": 9,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Knights v Eels",
+    "MatchID": "2021-13-KnightsvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 426,
+      "away": 700
+    },
+    "errors": {
+      "home": 3,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 22
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Sea Eagles v Cowboys",
+    "MatchID": "2021-14-SeaEaglesvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 497,
+      "away": 347
+    },
+    "errors": {
+      "home": 3,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Sharks v Panthers",
+    "MatchID": "2021-14-SharksvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 607,
+      "away": 524
+    },
+    "errors": {
+      "home": 7,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Titans v Roosters",
+    "MatchID": "2021-14-TitansvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 383,
+      "away": 566
+    },
+    "errors": {
+      "home": 1,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Rabbitohs v Knights",
+    "MatchID": "2021-14-RabbitohsvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 691,
+      "away": 736
+    },
+    "errors": {
+      "home": 16,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Raiders v Broncos",
+    "MatchID": "2021-14-RaidersvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 505,
+      "away": 590
+    },
+    "errors": {
+      "home": 9,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 22,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Warriors v Storm",
+    "MatchID": "2021-14-WarriorsvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 331,
+      "away": 505
+    },
+    "errors": {
+      "home": 5,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Eels v Wests Tigers",
+    "MatchID": "2021-14-EelsvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 428,
+      "away": 308
+    },
+    "errors": {
+      "home": 4,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Bulldogs v Dragons",
+    "MatchID": "2021-14-BulldogsvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 751,
+      "away": 610
+    },
+    "errors": {
+      "home": 4,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Broncos v Rabbitohs",
+    "MatchID": "2021-15-BroncosvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 496,
+      "away": 390
+    },
+    "errors": {
+      "home": 11,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Cowboys v Sharks",
+    "MatchID": "2021-15-CowboysvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 555,
+      "away": 671
+    },
+    "errors": {
+      "home": 1,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Panthers v Roosters",
+    "MatchID": "2021-15-PanthersvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 709,
+      "away": 519
+    },
+    "errors": {
+      "home": 9,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Knights v Warriors",
+    "MatchID": "2021-15-KnightsvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Rain",
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 744,
+      "away": 487
+    },
+    "errors": {
+      "home": 6,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Dragons v Raiders",
+    "MatchID": "2021-15-DragonsvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 579,
+      "away": 460
+    },
+    "errors": {
+      "home": 10,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Storm v Wests Tigers",
+    "MatchID": "2021-15-StormvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 346,
+      "away": 178
+    },
+    "errors": {
+      "home": 0,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 40,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Eels v Bulldogs",
+    "MatchID": "2021-15-EelsvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Showers",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 579,
+      "away": 609
+    },
+    "errors": {
+      "home": 1,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Titans v Sea Eagles",
+    "MatchID": "2021-15-TitansvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 444,
+      "away": 374
+    },
+    "errors": {
+      "home": 4,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Roosters v Storm",
+    "MatchID": "2021-16-RoostersvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Rain",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 456,
+      "away": 511
+    },
+    "errors": {
+      "home": 12,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Warriors v Dragons",
+    "MatchID": "2021-16-WarriorsvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 652,
+      "away": 807
+    },
+    "errors": {
+      "home": 2,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2021-16-PanthersvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 505,
+      "away": 784
+    },
+    "errors": {
+      "home": 6,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Bulldogs v Sea Eagles",
+    "MatchID": "2021-16-BulldogsvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 467,
+      "away": 368
+    },
+    "errors": {
+      "home": 12,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 36
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Raiders v Titans",
+    "MatchID": "2021-16-RaidersvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 521,
+      "away": 795
+    },
+    "errors": {
+      "home": 11,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 22
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Knights v Cowboys",
+    "MatchID": "2021-16-KnightsvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 566,
+      "away": 555
+    },
+    "errors": {
+      "home": 10,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Broncos v Sharks",
+    "MatchID": "2021-16-BroncosvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 496,
+      "away": 709
+    },
+    "errors": {
+      "home": 2,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Wests Tigers v Rabbitohs",
+    "MatchID": "2021-16-WestsTigersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 507,
+      "away": 302
+    },
+    "errors": {
+      "home": 8,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Sea Eagles v Raiders",
+    "MatchID": "2021-17-SeaEaglesvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 364,
+      "away": 615
+    },
+    "errors": {
+      "home": 1,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Rabbitohs v Cowboys",
+    "MatchID": "2021-17-RabbitohsvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Showers",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 467,
+      "away": 622
+    },
+    "errors": {
+      "home": 1,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Bulldogs v Roosters",
+    "MatchID": "2021-17-BulldogsvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Showers",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 748,
+      "away": 504
+    },
+    "errors": {
+      "home": 3,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Sharks v Warriors",
+    "MatchID": "2021-17-SharksvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 623,
+      "away": 607
+    },
+    "errors": {
+      "home": 5,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 20,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Titans v Eels",
+    "MatchID": "2021-18-TitansvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 486,
+      "away": 468
+    },
+    "errors": {
+      "home": 13,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 20
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Sea Eagles v Dragons",
+    "MatchID": "2021-18-SeaEaglesvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 431,
+      "away": 404
+    },
+    "errors": {
+      "home": 11,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 12,
+      "away": 14
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Cowboys v Roosters",
+    "MatchID": "2021-18-CowboysvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 609,
+      "away": 539
+    },
+    "errors": {
+      "home": 11,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Raiders v Sharks",
+    "MatchID": "2021-18-RaidersvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 402,
+      "away": 441
+    },
+    "errors": {
+      "home": 6,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Storm v Knights",
+    "MatchID": "2021-18-StormvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 576,
+      "away": 588
+    },
+    "errors": {
+      "home": 12,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Warriors v Panthers",
+    "MatchID": "2021-18-WarriorsvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 185,
+      "away": 204
+    },
+    "errors": {
+      "home": 0,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Broncos v Wests Tigers",
+    "MatchID": "2021-18-BroncosvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 381,
+      "away": 590
+    },
+    "errors": {
+      "home": 6,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Rabbitohs v Bulldogs",
+    "MatchID": "2021-18-RabbitohsvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 467,
+      "away": 617
+    },
+    "errors": {
+      "home": 12,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Eels v Raiders",
+    "MatchID": "2021-19-EelsvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 854,
+      "away": 755
+    },
+    "errors": {
+      "home": 3,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Roosters v Knights",
+    "MatchID": "2021-19-RoostersvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 596,
+      "away": 501
+    },
+    "errors": {
+      "home": 5,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Cowboys v Storm",
+    "MatchID": "2021-19-CowboysvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 587,
+      "away": 479
+    },
+    "errors": {
+      "home": 8,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Rabbitohs v Warriors",
+    "MatchID": "2021-19-RabbitohsvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 283,
+      "away": 511
+    },
+    "errors": {
+      "home": 2,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Sea Eagles v Wests Tigers",
+    "MatchID": "2021-19-SeaEaglesvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 350,
+      "away": 520
+    },
+    "errors": {
+      "home": 14,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Panthers v Broncos",
+    "MatchID": "2021-19-PanthersvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 670,
+      "away": 645
+    },
+    "errors": {
+      "home": 13,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Dragons v Titans",
+    "MatchID": "2021-19-DragonsvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 514,
+      "away": 540
+    },
+    "errors": {
+      "home": 2,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2021-19-BulldogsvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 343,
+      "away": 371
+    },
+    "errors": {
+      "home": 9,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Roosters v Eels",
+    "MatchID": "2021-20-RoostersvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 629,
+      "away": 582
+    },
+    "errors": {
+      "home": 3,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Wests Tigers v Warriors",
+    "MatchID": "2021-20-WestsTigersvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 478,
+      "away": 579
+    },
+    "errors": {
+      "home": 3,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Broncos v Cowboys",
+    "MatchID": "2021-20-BroncosvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 634,
+      "away": 504
+    },
+    "errors": {
+      "home": 8,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Knights v Raiders",
+    "MatchID": "2021-20-KnightsvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 672,
+      "away": 539
+    },
+    "errors": {
+      "home": 4,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 22,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Storm v Panthers",
+    "MatchID": "2021-20-StormvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 621,
+      "away": 346
+    },
+    "errors": {
+      "home": 6,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Dragons v Rabbitohs",
+    "MatchID": "2021-20-DragonsvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 684,
+      "away": 467
+    },
+    "errors": {
+      "home": 11,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Bulldogs v Titans",
+    "MatchID": "2021-20-BulldogsvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 540,
+      "away": 501
+    },
+    "errors": {
+      "home": 10,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Sharks v Sea Eagles",
+    "MatchID": "2021-20-SharksvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 564,
+      "away": 390
+    },
+    "errors": {
+      "home": 7,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Knights v Broncos",
+    "MatchID": "2021-21-KnightsvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 560,
+      "away": 566
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Raiders v Dragons",
+    "MatchID": "2021-21-RaidersvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 552,
+      "away": 629
+    },
+    "errors": {
+      "home": 12,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Eels v Rabbitohs",
+    "MatchID": "2021-21-EelsvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 802,
+      "away": 635
+    },
+    "errors": {
+      "home": 7,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Warriors v Sharks",
+    "MatchID": "2021-21-WarriorsvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 545,
+      "away": 400
+    },
+    "errors": {
+      "home": 9,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Roosters v Panthers",
+    "MatchID": "2021-21-RoostersvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 522,
+      "away": 474
+    },
+    "errors": {
+      "home": 8,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Sea Eagles v Storm",
+    "MatchID": "2021-21-SeaEaglesvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 471,
+      "away": 537
+    },
+    "errors": {
+      "home": 12,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Bulldogs v Wests Tigers",
+    "MatchID": "2021-21-BulldogsvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 354,
+      "away": 485
+    },
+    "errors": {
+      "home": 9,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Titans v Cowboys",
+    "MatchID": "2021-21-TitansvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 486,
+      "away": 422
+    },
+    "errors": {
+      "home": 10,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 13
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Storm v Raiders",
+    "MatchID": "2021-22-StormvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 596,
+      "away": 645
+    },
+    "errors": {
+      "home": 7,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2021-22-DragonsvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 664,
+      "away": 681
+    },
+    "errors": {
+      "home": 9,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Broncos v Roosters",
+    "MatchID": "2021-22-BroncosvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 566,
+      "away": 483
+    },
+    "errors": {
+      "home": 7,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Rabbitohs v Titans",
+    "MatchID": "2021-22-RabbitohsvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Showers",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 495,
+      "away": 384
+    },
+    "errors": {
+      "home": 11,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Cowboys v Wests Tigers",
+    "MatchID": "2021-22-CowboysvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 455,
+      "away": 703
+    },
+    "errors": {
+      "home": 4,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Sea Eagles v Eels",
+    "MatchID": "2021-22-SeaEaglesvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 572,
+      "away": 366
+    },
+    "errors": {
+      "home": 5,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Warriors v Bulldogs",
+    "MatchID": "2021-22-WarriorsvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 404,
+      "away": 543
+    },
+    "errors": {
+      "home": 12,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Sharks v Knights",
+    "MatchID": "2021-22-SharksvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 478,
+      "away": 552
+    },
+    "errors": {
+      "home": 9,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Titans v Storm",
+    "MatchID": "2021-23-TitansvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 523,
+      "away": 429
+    },
+    "errors": {
+      "home": 5,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Raiders v Sea Eagles",
+    "MatchID": "2021-23-RaidersvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 869,
+      "away": 886
+    },
+    "errors": {
+      "home": 1,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2021-23-PanthersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 885,
+      "away": 637
+    },
+    "errors": {
+      "home": 7,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 11
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Wests Tigers v Sharks",
+    "MatchID": "2021-23-WestsTigersvSharks",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 301,
+      "away": 319
+    },
+    "errors": {
+      "home": 13,
+      "away": 31
+    },
+    "penalties_conceded": {
+      "home": 12,
+      "away": 15
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Bulldogs v Knights",
+    "MatchID": "2021-23-BulldogsvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 581,
+      "away": 441
+    },
+    "errors": {
+      "home": 7,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Eels v Cowboys",
+    "MatchID": "2021-23-EelsvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 447,
+      "away": 656
+    },
+    "errors": {
+      "home": 15,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Dragons v Roosters",
+    "MatchID": "2021-23-DragonsvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 422,
+      "away": 444
+    },
+    "errors": {
+      "home": 11,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Broncos v Warriors",
+    "MatchID": "2021-23-BroncosvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 654,
+      "away": 782
+    },
+    "errors": {
+      "home": 1,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Knights v Titans",
+    "MatchID": "2021-24-KnightsvTitans",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 525,
+      "away": 854
+    },
+    "errors": {
+      "home": 14,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 11,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Warriors v Raiders",
+    "MatchID": "2021-24-WarriorsvRaiders",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 686,
+      "away": 474
+    },
+    "errors": {
+      "home": 7,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2021-24-RoostersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 424,
+      "away": 427
+    },
+    "errors": {
+      "home": 11,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Dragons v Cowboys",
+    "MatchID": "2021-24-DragonsvCowboys",
+    "Date": "2021-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 477,
+      "away": 390
+    },
+    "errors": {
+      "home": 13,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Sharks v Broncos",
+    "MatchID": "2021-24-SharksvBroncos",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 394,
+      "away": 478
+    },
+    "errors": {
+      "home": 2,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Storm v Eels",
+    "MatchID": "2021-24-StormvEels",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 495,
+      "away": 724
+    },
+    "errors": {
+      "home": 6,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Sea Eagles v Bulldogs",
+    "MatchID": "2021-24-SeaEaglesvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 469,
+      "away": 502
+    },
+    "errors": {
+      "home": 11,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Panthers v Wests Tigers",
+    "MatchID": "2021-24-PanthersvWestsTigers",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 336,
+      "away": 728
+    },
+    "errors": {
+      "home": 17,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Raiders v Roosters",
+    "MatchID": "2021-25-RaidersvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 271,
+      "away": 460
+    },
+    "errors": {
+      "home": 8,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 20
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Sharks v Storm",
+    "MatchID": "2021-25-SharksvStorm",
+    "Date": "2021-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 499,
+      "away": 355
+    },
+    "errors": {
+      "home": 2,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Eels v Panthers",
+    "MatchID": "2021-25-EelsvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 678,
+      "away": 748
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Broncos v Knights",
+    "MatchID": "2021-25-BroncosvKnights",
+    "Date": "2021-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 508,
+      "away": 341
+    },
+    "errors": {
+      "home": 14,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Cowboys v Sea Eagles",
+    "MatchID": "2021-25-CowboysvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 565,
+      "away": 630
+    },
+    "errors": {
+      "home": 12,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Rabbitohs v Dragons",
+    "MatchID": "2021-25-RabbitohsvDragons",
+    "Date": "2021-01-01",
+    "main_ref": "Matt Cecchin",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 749,
+      "away": 618
+    },
+    "errors": {
+      "home": 7,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Titans v Warriors",
+    "MatchID": "2021-25-TitansvWarriors",
+    "Date": "2021-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 425,
+      "away": 327
+    },
+    "errors": {
+      "home": 5,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Wests Tigers v Bulldogs",
+    "MatchID": "2021-25-WestsTigersvBulldogs",
+    "Date": "2021-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Showers",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 327,
+      "away": 453
+    },
+    "errors": {
+      "home": 5,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Storm v Sea Eagles",
+    "MatchID": "2021-26-StormvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Roosters v Titans",
+    "MatchID": "2021-26-RoostersvTitans",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2021-26-PanthersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Eels v Knights",
+    "MatchID": "2021-26-EelsvKnights",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Sea Eagles v Roosters",
+    "MatchID": "2021-27-SeaEaglesvRoosters",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2021-27-PanthersvEels",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Rabbitohs v Sea Eagles",
+    "MatchID": "2021-28-RabbitohsvSeaEagles",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Storm v Panthers",
+    "MatchID": "2021-28-StormvPanthers",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2021-29-PanthersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2021-30-PanthersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2021-31-PanthersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2021-32-PanthersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2021-33-PanthersvRabbitohs",
+    "Date": "2021-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  }
+]

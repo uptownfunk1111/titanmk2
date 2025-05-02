@@ -1,0 +1,5332 @@
+[
+  {
+    "Round": "Round 1",
+    "MatchName": "Panthers v Sea Eagles",
+    "MatchID": "2022-1-PanthersvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 538,
+      "away": 740
+    },
+    "errors": {
+      "home": 7,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Raiders v Sharks",
+    "MatchID": "2022-1-RaidersvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 377,
+      "away": 340
+    },
+    "errors": {
+      "home": 13,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Broncos v Rabbitohs",
+    "MatchID": "2022-1-BroncosvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 666,
+      "away": 416
+    },
+    "errors": {
+      "home": 5,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Roosters v Knights",
+    "MatchID": "2022-1-RoostersvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 505,
+      "away": 600
+    },
+    "errors": {
+      "home": 12,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Warriors v Dragons",
+    "MatchID": "2022-1-WarriorsvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 543,
+      "away": 399
+    },
+    "errors": {
+      "home": 8,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Wests Tigers v Storm",
+    "MatchID": "2022-1-WestsTigersvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 397,
+      "away": 468
+    },
+    "errors": {
+      "home": 11,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Eels v Titans",
+    "MatchID": "2022-1-EelsvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 480,
+      "away": 477
+    },
+    "errors": {
+      "home": 7,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 12
+    },
+    "sin_bins": {
+      "home": 26,
+      "away": 22
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Cowboys v Bulldogs",
+    "MatchID": "2022-1-CowboysvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 450,
+      "away": 629
+    },
+    "errors": {
+      "home": 7,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Storm v Rabbitohs",
+    "MatchID": "2022-2-StormvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 613,
+      "away": 254
+    },
+    "errors": {
+      "home": 10,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2022-2-DragonsvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 471,
+      "away": 483
+    },
+    "errors": {
+      "home": 14,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Roosters v Sea Eagles",
+    "MatchID": "2022-2-RoostersvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 655,
+      "away": 521
+    },
+    "errors": {
+      "home": 13,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Titans v Warriors",
+    "MatchID": "2022-2-TitansvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 512,
+      "away": 485
+    },
+    "errors": {
+      "home": 16,
+      "away": 18
+    },
+    "penalties_conceded": {
+      "home": 14,
+      "away": 12
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Sharks v Eels",
+    "MatchID": "2022-2-SharksvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 418,
+      "away": 665
+    },
+    "errors": {
+      "home": 8,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Cowboys v Raiders",
+    "MatchID": "2022-2-CowboysvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 371,
+      "away": 281
+    },
+    "errors": {
+      "home": 9,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 15
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Knights v Wests Tigers",
+    "MatchID": "2022-2-KnightsvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 659,
+      "away": 339
+    },
+    "errors": {
+      "home": 8,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Bulldogs v Broncos",
+    "MatchID": "2022-2-BulldogsvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 576,
+      "away": 687
+    },
+    "errors": {
+      "home": 3,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Dragons v Sharks",
+    "MatchID": "2022-3-DragonsvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Rain",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 627,
+      "away": 631
+    },
+    "errors": {
+      "home": 9,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Wests Tigers v Warriors",
+    "MatchID": "2022-3-WestsTigersvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 468,
+      "away": 543
+    },
+    "errors": {
+      "home": 12,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Rabbitohs v Roosters",
+    "MatchID": "2022-3-RabbitohsvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 433,
+      "away": 432
+    },
+    "errors": {
+      "home": 9,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Panthers v Knights",
+    "MatchID": "2022-3-PanthersvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 592,
+      "away": 705
+    },
+    "errors": {
+      "home": 7,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Storm v Eels",
+    "MatchID": "2022-3-StormvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 476,
+      "away": 493
+    },
+    "errors": {
+      "home": 7,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Raiders v Titans",
+    "MatchID": "2022-3-RaidersvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 463,
+      "away": 570
+    },
+    "errors": {
+      "home": 9,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Broncos v Cowboys",
+    "MatchID": "2022-3-BroncosvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 501,
+      "away": 711
+    },
+    "errors": {
+      "home": 12,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Sea Eagles v Bulldogs",
+    "MatchID": "2022-3-SeaEaglesvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Rain",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 315,
+      "away": 567
+    },
+    "errors": {
+      "home": 18,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Titans v Wests Tigers",
+    "MatchID": "2022-4-TitansvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 325,
+      "away": 558
+    },
+    "errors": {
+      "home": 6,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Sharks v Knights",
+    "MatchID": "2022-4-SharksvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 414,
+      "away": 709
+    },
+    "errors": {
+      "home": 13,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2022-4-PanthersvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 569,
+      "away": 439
+    },
+    "errors": {
+      "home": 6,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Warriors v Broncos",
+    "MatchID": "2022-4-WarriorsvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 581,
+      "away": 482
+    },
+    "errors": {
+      "home": 7,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Sea Eagles v Raiders",
+    "MatchID": "2022-4-SeaEaglesvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 722,
+      "away": 471
+    },
+    "errors": {
+      "home": 35,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 13
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Cowboys v Roosters",
+    "MatchID": "2022-4-CowboysvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 469,
+      "away": 515
+    },
+    "errors": {
+      "home": 9,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 20
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Storm v Bulldogs",
+    "MatchID": "2022-4-StormvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 484,
+      "away": 467
+    },
+    "errors": {
+      "home": 6,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Eels v Dragons",
+    "MatchID": "2022-4-EelsvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 612,
+      "away": 514
+    },
+    "errors": {
+      "home": 8,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Knights v Sea Eagles",
+    "MatchID": "2022-5-KnightsvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 523,
+      "away": 682
+    },
+    "errors": {
+      "home": 7,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Warriors v Cowboys",
+    "MatchID": "2022-5-WarriorsvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 548,
+      "away": 587
+    },
+    "errors": {
+      "home": 27,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Broncos v Roosters",
+    "MatchID": "2022-5-BroncosvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 683,
+      "away": 605
+    },
+    "errors": {
+      "home": 10,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Raiders v Storm",
+    "MatchID": "2022-5-RaidersvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 281,
+      "away": 457
+    },
+    "errors": {
+      "home": 7,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Rabbitohs v Dragons",
+    "MatchID": "2022-5-RabbitohsvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 553,
+      "away": 533
+    },
+    "errors": {
+      "home": 12,
+      "away": 17
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Titans v Eels",
+    "MatchID": "2022-5-TitansvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 723,
+      "away": 448
+    },
+    "errors": {
+      "home": 9,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Sharks v Wests Tigers",
+    "MatchID": "2022-5-SharksvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 508,
+      "away": 541
+    },
+    "errors": {
+      "home": 15,
+      "away": 16
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Bulldogs v Panthers",
+    "MatchID": "2022-5-BulldogsvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 435,
+      "away": 554
+    },
+    "errors": {
+      "home": 16,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 20
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Raiders v Cowboys",
+    "MatchID": "2022-6-RaidersvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 632,
+      "away": 627
+    },
+    "errors": {
+      "home": 12,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Rabbitohs v Bulldogs",
+    "MatchID": "2022-6-RabbitohsvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 365,
+      "away": 485
+    },
+    "errors": {
+      "home": 9,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Panthers v Broncos",
+    "MatchID": "2022-6-PanthersvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 588,
+      "away": 681
+    },
+    "errors": {
+      "home": 5,
+      "away": 17
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Sea Eagles v Titans",
+    "MatchID": "2022-6-SeaEaglesvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 508,
+      "away": 378
+    },
+    "errors": {
+      "home": 7,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Storm v Sharks",
+    "MatchID": "2022-6-StormvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 526,
+      "away": 519
+    },
+    "errors": {
+      "home": 7,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Roosters v Warriors",
+    "MatchID": "2022-6-RoostersvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 425,
+      "away": 643
+    },
+    "errors": {
+      "home": 9,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Dragons v Knights",
+    "MatchID": "2022-6-DragonsvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 524,
+      "away": 518
+    },
+    "errors": {
+      "home": 2,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Eels v Wests Tigers",
+    "MatchID": "2022-6-EelsvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 442,
+      "away": 627
+    },
+    "errors": {
+      "home": 4,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Sharks v Sea Eagles",
+    "MatchID": "2022-7-SharksvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 519,
+      "away": 506
+    },
+    "errors": {
+      "home": 11,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Broncos v Bulldogs",
+    "MatchID": "2022-7-BroncosvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 526,
+      "away": 368
+    },
+    "errors": {
+      "home": 6,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Cowboys v Titans",
+    "MatchID": "2022-7-CowboysvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 410,
+      "away": 431
+    },
+    "errors": {
+      "home": 13,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Wests Tigers v Rabbitohs",
+    "MatchID": "2022-7-WestsTigersvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 756,
+      "away": 365
+    },
+    "errors": {
+      "home": 4,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Knights v Eels",
+    "MatchID": "2022-7-KnightsvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 604,
+      "away": 663
+    },
+    "errors": {
+      "home": 11,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Panthers v Raiders",
+    "MatchID": "2022-7-PanthersvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 421,
+      "away": 626
+    },
+    "errors": {
+      "home": 4,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Dragons v Roosters",
+    "MatchID": "2022-7-DragonsvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 719,
+      "away": 405
+    },
+    "errors": {
+      "home": 17,
+      "away": 19
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 16
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Storm v Warriors",
+    "MatchID": "2022-7-StormvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 421,
+      "away": 424
+    },
+    "errors": {
+      "home": 6,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Broncos v Sharks",
+    "MatchID": "2022-8-BroncosvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 546,
+      "away": 486
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 7
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Titans v Panthers",
+    "MatchID": "2022-8-TitansvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 521,
+      "away": 635
+    },
+    "errors": {
+      "home": 8,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Rabbitohs v Sea Eagles",
+    "MatchID": "2022-8-RabbitohsvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 315,
+      "away": 695
+    },
+    "errors": {
+      "home": 13,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Warriors v Raiders",
+    "MatchID": "2022-8-WarriorsvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 403,
+      "away": 354
+    },
+    "errors": {
+      "home": 2,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Bulldogs v Roosters",
+    "MatchID": "2022-8-BulldogsvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 728,
+      "away": 343
+    },
+    "errors": {
+      "home": 19,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 18
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Eels v Cowboys",
+    "MatchID": "2022-8-EelsvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 496,
+      "away": 821
+    },
+    "errors": {
+      "home": 3,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Knights v Storm",
+    "MatchID": "2022-8-KnightsvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 163,
+      "away": 621
+    },
+    "errors": {
+      "home": 7,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 26
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Dragons v Wests Tigers",
+    "MatchID": "2022-8-DragonsvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 666,
+      "away": 601
+    },
+    "errors": {
+      "home": 12,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Rabbitohs v Broncos",
+    "MatchID": "2022-9-RabbitohsvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 336,
+      "away": 586
+    },
+    "errors": {
+      "home": 6,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Raiders v Bulldogs",
+    "MatchID": "2022-9-RaidersvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 550,
+      "away": 578
+    },
+    "errors": {
+      "home": 8,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2022-9-PanthersvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 479,
+      "away": 897
+    },
+    "errors": {
+      "home": 6,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Sea Eagles v Wests Tigers",
+    "MatchID": "2022-9-SeaEaglesvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 304,
+      "away": 509
+    },
+    "errors": {
+      "home": 10,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Roosters v Titans",
+    "MatchID": "2022-9-RoostersvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 273,
+      "away": 368
+    },
+    "errors": {
+      "home": 9,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Cowboys v Knights",
+    "MatchID": "2022-9-CowboysvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 433,
+      "away": 527
+    },
+    "errors": {
+      "home": 6,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Storm v Dragons",
+    "MatchID": "2022-9-StormvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 562,
+      "away": 354
+    },
+    "errors": {
+      "home": 8,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Sharks v Warriors",
+    "MatchID": "2022-9-SharksvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 564,
+      "away": 464
+    },
+    "errors": {
+      "home": 7,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Bulldogs v Knights",
+    "MatchID": "2022-10-BulldogsvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 536,
+      "away": 503
+    },
+    "errors": {
+      "home": 6,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Sea Eagles v Broncos",
+    "MatchID": "2022-10-SeaEaglesvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 555,
+      "away": 450
+    },
+    "errors": {
+      "home": 12,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Warriors v Rabbitohs",
+    "MatchID": "2022-10-WarriorsvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Rain",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 660,
+      "away": 565
+    },
+    "errors": {
+      "home": 11,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Titans v Dragons",
+    "MatchID": "2022-10-TitansvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Rain",
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 653,
+      "away": 644
+    },
+    "errors": {
+      "home": 13,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 11,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Storm v Panthers",
+    "MatchID": "2022-10-StormvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Rain",
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 446,
+      "away": 549
+    },
+    "errors": {
+      "home": 13,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 20
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Sharks v Raiders",
+    "MatchID": "2022-10-SharksvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 489,
+      "away": 677
+    },
+    "errors": {
+      "home": 14,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 3
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Roosters v Eels",
+    "MatchID": "2022-10-RoostersvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 613,
+      "away": 696
+    },
+    "errors": {
+      "home": 6,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Wests Tigers v Cowboys",
+    "MatchID": "2022-10-WestsTigersvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 622,
+      "away": 689
+    },
+    "errors": {
+      "home": 8,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Knights v Broncos",
+    "MatchID": "2022-11-KnightsvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 523,
+      "away": 523
+    },
+    "errors": {
+      "home": 12,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Wests Tigers v Bulldogs",
+    "MatchID": "2022-11-WestsTigersvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 508,
+      "away": 650
+    },
+    "errors": {
+      "home": 4,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Eels v Sea Eagles",
+    "MatchID": "2022-11-EelsvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Rain",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 620,
+      "away": 734
+    },
+    "errors": {
+      "home": 7,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Dragons v Warriors",
+    "MatchID": "2022-11-DragonsvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 534,
+      "away": 578
+    },
+    "errors": {
+      "home": 10,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Cowboys v Storm",
+    "MatchID": "2022-11-CowboysvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 474,
+      "away": 427
+    },
+    "errors": {
+      "home": 4,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Roosters v Panthers",
+    "MatchID": "2022-11-RoostersvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 600,
+      "away": 680
+    },
+    "errors": {
+      "home": 5,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Rabbitohs v Raiders",
+    "MatchID": "2022-11-RabbitohsvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 350,
+      "away": 501
+    },
+    "errors": {
+      "home": 14,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 20
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Titans v Sharks",
+    "MatchID": "2022-11-TitansvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Rain",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 586,
+      "away": 547
+    },
+    "errors": {
+      "home": 2,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Storm v Sea Eagles",
+    "MatchID": "2022-12-StormvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 792,
+      "away": 581
+    },
+    "errors": {
+      "home": 6,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Panthers v Cowboys",
+    "MatchID": "2022-12-PanthersvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 591,
+      "away": 428
+    },
+    "errors": {
+      "home": 17,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 14,
+      "away": 16
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Broncos v Titans",
+    "MatchID": "2022-12-BroncosvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 492,
+      "away": 577
+    },
+    "errors": {
+      "home": 11,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Warriors v Knights",
+    "MatchID": "2022-12-WarriorsvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 754,
+      "away": 565
+    },
+    "errors": {
+      "home": 5,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Rabbitohs v Wests Tigers",
+    "MatchID": "2022-12-RabbitohsvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 381,
+      "away": 509
+    },
+    "errors": {
+      "home": 8,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Sharks v Roosters",
+    "MatchID": "2022-12-SharksvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 405,
+      "away": 501
+    },
+    "errors": {
+      "home": 10,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Bulldogs v Dragons",
+    "MatchID": "2022-12-BulldogsvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 473,
+      "away": 467
+    },
+    "errors": {
+      "home": 3,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Raiders v Eels",
+    "MatchID": "2022-12-RaidersvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 637,
+      "away": 674
+    },
+    "errors": {
+      "home": 8,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Titans v Cowboys",
+    "MatchID": "2022-13-TitansvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 598,
+      "away": 634
+    },
+    "errors": {
+      "home": 12,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Panthers v Bulldogs",
+    "MatchID": "2022-13-PanthersvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 520,
+      "away": 748
+    },
+    "errors": {
+      "home": 8,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 22,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2022-13-SeaEaglesvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 508,
+      "away": 338
+    },
+    "errors": {
+      "home": 8,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Raiders v Roosters",
+    "MatchID": "2022-13-RaidersvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 525,
+      "away": 470
+    },
+    "errors": {
+      "home": 11,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Cowboys v Dragons",
+    "MatchID": "2022-14-CowboysvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 565,
+      "away": 358
+    },
+    "errors": {
+      "home": 11,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Titans v Rabbitohs",
+    "MatchID": "2022-14-TitansvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 748,
+      "away": 524
+    },
+    "errors": {
+      "home": 6,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Roosters v Storm",
+    "MatchID": "2022-14-RoostersvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 355,
+      "away": 529
+    },
+    "errors": {
+      "home": 8,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Broncos v Raiders",
+    "MatchID": "2022-14-BroncosvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 691,
+      "away": 545
+    },
+    "errors": {
+      "home": 2,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Wests Tigers v Sea Eagles",
+    "MatchID": "2022-14-WestsTigersvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 584,
+      "away": 514
+    },
+    "errors": {
+      "home": 9,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Knights v Panthers",
+    "MatchID": "2022-14-KnightsvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 592,
+      "away": 816
+    },
+    "errors": {
+      "home": 9,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 26
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Warriors v Sharks",
+    "MatchID": "2022-14-WarriorsvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 529,
+      "away": 512
+    },
+    "errors": {
+      "home": 4,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Bulldogs v Eels",
+    "MatchID": "2022-14-BulldogsvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 677,
+      "away": 454
+    },
+    "errors": {
+      "home": 9,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 11,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Dragons v Rabbitohs",
+    "MatchID": "2022-15-DragonsvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 646,
+      "away": 285
+    },
+    "errors": {
+      "home": 14,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 32,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Sea Eagles v Cowboys",
+    "MatchID": "2022-15-SeaEaglesvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 748,
+      "away": 657
+    },
+    "errors": {
+      "home": 17,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Storm v Broncos",
+    "MatchID": "2022-15-StormvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 466,
+      "away": 536
+    },
+    "errors": {
+      "home": 9,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Sharks v Titans",
+    "MatchID": "2022-15-SharksvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 538,
+      "away": 551
+    },
+    "errors": {
+      "home": 6,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Warriors v Panthers",
+    "MatchID": "2022-15-WarriorsvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 691,
+      "away": 369
+    },
+    "errors": {
+      "home": 9,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Eels v Roosters",
+    "MatchID": "2022-15-EelsvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 458,
+      "away": 576
+    },
+    "errors": {
+      "home": 8,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Raiders v Knights",
+    "MatchID": "2022-15-RaidersvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 477,
+      "away": 560
+    },
+    "errors": {
+      "home": 4,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Bulldogs v Wests Tigers",
+    "MatchID": "2022-15-BulldogsvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 504,
+      "away": 434
+    },
+    "errors": {
+      "home": 11,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Sea Eagles v Storm",
+    "MatchID": "2022-16-SeaEaglesvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 384,
+      "away": 390
+    },
+    "errors": {
+      "home": 14,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Knights v Titans",
+    "MatchID": "2022-16-KnightsvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 599,
+      "away": 431
+    },
+    "errors": {
+      "home": 8,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Panthers v Roosters",
+    "MatchID": "2022-16-PanthersvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 449,
+      "away": 779
+    },
+    "errors": {
+      "home": 11,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2022-16-BulldogsvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Heavy",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 692,
+      "away": 514
+    },
+    "errors": {
+      "home": 10,
+      "away": 16
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Cowboys v Broncos",
+    "MatchID": "2022-16-CowboysvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 402,
+      "away": 543
+    },
+    "errors": {
+      "home": 11,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Rabbitohs v Eels",
+    "MatchID": "2022-16-RabbitohsvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Muddy",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 614,
+      "away": 633
+    },
+    "errors": {
+      "home": 14,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Warriors v Wests Tigers",
+    "MatchID": "2022-16-WarriorsvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 599,
+      "away": 687
+    },
+    "errors": {
+      "home": 14,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Dragons v Raiders",
+    "MatchID": "2022-16-DragonsvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 678,
+      "away": 623
+    },
+    "errors": {
+      "home": 4,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Sharks v Storm",
+    "MatchID": "2022-17-SharksvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 626,
+      "away": 599
+    },
+    "errors": {
+      "home": 7,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 20,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Knights v Rabbitohs",
+    "MatchID": "2022-17-KnightsvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 497,
+      "away": 382
+    },
+    "errors": {
+      "home": 10,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Wests Tigers v Eels",
+    "MatchID": "2022-17-WestsTigersvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 640,
+      "away": 481
+    },
+    "errors": {
+      "home": 8,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Broncos v Dragons",
+    "MatchID": "2022-17-BroncosvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 598,
+      "away": 590
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Cowboys v Sharks",
+    "MatchID": "2022-18-CowboysvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 409,
+      "away": 532
+    },
+    "errors": {
+      "home": 7,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Eels v Warriors",
+    "MatchID": "2022-18-EelsvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 625,
+      "away": 568
+    },
+    "errors": {
+      "home": 11,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Roosters v Dragons",
+    "MatchID": "2022-18-RoostersvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 334,
+      "away": 492
+    },
+    "errors": {
+      "home": 4,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 12,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Sea Eagles v Knights",
+    "MatchID": "2022-18-SeaEaglesvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 748,
+      "away": 613
+    },
+    "errors": {
+      "home": 1,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Titans v Broncos",
+    "MatchID": "2022-18-TitansvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 736,
+      "away": 715
+    },
+    "errors": {
+      "home": 12,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Wests Tigers v Panthers",
+    "MatchID": "2022-18-WestsTigersvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 671,
+      "away": 467
+    },
+    "errors": {
+      "home": 6,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Storm v Raiders",
+    "MatchID": "2022-18-StormvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 400,
+      "away": 634
+    },
+    "errors": {
+      "home": 11,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Bulldogs v Rabbitohs",
+    "MatchID": "2022-18-BulldogsvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 482,
+      "away": 458
+    },
+    "errors": {
+      "home": 5,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Eels v Broncos",
+    "MatchID": "2022-19-EelsvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 440,
+      "away": 563
+    },
+    "errors": {
+      "home": 16,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 24
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Dragons v Sea Eagles",
+    "MatchID": "2022-19-DragonsvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 632,
+      "away": 538
+    },
+    "errors": {
+      "home": 9,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Knights v Roosters",
+    "MatchID": "2022-19-KnightsvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 503,
+      "away": 369
+    },
+    "errors": {
+      "home": 10,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Raiders v Warriors",
+    "MatchID": "2022-19-RaidersvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 661,
+      "away": 635
+    },
+    "errors": {
+      "home": 8,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Panthers v Sharks",
+    "MatchID": "2022-19-PanthersvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 643,
+      "away": 729
+    },
+    "errors": {
+      "home": 12,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Rabbitohs v Storm",
+    "MatchID": "2022-19-RabbitohsvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 593,
+      "away": 523
+    },
+    "errors": {
+      "home": 12,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Bulldogs v Titans",
+    "MatchID": "2022-19-BulldogsvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 249,
+      "away": 440
+    },
+    "errors": {
+      "home": 11,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 26,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Cowboys v Wests Tigers",
+    "MatchID": "2022-19-CowboysvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 467,
+      "away": 569
+    },
+    "errors": {
+      "home": 16,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Sea Eagles v Roosters",
+    "MatchID": "2022-20-SeaEaglesvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 618,
+      "away": 443
+    },
+    "errors": {
+      "home": 10,
+      "away": 18
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Warriors v Storm",
+    "MatchID": "2022-20-WarriorsvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 508,
+      "away": 548
+    },
+    "errors": {
+      "home": 7,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Eels v Panthers",
+    "MatchID": "2022-20-EelsvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 697,
+      "away": 558
+    },
+    "errors": {
+      "home": 8,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 30,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Titans v Raiders",
+    "MatchID": "2022-20-TitansvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 453,
+      "away": 599
+    },
+    "errors": {
+      "home": 15,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Sharks v Rabbitohs",
+    "MatchID": "2022-20-SharksvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 567,
+      "away": 499
+    },
+    "errors": {
+      "home": 3,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Broncos v Wests Tigers",
+    "MatchID": "2022-20-BroncosvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 431,
+      "away": 518
+    },
+    "errors": {
+      "home": 13,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Knights v Bulldogs",
+    "MatchID": "2022-20-KnightsvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 574,
+      "away": 708
+    },
+    "errors": {
+      "home": 12,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Dragons v Cowboys",
+    "MatchID": "2022-20-DragonsvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 480,
+      "away": 540
+    },
+    "errors": {
+      "home": 12,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Roosters v Broncos",
+    "MatchID": "2022-21-RoostersvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 408,
+      "away": 570
+    },
+    "errors": {
+      "home": 14,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Storm v Titans",
+    "MatchID": "2022-21-StormvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 431,
+      "away": 478
+    },
+    "errors": {
+      "home": 12,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Sea Eagles v Eels",
+    "MatchID": "2022-21-SeaEaglesvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 756,
+      "away": 687
+    },
+    "errors": {
+      "home": 3,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Rabbitohs v Warriors",
+    "MatchID": "2022-21-RabbitohsvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 377,
+      "away": 454
+    },
+    "errors": {
+      "home": 5,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Raiders v Panthers",
+    "MatchID": "2022-21-RaidersvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 673,
+      "away": 602
+    },
+    "errors": {
+      "home": 9,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Sharks v Dragons",
+    "MatchID": "2022-21-SharksvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 415,
+      "away": 593
+    },
+    "errors": {
+      "home": 19,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Bulldogs v Cowboys",
+    "MatchID": "2022-21-BulldogsvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 553,
+      "away": 287
+    },
+    "errors": {
+      "home": 14,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Wests Tigers v Knights",
+    "MatchID": "2022-21-WestsTigersvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 560,
+      "away": 533
+    },
+    "errors": {
+      "home": 11,
+      "away": 16
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Panthers v Storm",
+    "MatchID": "2022-22-PanthersvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 580,
+      "away": 998
+    },
+    "errors": {
+      "home": 1,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Warriors v Bulldogs",
+    "MatchID": "2022-22-WarriorsvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 536,
+      "away": 560
+    },
+    "errors": {
+      "home": 10,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Eels v Rabbitohs",
+    "MatchID": "2022-22-EelsvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 637,
+      "away": 633
+    },
+    "errors": {
+      "home": 5,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Roosters v Cowboys",
+    "MatchID": "2022-22-RoostersvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 701,
+      "away": 543
+    },
+    "errors": {
+      "home": 12,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Wests Tigers v Sharks",
+    "MatchID": "2022-22-WestsTigersvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 582,
+      "away": 445
+    },
+    "errors": {
+      "home": 6,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Broncos v Knights",
+    "MatchID": "2022-22-BroncosvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 492,
+      "away": 579
+    },
+    "errors": {
+      "home": 16,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Raiders v Dragons",
+    "MatchID": "2022-22-RaidersvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 566,
+      "away": 617
+    },
+    "errors": {
+      "home": 12,
+      "away": 17
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Titans v Sea Eagles",
+    "MatchID": "2022-22-TitansvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 420,
+      "away": 359
+    },
+    "errors": {
+      "home": 8,
+      "away": 17
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Rabbitohs v Panthers",
+    "MatchID": "2022-23-RabbitohsvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 511,
+      "away": 493
+    },
+    "errors": {
+      "home": 19,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 13,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Cowboys v Warriors",
+    "MatchID": "2022-23-CowboysvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 583,
+      "away": 436
+    },
+    "errors": {
+      "home": 6,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2022-23-BroncosvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 420,
+      "away": 434
+    },
+    "errors": {
+      "home": 15,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 24
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Eels v Bulldogs",
+    "MatchID": "2022-23-EelsvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 526,
+      "away": 474
+    },
+    "errors": {
+      "home": 14,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Sea Eagles v Sharks",
+    "MatchID": "2022-23-SeaEaglesvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 540,
+      "away": 615
+    },
+    "errors": {
+      "home": 24,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 14,
+      "away": 12
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Roosters v Wests Tigers",
+    "MatchID": "2022-23-RoostersvWestsTigers",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 412,
+      "away": 367
+    },
+    "errors": {
+      "home": 13,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 30,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Dragons v Titans",
+    "MatchID": "2022-23-DragonsvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 472,
+      "away": 316
+    },
+    "errors": {
+      "home": 8,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Knights v Raiders",
+    "MatchID": "2022-23-KnightsvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 574,
+      "away": 588
+    },
+    "errors": {
+      "home": 10,
+      "away": 23
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 22,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Broncos v Eels",
+    "MatchID": "2022-24-BroncosvEels",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 432,
+      "away": 303
+    },
+    "errors": {
+      "home": 15,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 31
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Panthers v Warriors",
+    "MatchID": "2022-24-PanthersvWarriors",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 378,
+      "away": 694
+    },
+    "errors": {
+      "home": 8,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Storm v Roosters",
+    "MatchID": "2022-24-StormvRoosters",
+    "Date": "2022-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 288,
+      "away": 376
+    },
+    "errors": {
+      "home": 7,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Raiders v Sea Eagles",
+    "MatchID": "2022-24-RaidersvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 677,
+      "away": 708
+    },
+    "errors": {
+      "home": 3,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 28,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Sharks v Bulldogs",
+    "MatchID": "2022-24-SharksvBulldogs",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 381,
+      "away": 618
+    },
+    "errors": {
+      "home": 19,
+      "away": 20
+    },
+    "penalties_conceded": {
+      "home": 18,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Rabbitohs v Cowboys",
+    "MatchID": "2022-24-RabbitohsvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 527,
+      "away": 622
+    },
+    "errors": {
+      "home": 15,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Wests Tigers v Dragons",
+    "MatchID": "2022-24-WestsTigersvDragons",
+    "Date": "2022-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 367,
+      "away": 460
+    },
+    "errors": {
+      "home": 16,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Titans v Knights",
+    "MatchID": "2022-24-TitansvKnights",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 648,
+      "away": 422
+    },
+    "errors": {
+      "home": 5,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Eels v Storm",
+    "MatchID": "2022-25-EelsvStorm",
+    "Date": "2022-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 691,
+      "away": 531
+    },
+    "errors": {
+      "home": 9,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Bulldogs v Sea Eagles",
+    "MatchID": "2022-25-BulldogsvSeaEagles",
+    "Date": "2022-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 608,
+      "away": 469
+    },
+    "errors": {
+      "home": 9,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2022-25-RoostersvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 705,
+      "away": 464
+    },
+    "errors": {
+      "home": 8,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Warriors v Titans",
+    "MatchID": "2022-25-WarriorsvTitans",
+    "Date": "2022-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 552,
+      "away": 444
+    },
+    "errors": {
+      "home": 9,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Dragons v Broncos",
+    "MatchID": "2022-25-DragonsvBroncos",
+    "Date": "2022-01-01",
+    "main_ref": "Ben Cummins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 734,
+      "away": 487
+    },
+    "errors": {
+      "home": 18,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 12,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Cowboys v Panthers",
+    "MatchID": "2022-25-CowboysvPanthers",
+    "Date": "2022-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 572,
+      "away": 607
+    },
+    "errors": {
+      "home": 20,
+      "away": 18
+    },
+    "penalties_conceded": {
+      "home": 13,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 20,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Knights v Sharks",
+    "MatchID": "2022-25-KnightsvSharks",
+    "Date": "2022-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 610,
+      "away": 412
+    },
+    "errors": {
+      "home": 9,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Wests Tigers v Raiders",
+    "MatchID": "2022-25-WestsTigersvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 305,
+      "away": 522
+    },
+    "errors": {
+      "home": 8,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2022-26-PanthersvEels",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Storm v Raiders",
+    "MatchID": "2022-26-StormvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Sharks v Cowboys",
+    "MatchID": "2022-26-SharksvCowboys",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2022-26-RoostersvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Eels v Raiders",
+    "MatchID": "2022-27-EelsvRaiders",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Sharks v Rabbitohs",
+    "MatchID": "2022-27-SharksvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Cowboys v Eels",
+    "MatchID": "2022-28-CowboysvEels",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2022-28-PanthersvRabbitohs",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2022-29-PanthersvEels",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2022-30-PanthersvEels",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2022-31-PanthersvEels",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2022-32-PanthersvEels",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2022-33-PanthersvEels",
+    "Date": "2022-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  }
+]

@@ -1,0 +1,6554 @@
+[
+  {
+    "Round": "Round 1",
+    "MatchName": "Raiders v Warriors",
+    "MatchID": "2025-1-RaidersvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 584,
+      "away": 670
+    },
+    "errors": {
+      "home": 13,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Panthers v Sharks",
+    "MatchID": "2025-1-PanthersvSharks",
+    "Date": "2025-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 682,
+      "away": 719
+    },
+    "errors": {
+      "home": 2,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Roosters v Broncos",
+    "MatchID": "2025-1-RoostersvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Showers",
+    "ground_condition": "Heavy",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 415,
+      "away": 438
+    },
+    "errors": {
+      "home": 6,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Wests Tigers v Knights",
+    "MatchID": "2025-1-WestsTigersvKnights",
+    "Date": "2025-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Rain",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 601,
+      "away": 530
+    },
+    "errors": {
+      "home": 6,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Rabbitohs v Dolphins",
+    "MatchID": "2025-1-RabbitohsvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Dragons v Bulldogs",
+    "MatchID": "2025-1-DragonsvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 466,
+      "away": 433
+    },
+    "errors": {
+      "home": 1,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Sea Eagles v Cowboys",
+    "MatchID": "2025-1-SeaEaglesvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 636,
+      "away": 599
+    },
+    "errors": {
+      "home": 11,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Storm v Eels",
+    "MatchID": "2025-1-StormvEels",
+    "Date": "2025-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 468,
+      "away": 566
+    },
+    "errors": {
+      "home": 11,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Knights v Dolphins",
+    "MatchID": "2025-2-KnightsvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 574,
+      "away": 558
+    },
+    "errors": {
+      "home": 11,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 20,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Warriors v Sea Eagles",
+    "MatchID": "2025-2-WarriorsvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 614,
+      "away": 592
+    },
+    "errors": {
+      "home": 6,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Panthers v Roosters",
+    "MatchID": "2025-2-PanthersvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 398,
+      "away": 391
+    },
+    "errors": {
+      "home": 3,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Dragons v Rabbitohs",
+    "MatchID": "2025-2-DragonsvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 611,
+      "away": 680
+    },
+    "errors": {
+      "home": 4,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Cowboys v Sharks",
+    "MatchID": "2025-2-CowboysvSharks",
+    "Date": "2025-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 523,
+      "away": 641
+    },
+    "errors": {
+      "home": 7,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Raiders v Broncos",
+    "MatchID": "2025-2-RaidersvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 380,
+      "away": 390
+    },
+    "errors": {
+      "home": 23,
+      "away": 16
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 14
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Eels v Wests Tigers",
+    "MatchID": "2025-2-EelsvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 387,
+      "away": 643
+    },
+    "errors": {
+      "home": 6,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Bulldogs v Titans",
+    "MatchID": "2025-2-BulldogsvTitans",
+    "Date": "2025-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 629,
+      "away": 580
+    },
+    "errors": {
+      "home": 12,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Storm v Panthers",
+    "MatchID": "2025-3-StormvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Showers",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 399,
+      "away": 519
+    },
+    "errors": {
+      "home": 8,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Warriors v Roosters",
+    "MatchID": "2025-3-WarriorsvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 695,
+      "away": 708
+    },
+    "errors": {
+      "home": 8,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Broncos v Cowboys",
+    "MatchID": "2025-3-BroncosvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 789,
+      "away": 652
+    },
+    "errors": {
+      "home": 10,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Sharks v Rabbitohs",
+    "MatchID": "2025-3-SharksvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 507,
+      "away": 633
+    },
+    "errors": {
+      "home": 11,
+      "away": 21
+    },
+    "penalties_conceded": {
+      "home": 11,
+      "away": 12
+    },
+    "sin_bins": {
+      "home": 20,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Dolphins v Wests Tigers",
+    "MatchID": "2025-3-DolphinsvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 524,
+      "away": 534
+    },
+    "errors": {
+      "home": 3,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Titans v Knights",
+    "MatchID": "2025-3-TitansvKnights",
+    "Date": "2025-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Rain",
+    "ground_condition": "Muddy",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 670,
+      "away": 325
+    },
+    "errors": {
+      "home": 10,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Eels v Bulldogs",
+    "MatchID": "2025-3-EelsvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 886,
+      "away": 0
+    },
+    "errors": {
+      "home": 4,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Sea Eagles v Raiders",
+    "MatchID": "2025-3-SeaEaglesvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 602,
+      "away": 345
+    },
+    "errors": {
+      "home": 6,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 30,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Rabbitohs v Panthers",
+    "MatchID": "2025-4-RabbitohsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 852,
+      "away": 393
+    },
+    "errors": {
+      "home": 10,
+      "away": 16
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Roosters v Titans",
+    "MatchID": "2025-4-RoostersvTitans",
+    "Date": "2025-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Heavy",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 440,
+      "away": 659
+    },
+    "errors": {
+      "home": 19,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Dolphins v Broncos",
+    "MatchID": "2025-4-DolphinsvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Rain",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 684,
+      "away": 0
+    },
+    "errors": {
+      "home": 2,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Dragons v Storm",
+    "MatchID": "2025-4-DragonsvStorm",
+    "Date": "2025-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Rain",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 578,
+      "away": 450
+    },
+    "errors": {
+      "home": 9,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 8
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Cowboys v Raiders",
+    "MatchID": "2025-4-CowboysvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 369,
+      "away": 522
+    },
+    "errors": {
+      "home": 11,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Sharks v Bulldogs",
+    "MatchID": "2025-4-SharksvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 667,
+      "away": 967
+    },
+    "errors": {
+      "home": 6,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Sea Eagles v Eels",
+    "MatchID": "2025-4-SeaEaglesvEels",
+    "Date": "2025-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Rain",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 779,
+      "away": 576
+    },
+    "errors": {
+      "home": 10,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Wests Tigers v Warriors",
+    "MatchID": "2025-4-WestsTigersvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Rain",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 692,
+      "away": 443
+    },
+    "errors": {
+      "home": 8,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Raiders v Sharks",
+    "MatchID": "2025-5-RaidersvSharks",
+    "Date": "2025-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 684,
+      "away": 587
+    },
+    "errors": {
+      "home": 7,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Panthers v Cowboys",
+    "MatchID": "2025-5-PanthersvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 573,
+      "away": 552
+    },
+    "errors": {
+      "home": 6,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Rabbitohs v Roosters",
+    "MatchID": "2025-5-RabbitohsvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 664,
+      "away": 474
+    },
+    "errors": {
+      "home": 6,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Eels v Dragons",
+    "MatchID": "2025-5-EelsvDragons",
+    "Date": "2025-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 472,
+      "away": 537
+    },
+    "errors": {
+      "home": 6,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Titans v Dolphins",
+    "MatchID": "2025-5-TitansvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 533,
+      "away": 496
+    },
+    "errors": {
+      "home": 9,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Broncos v Wests Tigers",
+    "MatchID": "2025-5-BroncosvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 368,
+      "away": 379
+    },
+    "errors": {
+      "home": 11,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 14,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Sea Eagles v Storm",
+    "MatchID": "2025-5-SeaEaglesvStorm",
+    "Date": "2025-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 326,
+      "away": 417
+    },
+    "errors": {
+      "home": 3,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Bulldogs v Knights",
+    "MatchID": "2025-5-BulldogsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 571,
+      "away": 588
+    },
+    "errors": {
+      "home": 7,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Dolphins v Panthers",
+    "MatchID": "2025-6-DolphinsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 602,
+      "away": 522
+    },
+    "errors": {
+      "home": 6,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Dragons v Titans",
+    "MatchID": "2025-6-DragonsvTitans",
+    "Date": "2025-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 379,
+      "away": 537
+    },
+    "errors": {
+      "home": 7,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Broncos v Roosters",
+    "MatchID": "2025-6-BroncosvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Cloudy",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 515,
+      "away": 650
+    },
+    "errors": {
+      "home": 13,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Sharks v Sea Eagles",
+    "MatchID": "2025-6-SharksvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 605,
+      "away": 544
+    },
+    "errors": {
+      "home": 12,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Rabbitohs v Cowboys",
+    "MatchID": "2025-6-RabbitohsvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 738,
+      "away": 639
+    },
+    "errors": {
+      "home": 6,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Eels v Raiders",
+    "MatchID": "2025-6-EelsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 533,
+      "away": 598
+    },
+    "errors": {
+      "home": 16,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 24
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Storm v Warriors",
+    "MatchID": "2025-6-StormvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 622,
+      "away": 364
+    },
+    "errors": {
+      "home": 15,
+      "away": 27
+    },
+    "penalties_conceded": {
+      "home": 12,
+      "away": 14
+    },
+    "sin_bins": {
+      "home": 36,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Knights v Wests Tigers",
+    "MatchID": "2025-6-KnightsvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 536,
+      "away": 538
+    },
+    "errors": {
+      "home": 6,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Sea Eagles v Dragons",
+    "MatchID": "2025-7-SeaEaglesvDragons",
+    "Date": "2025-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 544,
+      "away": 499
+    },
+    "errors": {
+      "home": 12,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Bulldogs v Rabbitohs",
+    "MatchID": "2025-7-BulldogsvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 636,
+      "away": 631
+    },
+    "errors": {
+      "home": 8,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Dolphins v Storm",
+    "MatchID": "2025-7-DolphinsvStorm",
+    "Date": "2025-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 527,
+      "away": 332
+    },
+    "errors": {
+      "home": 8,
+      "away": 16
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Warriors v Broncos",
+    "MatchID": "2025-7-WarriorsvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Showers",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 646,
+      "away": 540
+    },
+    "errors": {
+      "home": 13,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Roosters v Panthers",
+    "MatchID": "2025-7-RoostersvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 669,
+      "away": 748
+    },
+    "errors": {
+      "home": 6,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Titans v Raiders",
+    "MatchID": "2025-7-TitansvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 649,
+      "away": 577
+    },
+    "errors": {
+      "home": 14,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Knights v Sharks",
+    "MatchID": "2025-7-KnightsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 475,
+      "away": 652
+    },
+    "errors": {
+      "home": 7,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Wests Tigers v Eels",
+    "MatchID": "2025-7-WestsTigersvEels",
+    "Date": "2025-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 431,
+      "away": 502
+    },
+    "errors": {
+      "home": 11,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Broncos v Bulldogs",
+    "MatchID": "2025-8-BroncosvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Rain",
+    "ground_condition": "Muddy",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 682,
+      "away": 481
+    },
+    "errors": {
+      "home": 8,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 3
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Roosters v Dragons",
+    "MatchID": "2025-8-RoostersvDragons",
+    "Date": "2025-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 443,
+      "away": 428
+    },
+    "errors": {
+      "home": 3,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Warriors v Knights",
+    "MatchID": "2025-8-WarriorsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 664,
+      "away": 665
+    },
+    "errors": {
+      "home": 9,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Storm v Rabbitohs",
+    "MatchID": "2025-8-StormvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 483,
+      "away": 671
+    },
+    "errors": {
+      "home": 14,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Cowboys v Titans",
+    "MatchID": "2025-8-CowboysvTitans",
+    "Date": "2025-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 349,
+      "away": 595
+    },
+    "errors": {
+      "home": 12,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Panthers v Sea Eagles",
+    "MatchID": "2025-8-PanthersvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": "Belinda Sharpe",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 618,
+      "away": 674
+    },
+    "errors": {
+      "home": 11,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Raiders v Dolphins",
+    "MatchID": "2025-8-RaidersvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 456,
+      "away": 400
+    },
+    "errors": {
+      "home": 5,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Wests Tigers v Sharks",
+    "MatchID": "2025-8-WestsTigersvSharks",
+    "Date": "2025-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 503,
+      "away": 312
+    },
+    "errors": {
+      "home": 7,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Sharks v Eels",
+    "MatchID": "2025-9-SharksvEels",
+    "Date": "2025-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 80.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Roosters v Dolphins",
+    "MatchID": "2025-9-RoostersvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 73.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Rabbitohs v Knights",
+    "MatchID": "2025-9-RabbitohsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 79.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Warriors v Cowboys",
+    "MatchID": "2025-9-WarriorsvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 81.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Wests Tigers v Dragons",
+    "MatchID": "2025-9-WestsTigersvDragons",
+    "Date": "2025-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 80.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Titans v Bulldogs",
+    "MatchID": "2025-9-TitansvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 78.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Panthers v Broncos",
+    "MatchID": "2025-9-PanthersvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 77.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Storm v Raiders",
+    "MatchID": "2025-9-StormvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 76.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Eels v Dolphins",
+    "MatchID": "2025-10-EelsvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 77.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Knights v Titans",
+    "MatchID": "2025-10-KnightsvTitans",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 70.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Rabbitohs v Broncos",
+    "MatchID": "2025-10-RabbitohsvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 79.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Raiders v Bulldogs",
+    "MatchID": "2025-10-RaidersvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 78.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Dragons v Warriors",
+    "MatchID": "2025-10-DragonsvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 74.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Cowboys v Panthers",
+    "MatchID": "2025-10-CowboysvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 77.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Storm v Wests Tigers",
+    "MatchID": "2025-10-StormvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 76.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Sea Eagles v Sharks",
+    "MatchID": "2025-10-SeaEaglesvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 81.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Knights v Eels",
+    "MatchID": "2025-11-KnightsvEels",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 45.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Bulldogs v Roosters",
+    "MatchID": "2025-11-BulldogsvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Dolphins v Warriors",
+    "MatchID": "2025-11-DolphinsvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 42.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Cowboys v Sea Eagles",
+    "MatchID": "2025-11-CowboysvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Sharks v Storm",
+    "MatchID": "2025-11-SharksvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Broncos v Dragons",
+    "MatchID": "2025-11-BroncosvDragons",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 54.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Raiders v Titans",
+    "MatchID": "2025-11-RaidersvTitans",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Wests Tigers v Rabbitohs",
+    "MatchID": "2025-11-WestsTigersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 39.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Bulldogs v Dolphins",
+    "MatchID": "2025-12-BulldogsvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Eels v Sea Eagles",
+    "MatchID": "2025-12-EelsvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 48.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Panthers v Knights",
+    "MatchID": "2025-12-PanthersvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 52.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Roosters v Sharks",
+    "MatchID": "2025-12-RoostersvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Warriors v Raiders",
+    "MatchID": "2025-12-WarriorsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 83.4,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Dragons v Knights",
+    "MatchID": "2025-13-DragonsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 92.2,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Titans v Storm",
+    "MatchID": "2025-13-TitansvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 38.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Cowboys v Wests Tigers",
+    "MatchID": "2025-13-CowboysvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Sea Eagles v Broncos",
+    "MatchID": "2025-13-SeaEaglesvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 50.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Rabbitohs v Warriors",
+    "MatchID": "2025-13-RabbitohsvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2025-13-PanthersvEels",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 52.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Roosters v Raiders",
+    "MatchID": "2025-13-RoostersvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 56.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Knights v Sea Eagles",
+    "MatchID": "2025-14-KnightsvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 45.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Storm v Cowboys",
+    "MatchID": "2025-14-StormvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 65.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Dolphins v Dragons",
+    "MatchID": "2025-14-DolphinsvDragons",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 42.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Sharks v Warriors",
+    "MatchID": "2025-14-SharksvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 91.7,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Broncos v Titans",
+    "MatchID": "2025-14-BroncosvTitans",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 54.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Raiders v Rabbitohs",
+    "MatchID": "2025-14-RaidersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Wests Tigers v Panthers",
+    "MatchID": "2025-14-WestsTigersvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 39.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Bulldogs v Eels",
+    "MatchID": "2025-14-BulldogsvEels",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Sharks v Dragons",
+    "MatchID": "2025-15-SharksvDragons",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Titans v Sea Eagles",
+    "MatchID": "2025-15-TitansvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 38.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Knights v Roosters",
+    "MatchID": "2025-15-KnightsvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 45.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Cowboys v Dolphins",
+    "MatchID": "2025-15-CowboysvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Rabbitohs v Bulldogs",
+    "MatchID": "2025-15-RabbitohsvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Wests Tigers v Raiders",
+    "MatchID": "2025-16-WestsTigersvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 39.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Warriors v Panthers",
+    "MatchID": "2025-16-WarriorsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 83.4,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Dolphins v Knights",
+    "MatchID": "2025-16-DolphinsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Rabbitohs v Storm",
+    "MatchID": "2025-16-RabbitohsvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Broncos v Sharks",
+    "MatchID": "2025-16-BroncosvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 54.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Roosters v Cowboys",
+    "MatchID": "2025-16-RoostersvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 56.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Eels v Titans",
+    "MatchID": "2025-16-EelsvTitans",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 48.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Panthers v Bulldogs",
+    "MatchID": "2025-17-PanthersvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 52.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Sea Eagles v Wests Tigers",
+    "MatchID": "2025-17-SeaEaglesvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 50.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Knights v Raiders",
+    "MatchID": "2025-17-KnightsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 45.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Broncos v Warriors",
+    "MatchID": "2025-17-BroncosvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 54.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Dragons v Eels",
+    "MatchID": "2025-17-DragonsvEels",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Dolphins v Rabbitohs",
+    "MatchID": "2025-17-DolphinsvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Storm v Sharks",
+    "MatchID": "2025-17-StormvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 65.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Titans v Cowboys",
+    "MatchID": "2025-17-TitansvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 38.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Bulldogs v Broncos",
+    "MatchID": "2025-18-BulldogsvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Raiders v Dragons",
+    "MatchID": "2025-18-RaidersvDragons",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Cowboys v Storm",
+    "MatchID": "2025-18-CowboysvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Roosters v Wests Tigers",
+    "MatchID": "2025-18-RoostersvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 56.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Sea Eagles v Rabbitohs",
+    "MatchID": "2025-18-SeaEaglesvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 50.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Sharks v Dolphins",
+    "MatchID": "2025-19-SharksvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Knights v Storm",
+    "MatchID": "2025-19-KnightsvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 45.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Dragons v Roosters",
+    "MatchID": "2025-19-DragonsvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 92.2,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Cowboys v Bulldogs",
+    "MatchID": "2025-19-CowboysvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Warriors v Wests Tigers",
+    "MatchID": "2025-19-WarriorsvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 43.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Eels v Panthers",
+    "MatchID": "2025-19-EelsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 48.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Titans v Broncos",
+    "MatchID": "2025-19-TitansvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 38.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Dolphins v Cowboys",
+    "MatchID": "2025-20-DolphinsvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 42.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Sharks v Roosters",
+    "MatchID": "2025-20-SharksvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2025-20-PanthersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 52.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Raiders v Eels",
+    "MatchID": "2025-20-RaidersvEels",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Bulldogs v Dragons",
+    "MatchID": "2025-20-BulldogsvDragons",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Storm v Sea Eagles",
+    "MatchID": "2025-20-StormvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 65.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Wests Tigers v Titans",
+    "MatchID": "2025-20-WestsTigersvTitans",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 39.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Knights v Warriors",
+    "MatchID": "2025-20-KnightsvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 45.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Roosters v Storm",
+    "MatchID": "2025-21-RoostersvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 56.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Cowboys v Dragons",
+    "MatchID": "2025-21-CowboysvDragons",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Broncos v Eels",
+    "MatchID": "2025-21-BroncosvEels",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 54.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Warriors v Titans",
+    "MatchID": "2025-21-WarriorsvTitans",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 43.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Panthers v Wests Tigers",
+    "MatchID": "2025-21-PanthersvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 52.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Rabbitohs v Sharks",
+    "MatchID": "2025-21-RabbitohsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Raiders v Knights",
+    "MatchID": "2025-21-RaidersvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Bulldogs v Sea Eagles",
+    "MatchID": "2025-21-BulldogsvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Eels v Storm",
+    "MatchID": "2025-22-EelsvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 48.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Warriors v Dolphins",
+    "MatchID": "2025-22-WarriorsvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 43.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Broncos v Rabbitohs",
+    "MatchID": "2025-22-BroncosvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 54.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Titans v Panthers",
+    "MatchID": "2025-22-TitansvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 38.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Dragons v Raiders",
+    "MatchID": "2025-22-DragonsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Sea Eagles v Roosters",
+    "MatchID": "2025-22-SeaEaglesvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 50.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Wests Tigers v Bulldogs",
+    "MatchID": "2025-22-WestsTigersvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 39.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Sharks v Cowboys",
+    "MatchID": "2025-22-SharksvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Storm v Broncos",
+    "MatchID": "2025-23-StormvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 65.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Knights v Panthers",
+    "MatchID": "2025-23-KnightsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 45.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Raiders v Sea Eagles",
+    "MatchID": "2025-23-RaidersvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Dragons v Sharks",
+    "MatchID": "2025-23-DragonsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 92.2,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Dolphins v Roosters",
+    "MatchID": "2025-23-DolphinsvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 42.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Bulldogs v Warriors",
+    "MatchID": "2025-23-BulldogsvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Titans v Rabbitohs",
+    "MatchID": "2025-23-TitansvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 38.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Eels v Cowboys",
+    "MatchID": "2025-23-EelsvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 48.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Panthers v Storm",
+    "MatchID": "2025-24-PanthersvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 52.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Warriors v Dragons",
+    "MatchID": "2025-24-WarriorsvDragons",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 43.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Roosters v Bulldogs",
+    "MatchID": "2025-24-RoostersvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 56.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Sharks v Titans",
+    "MatchID": "2025-24-SharksvTitans",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Broncos v Dolphins",
+    "MatchID": "2025-24-BroncosvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 54.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Rabbitohs v Eels",
+    "MatchID": "2025-24-RabbitohsvEels",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Wests Tigers v Sea Eagles",
+    "MatchID": "2025-24-WestsTigersvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 39.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Cowboys v Knights",
+    "MatchID": "2025-24-CowboysvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Rabbitohs v Dragons",
+    "MatchID": "2025-25-RabbitohsvDragons",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Panthers v Raiders",
+    "MatchID": "2025-25-PanthersvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 78.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Storm v Bulldogs",
+    "MatchID": "2025-25-StormvBulldogs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 65.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Sea Eagles v Dolphins",
+    "MatchID": "2025-25-SeaEaglesvDolphins",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 50.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Titans v Warriors",
+    "MatchID": "2025-25-TitansvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 38.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Eels v Roosters",
+    "MatchID": "2025-25-EelsvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 48.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Knights v Broncos",
+    "MatchID": "2025-25-KnightsvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 45.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Wests Tigers v Cowboys",
+    "MatchID": "2025-25-WestsTigersvCowboys",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 39.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Bulldogs v Panthers",
+    "MatchID": "2025-26-BulldogsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Warriors v Eels",
+    "MatchID": "2025-26-WarriorsvEels",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 43.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Storm v Roosters",
+    "MatchID": "2025-26-StormvRoosters",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 65.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Raiders v Wests Tigers",
+    "MatchID": "2025-26-RaidersvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Dragons v Sea Eagles",
+    "MatchID": "2025-26-DragonsvSeaEagles",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 92.2,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Cowboys v Broncos",
+    "MatchID": "2025-26-CowboysvBroncos",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 44.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Sharks v Knights",
+    "MatchID": "2025-26-SharksvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Dolphins v Titans",
+    "MatchID": "2025-26-DolphinsvTitans",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 42.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2025-27-BroncosvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 54.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2025-27-SeaEaglesvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 50.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2025-27-RoostersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 56.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2025-27-DragonsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 47.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Titans v Wests Tigers",
+    "MatchID": "2025-27-TitansvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 38.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2025-27-BulldogsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 49.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Dolphins v Raiders",
+    "MatchID": "2025-27-DolphinsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 42.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Eels v Knights",
+    "MatchID": "2025-27-EelsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 48.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2025-28-BroncosvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2025-28-SeaEaglesvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2025-28-RoostersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2025-28-DragonsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Titans v Wests Tigers",
+    "MatchID": "2025-28-TitansvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2025-28-BulldogsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Dolphins v Raiders",
+    "MatchID": "2025-28-DolphinsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Eels v Knights",
+    "MatchID": "2025-28-EelsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2025-29-BroncosvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2025-29-SeaEaglesvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2025-29-RoostersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2025-29-DragonsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Titans v Wests Tigers",
+    "MatchID": "2025-29-TitansvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2025-29-BulldogsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Dolphins v Raiders",
+    "MatchID": "2025-29-DolphinsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Eels v Knights",
+    "MatchID": "2025-29-EelsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2025-30-BroncosvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2025-30-SeaEaglesvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2025-30-RoostersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2025-30-DragonsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Titans v Wests Tigers",
+    "MatchID": "2025-30-TitansvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2025-30-BulldogsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Dolphins v Raiders",
+    "MatchID": "2025-30-DolphinsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Eels v Knights",
+    "MatchID": "2025-30-EelsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2025-31-BroncosvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2025-31-SeaEaglesvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2025-31-RoostersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2025-31-DragonsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Titans v Wests Tigers",
+    "MatchID": "2025-31-TitansvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2025-31-BulldogsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Dolphins v Raiders",
+    "MatchID": "2025-31-DolphinsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Eels v Knights",
+    "MatchID": "2025-31-EelsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2025-32-BroncosvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2025-32-SeaEaglesvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2025-32-RoostersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2025-32-DragonsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Titans v Wests Tigers",
+    "MatchID": "2025-32-TitansvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2025-32-BulldogsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Dolphins v Raiders",
+    "MatchID": "2025-32-DolphinsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Eels v Knights",
+    "MatchID": "2025-32-EelsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2025-33-BroncosvStorm",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2025-33-SeaEaglesvWarriors",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2025-33-RoostersvRabbitohs",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2025-33-DragonsvPanthers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Titans v Wests Tigers",
+    "MatchID": "2025-33-TitansvWestsTigers",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2025-33-BulldogsvSharks",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Dolphins v Raiders",
+    "MatchID": "2025-33-DolphinsvRaiders",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Eels v Knights",
+    "MatchID": "2025-33-EelsvKnights",
+    "Date": "2025-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  }
+]

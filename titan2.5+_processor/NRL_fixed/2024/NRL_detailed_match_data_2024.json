@@ -1,0 +1,5592 @@
+[
+  {
+    "Round": "Round 1",
+    "MatchName": "Sea Eagles v Rabbitohs",
+    "MatchID": "2024-1-SeaEaglesvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 555,
+      "away": 769
+    },
+    "errors": {
+      "home": 14,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Roosters v Broncos",
+    "MatchID": "2024-1-RoostersvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 720,
+      "away": 584
+    },
+    "errors": {
+      "home": 8,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Knights v Raiders",
+    "MatchID": "2024-1-KnightsvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 494,
+      "away": 842
+    },
+    "errors": {
+      "home": 1,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Warriors v Sharks",
+    "MatchID": "2024-1-WarriorsvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 582,
+      "away": 639
+    },
+    "errors": {
+      "home": 9,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Storm v Panthers",
+    "MatchID": "2024-1-StormvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 636,
+      "away": 521
+    },
+    "errors": {
+      "home": 16,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Eels v Bulldogs",
+    "MatchID": "2024-1-EelsvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 656,
+      "away": 564
+    },
+    "errors": {
+      "home": 4,
+      "away": 25
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 13
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Titans v Dragons",
+    "MatchID": "2024-1-TitansvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 516,
+      "away": 502
+    },
+    "errors": {
+      "home": 10,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 1",
+    "MatchName": "Dolphins v Cowboys",
+    "MatchID": "2024-1-DolphinsvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 580,
+      "away": 654
+    },
+    "errors": {
+      "home": 10,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 31
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Broncos v Rabbitohs",
+    "MatchID": "2024-2-BroncosvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 513,
+      "away": 407
+    },
+    "errors": {
+      "home": 15,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Sharks v Bulldogs",
+    "MatchID": "2024-2-SharksvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 690,
+      "away": 584
+    },
+    "errors": {
+      "home": 5,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Panthers v Eels",
+    "MatchID": "2024-2-PanthersvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 653,
+      "away": 673
+    },
+    "errors": {
+      "home": 13,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Raiders v Wests Tigers",
+    "MatchID": "2024-2-RaidersvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 553,
+      "away": 357
+    },
+    "errors": {
+      "home": 7,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Cowboys v Knights",
+    "MatchID": "2024-2-CowboysvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 394,
+      "away": 613
+    },
+    "errors": {
+      "home": 15,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Storm v Warriors",
+    "MatchID": "2024-2-StormvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 628,
+      "away": 421
+    },
+    "errors": {
+      "home": 6,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Sea Eagles v Roosters",
+    "MatchID": "2024-2-SeaEaglesvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 383,
+      "away": 468
+    },
+    "errors": {
+      "home": 4,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 2",
+    "MatchName": "Dolphins v Dragons",
+    "MatchID": "2024-2-DolphinsvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 667,
+      "away": 602
+    },
+    "errors": {
+      "home": 5,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Panthers v Broncos",
+    "MatchID": "2024-3-PanthersvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 552,
+      "away": 580
+    },
+    "errors": {
+      "home": 7,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 22,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Warriors v Raiders",
+    "MatchID": "2024-3-WarriorsvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 726,
+      "away": 780
+    },
+    "errors": {
+      "home": 13,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Roosters v Rabbitohs",
+    "MatchID": "2024-3-RoostersvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 774,
+      "away": 413
+    },
+    "errors": {
+      "home": 10,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Bulldogs v Titans",
+    "MatchID": "2024-3-BulldogsvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 810,
+      "away": 566
+    },
+    "errors": {
+      "home": 10,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Dragons v Cowboys",
+    "MatchID": "2024-3-DragonsvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Belinda Sharpe",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 468,
+      "away": 477
+    },
+    "errors": {
+      "home": 10,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Wests Tigers v Sharks",
+    "MatchID": "2024-3-WestsTigersvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 791,
+      "away": 658
+    },
+    "errors": {
+      "home": 14,
+      "away": 25
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 16
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Eels v Sea Eagles",
+    "MatchID": "2024-3-EelsvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 521,
+      "away": 546
+    },
+    "errors": {
+      "home": 5,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 3",
+    "MatchName": "Knights v Storm",
+    "MatchID": "2024-3-KnightsvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 689,
+      "away": 607
+    },
+    "errors": {
+      "home": 12,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Roosters v Panthers",
+    "MatchID": "2024-4-RoostersvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 629,
+      "away": 572
+    },
+    "errors": {
+      "home": 10,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Rabbitohs v Bulldogs",
+    "MatchID": "2024-4-RabbitohsvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 792,
+      "away": 600
+    },
+    "errors": {
+      "home": 5,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 11,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Broncos v Cowboys",
+    "MatchID": "2024-4-BroncosvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 800,
+      "away": 388
+    },
+    "errors": {
+      "home": 12,
+      "away": 16
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 20,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Dragons v Sea Eagles",
+    "MatchID": "2024-4-DragonsvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 636,
+      "away": 374
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Titans v Dolphins",
+    "MatchID": "2024-4-TitansvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Belinda Sharpe",
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 544,
+      "away": 449
+    },
+    "errors": {
+      "home": 11,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Warriors v Knights",
+    "MatchID": "2024-4-WarriorsvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 693,
+      "away": 750
+    },
+    "errors": {
+      "home": 10,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Sharks v Raiders",
+    "MatchID": "2024-4-SharksvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 545,
+      "away": 592
+    },
+    "errors": {
+      "home": 12,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 4",
+    "MatchName": "Eels v Wests Tigers",
+    "MatchID": "2024-4-EelsvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 439,
+      "away": 625
+    },
+    "errors": {
+      "home": 2,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Storm v Broncos",
+    "MatchID": "2024-5-StormvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 417,
+      "away": 566
+    },
+    "errors": {
+      "home": 8,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Bulldogs v Roosters",
+    "MatchID": "2024-5-BulldogsvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 545,
+      "away": 535
+    },
+    "errors": {
+      "home": 7,
+      "away": 16
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Knights v Dragons",
+    "MatchID": "2024-5-KnightsvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Belinda Sharpe",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 646,
+      "away": 432
+    },
+    "errors": {
+      "home": 12,
+      "away": 18
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Rabbitohs v Warriors",
+    "MatchID": "2024-5-RabbitohsvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 490,
+      "away": 692
+    },
+    "errors": {
+      "home": 6,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Sea Eagles v Panthers",
+    "MatchID": "2024-5-SeaEaglesvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 593,
+      "away": 462
+    },
+    "errors": {
+      "home": 12,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 11
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Dolphins v Wests Tigers",
+    "MatchID": "2024-5-DolphinsvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 620,
+      "away": 591
+    },
+    "errors": {
+      "home": 5,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Cowboys v Titans",
+    "MatchID": "2024-5-CowboysvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 387,
+      "away": 587
+    },
+    "errors": {
+      "home": 15,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 5",
+    "MatchName": "Raiders v Eels",
+    "MatchID": "2024-5-RaidersvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 515,
+      "away": 503
+    },
+    "errors": {
+      "home": 3,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Knights v Roosters",
+    "MatchID": "2024-6-KnightsvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 715,
+      "away": 672
+    },
+    "errors": {
+      "home": 5,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Storm v Bulldogs",
+    "MatchID": "2024-6-StormvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 622,
+      "away": 616
+    },
+    "errors": {
+      "home": 10,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Broncos v Dolphins",
+    "MatchID": "2024-6-BroncosvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 436,
+      "away": 354
+    },
+    "errors": {
+      "home": 17,
+      "away": 16
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Warriors v Sea Eagles",
+    "MatchID": "2024-6-WarriorsvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 712,
+      "away": 823
+    },
+    "errors": {
+      "home": 13,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Eels v Cowboys",
+    "MatchID": "2024-6-EelsvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 362,
+      "away": 420
+    },
+    "errors": {
+      "home": 11,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Rabbitohs v Sharks",
+    "MatchID": "2024-6-RabbitohsvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 603,
+      "away": 510
+    },
+    "errors": {
+      "home": 11,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Wests Tigers v Dragons",
+    "MatchID": "2024-6-WestsTigersvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 504,
+      "away": 613
+    },
+    "errors": {
+      "home": 9,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 6",
+    "MatchName": "Raiders v Titans",
+    "MatchID": "2024-6-RaidersvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Kasey Badger",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 744,
+      "away": 900
+    },
+    "errors": {
+      "home": 3,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Roosters v Storm",
+    "MatchID": "2024-7-RoostersvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 568,
+      "away": 584
+    },
+    "errors": {
+      "home": 12,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Dragons v Warriors",
+    "MatchID": "2024-7-DragonsvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 641,
+      "away": 503
+    },
+    "errors": {
+      "home": 9,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Eels v Dolphins",
+    "MatchID": "2024-7-EelsvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 397,
+      "away": 570
+    },
+    "errors": {
+      "home": 3,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Panthers v Wests Tigers",
+    "MatchID": "2024-7-PanthersvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 842,
+      "away": 689
+    },
+    "errors": {
+      "home": 8,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Titans v Sea Eagles",
+    "MatchID": "2024-7-TitansvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Wet",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 705,
+      "away": 706
+    },
+    "errors": {
+      "home": 3,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Broncos v Raiders",
+    "MatchID": "2024-7-BroncosvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Wet",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 651,
+      "away": 493
+    },
+    "errors": {
+      "home": 15,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Bulldogs v Knights",
+    "MatchID": "2024-7-BulldogsvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 587,
+      "away": 437
+    },
+    "errors": {
+      "home": 14,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 7",
+    "MatchName": "Sharks v Cowboys",
+    "MatchID": "2024-7-SharksvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 728,
+      "away": 599
+    },
+    "errors": {
+      "home": 8,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Warriors v Titans",
+    "MatchID": "2024-8-WarriorsvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 656,
+      "away": 856
+    },
+    "errors": {
+      "home": 0,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 19
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Dragons v Roosters",
+    "MatchID": "2024-8-DragonsvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 466,
+      "away": 544
+    },
+    "errors": {
+      "home": 6,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Storm v Rabbitohs",
+    "MatchID": "2024-8-StormvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 469,
+      "away": 391
+    },
+    "errors": {
+      "home": 4,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Sea Eagles v Eels",
+    "MatchID": "2024-8-SeaEaglesvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 515,
+      "away": 436
+    },
+    "errors": {
+      "home": 6,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Wests Tigers v Broncos",
+    "MatchID": "2024-8-WestsTigersvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 450,
+      "away": 548
+    },
+    "errors": {
+      "home": 13,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Cowboys v Panthers",
+    "MatchID": "2024-8-CowboysvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Kasey Badger",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 579,
+      "away": 555
+    },
+    "errors": {
+      "home": 10,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Dolphins v Knights",
+    "MatchID": "2024-8-DolphinsvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 666,
+      "away": 640
+    },
+    "errors": {
+      "home": 3,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 8",
+    "MatchName": "Raiders v Sharks",
+    "MatchID": "2024-8-RaidersvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 581,
+      "away": 595
+    },
+    "errors": {
+      "home": 18,
+      "away": 17
+    },
+    "penalties_conceded": {
+      "home": 12,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Rabbitohs v Panthers",
+    "MatchID": "2024-9-RabbitohsvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 522,
+      "away": 423
+    },
+    "errors": {
+      "home": 8,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Sea Eagles v Raiders",
+    "MatchID": "2024-9-SeaEaglesvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 465,
+      "away": 546
+    },
+    "errors": {
+      "home": 11,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Broncos v Roosters",
+    "MatchID": "2024-9-BroncosvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 525,
+      "away": 549
+    },
+    "errors": {
+      "home": 13,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Bulldogs v Wests Tigers",
+    "MatchID": "2024-9-BulldogsvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Kasey Badger",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 658,
+      "away": 572
+    },
+    "errors": {
+      "home": 6,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Titans v Storm",
+    "MatchID": "2024-9-TitansvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Belinda Sharpe",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 572,
+      "away": 605
+    },
+    "errors": {
+      "home": 7,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 20
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Cowboys v Dolphins",
+    "MatchID": "2024-9-CowboysvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 518,
+      "away": 605
+    },
+    "errors": {
+      "home": 13,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 22,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Knights v Warriors",
+    "MatchID": "2024-9-KnightsvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Wet",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 747,
+      "away": 641
+    },
+    "errors": {
+      "home": 9,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 9",
+    "MatchName": "Sharks v Dragons",
+    "MatchID": "2024-9-SharksvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 448,
+      "away": 545
+    },
+    "errors": {
+      "home": 6,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Dolphins v Sea Eagles",
+    "MatchID": "2024-10-DolphinsvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 708,
+      "away": 748
+    },
+    "errors": {
+      "home": 7,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 20,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Panthers v Bulldogs",
+    "MatchID": "2024-10-PanthersvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 749,
+      "away": 700
+    },
+    "errors": {
+      "home": 3,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Eels v Broncos",
+    "MatchID": "2024-10-EelsvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 453,
+      "away": 765
+    },
+    "errors": {
+      "home": 14,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Wests Tigers v Knights",
+    "MatchID": "2024-10-WestsTigersvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": null,
+    "ground_condition": "Wet",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 792,
+      "away": 650
+    },
+    "errors": {
+      "home": 14,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Dragons v Rabbitohs",
+    "MatchID": "2024-10-DragonsvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Belinda Sharpe",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 639,
+      "away": 388
+    },
+    "errors": {
+      "home": 9,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Storm v Sharks",
+    "MatchID": "2024-10-StormvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 588,
+      "away": 552
+    },
+    "errors": {
+      "home": 10,
+      "away": 24
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Roosters v Warriors",
+    "MatchID": "2024-10-RoostersvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Kasey Badger",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 472,
+      "away": 455
+    },
+    "errors": {
+      "home": 12,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 10",
+    "MatchName": "Titans v Cowboys",
+    "MatchID": "2024-10-TitansvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 613,
+      "away": 374
+    },
+    "errors": {
+      "home": 7,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 20,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Raiders v Bulldogs",
+    "MatchID": "2024-11-RaidersvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 624,
+      "away": 628
+    },
+    "errors": {
+      "home": 12,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Sea Eagles v Broncos",
+    "MatchID": "2024-11-SeaEaglesvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": "Fine",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 606,
+      "away": 810
+    },
+    "errors": {
+      "home": 12,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Titans v Knights",
+    "MatchID": "2024-11-TitansvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 723,
+      "away": 520
+    },
+    "errors": {
+      "home": 3,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Sharks v Roosters",
+    "MatchID": "2024-11-SharksvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 621,
+      "away": 445
+    },
+    "errors": {
+      "home": 8,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Rabbitohs v Cowboys",
+    "MatchID": "2024-11-RabbitohsvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 603,
+      "away": 460
+    },
+    "errors": {
+      "home": 12,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Warriors v Panthers",
+    "MatchID": "2024-11-WarriorsvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 612,
+      "away": 532
+    },
+    "errors": {
+      "home": 0,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Storm v Eels",
+    "MatchID": "2024-11-StormvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 569,
+      "away": 278
+    },
+    "errors": {
+      "home": 4,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 11",
+    "MatchName": "Wests Tigers v Dolphins",
+    "MatchID": "2024-11-WestsTigersvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 620,
+      "away": 491
+    },
+    "errors": {
+      "home": 8,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Bulldogs v Dragons",
+    "MatchID": "2024-12-BulldogsvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 709,
+      "away": 524
+    },
+    "errors": {
+      "home": 5,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Cowboys v Wests Tigers",
+    "MatchID": "2024-12-CowboysvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Belinda Sharpe",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 536,
+      "away": 569
+    },
+    "errors": {
+      "home": 14,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 11
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Sea Eagles v Storm",
+    "MatchID": "2024-12-SeaEaglesvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 478,
+      "away": 520
+    },
+    "errors": {
+      "home": 10,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Raiders v Roosters",
+    "MatchID": "2024-12-RaidersvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 364,
+      "away": 457
+    },
+    "errors": {
+      "home": 7,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Sharks v Panthers",
+    "MatchID": "2024-12-SharksvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 753,
+      "away": 707
+    },
+    "errors": {
+      "home": 15,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Rabbitohs v Eels",
+    "MatchID": "2024-12-RabbitohsvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 595,
+      "away": 348
+    },
+    "errors": {
+      "home": 10,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Broncos v Titans",
+    "MatchID": "2024-12-BroncosvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 531,
+      "away": 517
+    },
+    "errors": {
+      "home": 1,
+      "away": 0
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 12",
+    "MatchName": "Warriors v Dolphins",
+    "MatchID": "2024-12-WarriorsvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 622,
+      "away": 805
+    },
+    "errors": {
+      "home": 10,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Eels v Sharks",
+    "MatchID": "2024-13-EelsvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 738,
+      "away": 792
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Knights v Bulldogs",
+    "MatchID": "2024-13-KnightsvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 565,
+      "away": 904
+    },
+    "errors": {
+      "home": 7,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Panthers v Dragons",
+    "MatchID": "2024-13-PanthersvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 691,
+      "away": 554
+    },
+    "errors": {
+      "home": 10,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Dolphins v Raiders",
+    "MatchID": "2024-13-DolphinsvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Wet",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 668,
+      "away": 485
+    },
+    "errors": {
+      "home": 8,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 13",
+    "MatchName": "Roosters v Cowboys",
+    "MatchID": "2024-13-RoostersvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Fair",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 676,
+      "away": 650
+    },
+    "errors": {
+      "home": 8,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Dragons v Wests Tigers",
+    "MatchID": "2024-14-DragonsvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 497,
+      "away": 338
+    },
+    "errors": {
+      "home": 8,
+      "away": 28
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 12
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Titans v Rabbitohs",
+    "MatchID": "2024-14-TitansvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 369,
+      "away": 526
+    },
+    "errors": {
+      "home": 13,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 22
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Cowboys v Warriors",
+    "MatchID": "2024-14-CowboysvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 614,
+      "away": 701
+    },
+    "errors": {
+      "home": 11,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Broncos v Sharks",
+    "MatchID": "2024-14-BroncosvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 825,
+      "away": 590
+    },
+    "errors": {
+      "home": 4,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Storm v Knights",
+    "MatchID": "2024-14-StormvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 681,
+      "away": 706
+    },
+    "errors": {
+      "home": 6,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Panthers v Sea Eagles",
+    "MatchID": "2024-14-PanthersvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 382,
+      "away": 808
+    },
+    "errors": {
+      "home": 4,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 14",
+    "MatchName": "Bulldogs v Eels",
+    "MatchID": "2024-14-BulldogsvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 662,
+      "away": 419
+    },
+    "errors": {
+      "home": 27,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 15,
+      "away": 13
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Sharks v Dolphins",
+    "MatchID": "2024-15-SharksvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 656,
+      "away": 774
+    },
+    "errors": {
+      "home": 6,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 22
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Raiders v Cowboys",
+    "MatchID": "2024-15-RaidersvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Sutton",
+    "weather_condition": "Cloudy",
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 430,
+      "away": 471
+    },
+    "errors": {
+      "home": 7,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Rabbitohs v Broncos",
+    "MatchID": "2024-15-RabbitohsvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 687,
+      "away": 452
+    },
+    "errors": {
+      "home": 2,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Wests Tigers v Titans",
+    "MatchID": "2024-15-WestsTigersvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 751,
+      "away": 430
+    },
+    "errors": {
+      "home": 18,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 14
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Warriors v Storm",
+    "MatchID": "2024-15-WarriorsvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Wet",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 431,
+      "away": 588
+    },
+    "errors": {
+      "home": 8,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 2,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Eels v Roosters",
+    "MatchID": "2024-15-EelsvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 402,
+      "away": 449
+    },
+    "errors": {
+      "home": 14,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Sea Eagles v Dragons",
+    "MatchID": "2024-15-SeaEaglesvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 509,
+      "away": 664
+    },
+    "errors": {
+      "home": 40,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 11
+    },
+    "sin_bins": {
+      "home": 8,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 15",
+    "MatchName": "Knights v Panthers",
+    "MatchID": "2024-15-KnightsvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 794,
+      "away": 645
+    },
+    "errors": {
+      "home": 4,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Dolphins v Storm",
+    "MatchID": "2024-16-DolphinsvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 540,
+      "away": 502
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 18
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Titans v Warriors",
+    "MatchID": "2024-16-TitansvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 434,
+      "away": 317
+    },
+    "errors": {
+      "home": 7,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 30,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Roosters v Bulldogs",
+    "MatchID": "2024-16-RoostersvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 715,
+      "away": 689
+    },
+    "errors": {
+      "home": 18,
+      "away": 20
+    },
+    "penalties_conceded": {
+      "home": 13,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Rabbitohs v Sea Eagles",
+    "MatchID": "2024-16-RabbitohsvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 722,
+      "away": 525
+    },
+    "errors": {
+      "home": 13,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 16",
+    "MatchName": "Wests Tigers v Raiders",
+    "MatchID": "2024-16-WestsTigersvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 462,
+      "away": 350
+    },
+    "errors": {
+      "home": 9,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Bulldogs v Sharks",
+    "MatchID": "2024-17-BulldogsvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 876,
+      "away": 735
+    },
+    "errors": {
+      "home": 9,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Warriors v Broncos",
+    "MatchID": "2024-17-WarriorsvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 527,
+      "away": 653
+    },
+    "errors": {
+      "home": 2,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Knights v Eels",
+    "MatchID": "2024-17-KnightsvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 519,
+      "away": 638
+    },
+    "errors": {
+      "home": 12,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Storm v Raiders",
+    "MatchID": "2024-17-StormvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 534,
+      "away": 549
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Dragons v Dolphins",
+    "MatchID": "2024-17-DragonsvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 501,
+      "away": 604
+    },
+    "errors": {
+      "home": 4,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Panthers v Cowboys",
+    "MatchID": "2024-17-PanthersvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Rain",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 661,
+      "away": 779
+    },
+    "errors": {
+      "home": 13,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 17",
+    "MatchName": "Roosters v Wests Tigers",
+    "MatchID": "2024-17-RoostersvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 533,
+      "away": 500
+    },
+    "errors": {
+      "home": 8,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 20,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Eels v Rabbitohs",
+    "MatchID": "2024-18-EelsvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": "Rain",
+    "ground_condition": "Wet",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 501,
+      "away": 677
+    },
+    "errors": {
+      "home": 15,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Sharks v Titans",
+    "MatchID": "2024-18-SharksvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Ziggy Przeklasa-Adamski",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 342,
+      "away": 678
+    },
+    "errors": {
+      "home": 16,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Broncos v Panthers",
+    "MatchID": "2024-18-BroncosvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 750,
+      "away": 666
+    },
+    "errors": {
+      "home": 8,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 12,
+      "away": 10
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Bulldogs v Warriors",
+    "MatchID": "2024-18-BulldogsvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 890,
+      "away": 838
+    },
+    "errors": {
+      "home": 14,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Wests Tigers v Storm",
+    "MatchID": "2024-18-WestsTigersvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 224,
+      "away": 323
+    },
+    "errors": {
+      "home": 13,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Cowboys v Sea Eagles",
+    "MatchID": "2024-18-CowboysvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 547,
+      "away": 875
+    },
+    "errors": {
+      "home": 3,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Roosters v Dragons",
+    "MatchID": "2024-18-RoostersvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 524,
+      "away": 799
+    },
+    "errors": {
+      "home": 9,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 18",
+    "MatchName": "Raiders v Knights",
+    "MatchID": "2024-18-RaidersvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 815,
+      "away": 611
+    },
+    "errors": {
+      "home": 12,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Dolphins v Rabbitohs",
+    "MatchID": "2024-19-DolphinsvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 536,
+      "away": 769
+    },
+    "errors": {
+      "home": 6,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Sharks v Wests Tigers",
+    "MatchID": "2024-19-SharksvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 450,
+      "away": 503
+    },
+    "errors": {
+      "home": 12,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Titans v Eels",
+    "MatchID": "2024-19-TitansvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 737,
+      "away": 514
+    },
+    "errors": {
+      "home": 11,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Broncos v Dragons",
+    "MatchID": "2024-19-BroncosvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 496,
+      "away": 670
+    },
+    "errors": {
+      "home": 10,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 19",
+    "MatchName": "Sea Eagles v Knights",
+    "MatchID": "2024-19-SeaEaglesvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 818,
+      "away": 684
+    },
+    "errors": {
+      "home": 2,
+      "away": 0
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Raiders v Warriors",
+    "MatchID": "2024-20-RaidersvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 603,
+      "away": 624
+    },
+    "errors": {
+      "home": 4,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Rabbitohs v Wests Tigers",
+    "MatchID": "2024-20-RabbitohsvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 455,
+      "away": 254
+    },
+    "errors": {
+      "home": 12,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Knights v Broncos",
+    "MatchID": "2024-20-KnightsvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 453,
+      "away": 384
+    },
+    "errors": {
+      "home": 13,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Storm v Roosters",
+    "MatchID": "2024-20-StormvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 465,
+      "away": 465
+    },
+    "errors": {
+      "home": 11,
+      "away": 17
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Panthers v Dolphins",
+    "MatchID": "2024-20-PanthersvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 530,
+      "away": 729
+    },
+    "errors": {
+      "home": 12,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Sea Eagles v Titans",
+    "MatchID": "2024-20-SeaEaglesvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 336,
+      "away": 437
+    },
+    "errors": {
+      "home": 12,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 20",
+    "MatchName": "Cowboys v Bulldogs",
+    "MatchID": "2024-20-CowboysvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 424,
+      "away": 590
+    },
+    "errors": {
+      "home": 6,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Warriors v Wests Tigers",
+    "MatchID": "2024-21-WarriorsvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 471,
+      "away": 567
+    },
+    "errors": {
+      "home": 10,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Eels v Storm",
+    "MatchID": "2024-21-EelsvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 654,
+      "away": 619
+    },
+    "errors": {
+      "home": 3,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Broncos v Bulldogs",
+    "MatchID": "2024-21-BroncosvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 672,
+      "away": 676
+    },
+    "errors": {
+      "home": 19,
+      "away": 20
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 11
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Cowboys v Sharks",
+    "MatchID": "2024-21-CowboysvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 711,
+      "away": 597
+    },
+    "errors": {
+      "home": 9,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Roosters v Sea Eagles",
+    "MatchID": "2024-21-RoostersvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 685,
+      "away": 882
+    },
+    "errors": {
+      "home": 14,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Dragons v Panthers",
+    "MatchID": "2024-21-DragonsvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 480,
+      "away": 338
+    },
+    "errors": {
+      "home": 18,
+      "away": 28
+    },
+    "penalties_conceded": {
+      "home": 13,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Dolphins v Titans",
+    "MatchID": "2024-21-DolphinsvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 541,
+      "away": 624
+    },
+    "errors": {
+      "home": 13,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 21",
+    "MatchName": "Raiders v Rabbitohs",
+    "MatchID": "2024-21-RaidersvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 607,
+      "away": 535
+    },
+    "errors": {
+      "home": 15,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Wests Tigers v Cowboys",
+    "MatchID": "2024-22-WestsTigersvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 398,
+      "away": 513
+    },
+    "errors": {
+      "home": 12,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Warriors v Eels",
+    "MatchID": "2024-22-WarriorsvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 540,
+      "away": 686
+    },
+    "errors": {
+      "home": 15,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Dolphins v Roosters",
+    "MatchID": "2024-22-DolphinsvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 462,
+      "away": 558
+    },
+    "errors": {
+      "home": 7,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Titans v Broncos",
+    "MatchID": "2024-22-TitansvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 548,
+      "away": 479
+    },
+    "errors": {
+      "home": 5,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Storm v Dragons",
+    "MatchID": "2024-22-StormvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 294,
+      "away": 595
+    },
+    "errors": {
+      "home": 11,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 7,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Sharks v Rabbitohs",
+    "MatchID": "2024-22-SharksvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Liam Kennedy",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 583,
+      "away": 525
+    },
+    "errors": {
+      "home": 7,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Panthers v Knights",
+    "MatchID": "2024-22-PanthersvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 525,
+      "away": 846
+    },
+    "errors": {
+      "home": 6,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 14,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 22",
+    "MatchName": "Bulldogs v Raiders",
+    "MatchID": "2024-22-BulldogsvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 656,
+      "away": 595
+    },
+    "errors": {
+      "home": 8,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Rabbitohs v Storm",
+    "MatchID": "2024-23-RabbitohsvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 493,
+      "away": 511
+    },
+    "errors": {
+      "home": 13,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 22
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Titans v Sharks",
+    "MatchID": "2024-23-TitansvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 582,
+      "away": 563
+    },
+    "errors": {
+      "home": 5,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 30
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Eels v Panthers",
+    "MatchID": "2024-23-EelsvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 525,
+      "away": 457
+    },
+    "errors": {
+      "home": 5,
+      "away": 2
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Raiders v Sea Eagles",
+    "MatchID": "2024-23-RaidersvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 610,
+      "away": 584
+    },
+    "errors": {
+      "home": 2,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Cowboys v Broncos",
+    "MatchID": "2024-23-CowboysvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 540,
+      "away": 568
+    },
+    "errors": {
+      "home": 4,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Dragons v Bulldogs",
+    "MatchID": "2024-23-DragonsvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 647,
+      "away": 672
+    },
+    "errors": {
+      "home": 14,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Dolphins v Warriors",
+    "MatchID": "2024-23-DolphinsvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 630,
+      "away": 609
+    },
+    "errors": {
+      "home": 3,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 23",
+    "MatchName": "Knights v Wests Tigers",
+    "MatchID": "2024-23-KnightsvWestsTigers",
+    "Date": "2024-01-01",
+    "main_ref": "Belinda Sharpe",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 544,
+      "away": 661
+    },
+    "errors": {
+      "home": 8,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 0,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Panthers v Storm",
+    "MatchID": "2024-24-PanthersvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 575,
+      "away": 686
+    },
+    "errors": {
+      "home": 6,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Sea Eagles v Warriors",
+    "MatchID": "2024-24-SeaEaglesvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 816,
+      "away": 562
+    },
+    "errors": {
+      "home": 10,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Roosters v Eels",
+    "MatchID": "2024-24-RoostersvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 392,
+      "away": 479
+    },
+    "errors": {
+      "home": 13,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 4
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Bulldogs v Dolphins",
+    "MatchID": "2024-24-BulldogsvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 679,
+      "away": 664
+    },
+    "errors": {
+      "home": 11,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 7
+    },
+    "sin_bins": {
+      "home": 16,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Cowboys v Raiders",
+    "MatchID": "2024-24-CowboysvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 461,
+      "away": 655
+    },
+    "errors": {
+      "home": 12,
+      "away": 14
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Wests Tigers v Rabbitohs",
+    "MatchID": "2024-24-WestsTigersvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Belinda Sharpe",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 563,
+      "away": 397
+    },
+    "errors": {
+      "home": 7,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Dragons v Titans",
+    "MatchID": "2024-24-DragonsvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 717,
+      "away": 477
+    },
+    "errors": {
+      "home": 5,
+      "away": 5
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 3
+    },
+    "sin_bins": {
+      "home": 26,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 24",
+    "MatchName": "Sharks v Knights",
+    "MatchID": "2024-24-SharksvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 386,
+      "away": 465
+    },
+    "errors": {
+      "home": 8,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Wests Tigers v Sea Eagles",
+    "MatchID": "2024-25-WestsTigersvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 337,
+      "away": 536
+    },
+    "errors": {
+      "home": 12,
+      "away": 15
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 8
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Warriors v Bulldogs",
+    "MatchID": "2024-25-WarriorsvBulldogs",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Slippery",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 289,
+      "away": 442
+    },
+    "errors": {
+      "home": 13,
+      "away": 10
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Broncos v Eels",
+    "MatchID": "2024-25-BroncosvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 742,
+      "away": 524
+    },
+    "errors": {
+      "home": 13,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 12,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Raiders v Panthers",
+    "MatchID": "2024-25-RaidersvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 856,
+      "away": 546
+    },
+    "errors": {
+      "home": 4,
+      "away": 9
+    },
+    "penalties_conceded": {
+      "home": 9,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 12
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Storm v Dolphins",
+    "MatchID": "2024-25-StormvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 486,
+      "away": 412
+    },
+    "errors": {
+      "home": 6,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 22,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Rabbitohs v Knights",
+    "MatchID": "2024-25-RabbitohsvKnights",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 383,
+      "away": 439
+    },
+    "errors": {
+      "home": 8,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Titans v Roosters",
+    "MatchID": "2024-25-TitansvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 378,
+      "away": 513
+    },
+    "errors": {
+      "home": 0,
+      "away": 3
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 26
+    }
+  },
+  {
+    "Round": "Round 25",
+    "MatchName": "Dragons v Sharks",
+    "MatchID": "2024-25-DragonsvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": "Fine",
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 477,
+      "away": 449
+    },
+    "errors": {
+      "home": 13,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 6,
+      "away": 9
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 14
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Cowboys v Storm",
+    "MatchID": "2024-26-CowboysvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 423,
+      "away": 463
+    },
+    "errors": {
+      "home": 15,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 16
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Bulldogs v Sea Eagles",
+    "MatchID": "2024-26-BulldogsvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 692,
+      "away": 805
+    },
+    "errors": {
+      "home": 12,
+      "away": 18
+    },
+    "penalties_conceded": {
+      "home": 11,
+      "away": 6
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Panthers v Rabbitohs",
+    "MatchID": "2024-26-PanthersvRabbitohs",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 338,
+      "away": 437
+    },
+    "errors": {
+      "home": 8,
+      "away": 11
+    },
+    "penalties_conceded": {
+      "home": 10,
+      "away": 11
+    },
+    "sin_bins": {
+      "home": 18,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Eels v Dragons",
+    "MatchID": "2024-26-EelsvDragons",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 361,
+      "away": 351
+    },
+    "errors": {
+      "home": 8,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 8,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Dolphins v Broncos",
+    "MatchID": "2024-26-DolphinsvBroncos",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 501,
+      "away": 413
+    },
+    "errors": {
+      "home": 6,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Sharks v Warriors",
+    "MatchID": "2024-26-SharksvWarriors",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 630,
+      "away": 613
+    },
+    "errors": {
+      "home": 8,
+      "away": 6
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Knights v Titans",
+    "MatchID": "2024-26-KnightsvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 596,
+      "away": 678
+    },
+    "errors": {
+      "home": 6,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 26",
+    "MatchName": "Roosters v Raiders",
+    "MatchID": "2024-26-RoostersvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 443,
+      "away": 724
+    },
+    "errors": {
+      "home": 5,
+      "away": 12
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Broncos v Storm",
+    "MatchID": "2024-27-BroncosvStorm",
+    "Date": "2024-01-01",
+    "main_ref": "Todd Smith",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 593,
+      "away": 405
+    },
+    "errors": {
+      "home": 7,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 6,
+      "away": 28
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Wests Tigers v Eels",
+    "MatchID": "2024-27-WestsTigersvEels",
+    "Date": "2024-01-01",
+    "main_ref": "Peter Gough",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 317,
+      "away": 361
+    },
+    "errors": {
+      "home": 16,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 4,
+      "away": 5
+    },
+    "sin_bins": {
+      "home": 10,
+      "away": 22
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Rabbitohs v Roosters",
+    "MatchID": "2024-27-RabbitohsvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": "Grant Atkins",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 357,
+      "away": 415
+    },
+    "errors": {
+      "home": 3,
+      "away": 1
+    },
+    "penalties_conceded": {
+      "home": 1,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Dragons v Raiders",
+    "MatchID": "2024-27-DragonsvRaiders",
+    "Date": "2024-01-01",
+    "main_ref": "Wyatt Raymond",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 691,
+      "away": 533
+    },
+    "errors": {
+      "home": 5,
+      "away": 4
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 1
+    },
+    "sin_bins": {
+      "home": 24,
+      "away": 10
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Bulldogs v Cowboys",
+    "MatchID": "2024-27-BulldogsvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": "Gerard Sutton",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 761,
+      "away": 690
+    },
+    "errors": {
+      "home": 15,
+      "away": 13
+    },
+    "penalties_conceded": {
+      "home": 5,
+      "away": 4
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 20
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Panthers v Titans",
+    "MatchID": "2024-27-PanthersvTitans",
+    "Date": "2024-01-01",
+    "main_ref": "Chris Butler",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 558,
+      "away": 652
+    },
+    "errors": {
+      "home": 4,
+      "away": 7
+    },
+    "penalties_conceded": {
+      "home": 2,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 4,
+      "away": 6
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Sea Eagles v Sharks",
+    "MatchID": "2024-27-SeaEaglesvSharks",
+    "Date": "2024-01-01",
+    "main_ref": "Adam Gee",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 644,
+      "away": 533
+    },
+    "errors": {
+      "home": 3,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 0
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 27",
+    "MatchName": "Knights v Dolphins",
+    "MatchID": "2024-27-KnightsvDolphins",
+    "Date": "2024-01-01",
+    "main_ref": "Ashley Klein",
+    "weather_condition": null,
+    "ground_condition": "Good",
+    "Average_PlayBall_Speed": 0.0,
+    "kicking_metres": {
+      "home": 607,
+      "away": 666
+    },
+    "errors": {
+      "home": 3,
+      "away": 8
+    },
+    "penalties_conceded": {
+      "home": 3,
+      "away": 2
+    },
+    "sin_bins": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Panthers v Roosters",
+    "MatchID": "2024-28-PanthersvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Storm v Sharks",
+    "MatchID": "2024-28-StormvSharks",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Cowboys v Knights",
+    "MatchID": "2024-28-CowboysvKnights",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 28",
+    "MatchName": "Bulldogs v Sea Eagles",
+    "MatchID": "2024-28-BulldogsvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Sharks v Cowboys",
+    "MatchID": "2024-29-SharksvCowboys",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 29",
+    "MatchName": "Roosters v Sea Eagles",
+    "MatchID": "2024-29-RoostersvSeaEagles",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Storm v Roosters",
+    "MatchID": "2024-30-StormvRoosters",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 30",
+    "MatchName": "Panthers v Sharks",
+    "MatchID": "2024-30-PanthersvSharks",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 31",
+    "MatchName": "Storm v Panthers",
+    "MatchID": "2024-31-StormvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 32",
+    "MatchName": "Storm v Panthers",
+    "MatchID": "2024-32-StormvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  },
+  {
+    "Round": "Round 33",
+    "MatchName": "Storm v Panthers",
+    "MatchID": "2024-33-StormvPanthers",
+    "Date": "2024-01-01",
+    "main_ref": null,
+    "weather_condition": null,
+    "ground_condition": null,
+    "Average_PlayBall_Speed": -1.0,
+    "kicking_metres": {
+      "home": -1,
+      "away": -1
+    },
+    "errors": {
+      "home": -1,
+      "away": -1
+    },
+    "penalties_conceded": {
+      "home": -1,
+      "away": -1
+    },
+    "sin_bins": {
+      "home": -1,
+      "away": -1
+    }
+  }
+]

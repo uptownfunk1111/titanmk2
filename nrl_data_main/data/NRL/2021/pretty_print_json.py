@@ -57,7 +57,7 @@ df = pd.DataFrame(all_data)
 print(f"Data preview:\n{df.head()}")
 
 # Save the resulting DataFrame to a CSV file
-output_file = r'C:\Users\slangston1\titan\nrl_data_main\data\NRL\2021\merged_nrl_data.csv'
-df.to_csv(output_file, index=False)
+output_file = r'C:\Users\slangston1\titan\nrl_data_main\data\NRL\2021\merged_nrl_data.json'
+df.to_json(output_file, index=False)
 
 print(f"Data saved to: {output_file}")
