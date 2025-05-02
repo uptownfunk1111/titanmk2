@@ -9,11 +9,16 @@ with open(file_path, 'r') as file:
 # Step 2: Traverse the JSON and extract match and player data
 flattened_data = []
 
+# Debugging: Check the data structure at various levels
+print(f"Data type: {type(data)}")
+print(f"First item in data: {data[0]}")  # Check the first item to understand the structure
+
 # Traversing through the JSON to extract match and player details
 for season in data:  # Iterate through each season
     for round_data in season:
         for match_data in round_data:
             for match_key, match_info in match_data.items():
+                # Check if match_info is a string or dictionary
                 if isinstance(match_info, dict):
                     match_details = match_info.get('match', {})
                     home_team = match_info.get('home', {})
@@ -30,37 +35,39 @@ for season in data:  # Iterate through each season
                         'date': match_details.get('date', None),
                     }
                     
-                    # Flatten the home team player stats
-                    for player in home_team.get('players', []):
-                        player_record = match_record.copy()
-                        player_record.update({
-                            'player_name': player.get('Name', None),
-                            'player_number': player.get('Number', None),
-                            'position': player.get('Position', None),
-                            'minutes_played': player.get('Mins Played', None),
-                            'total_points': player.get('Total Points', None),
-                            'all_runs': player.get('All Runs', None),
-                            'all_run_metres': player.get('All Run Metres', None),
-                            'kick_return_metres': player.get('Kick Return Metres', None),
-                            # Add more stats as necessary
-                        })
-                        flattened_data.append(player_record)
+                    # Flatten the home team player stats if players are available
+                    if isinstance(home_team.get('players'), list):
+                        for player in home_team.get('players', []):
+                            player_record = match_record.copy()
+                            player_record.update({
+                                'player_name': player.get('Name', None),
+                                'player_number': player.get('Number', None),
+                                'position': player.get('Position', None),
+                                'minutes_played': player.get('Mins Played', None),
+                                'total_points': player.get('Total Points', None),
+                                'all_runs': player.get('All Runs', None),
+                                'all_run_metres': player.get('All Run Metres', None),
+                                'kick_return_metres': player.get('Kick Return Metres', None),
+                                # Add more stats as necessary
+                            })
+                            flattened_data.append(player_record)
                     
-                    # Flatten the away team player stats
-                    for player in away_team.get('players', []):
-                        player_record = match_record.copy()
-                        player_record.update({
-                            'player_name': player.get('Name', None),
-                            'player_number': player.get('Number', None),
-                            'position': player.get('Position', None),
-                            'minutes_played': player.get('Mins Played', None),
-                            'total_points': player.get('Total Points', None),
-                            'all_runs': player.get('All Runs', None),
-                            'all_run_metres': player.get('All Run Metres', None),
-                            'kick_return_metres': player.get('Kick Return Metres', None),
-                            # Add more stats as necessary
-                        })
-                        flattened_data.append(player_record)
+                    # Flatten the away team player stats if players are available
+                    if isinstance(away_team.get('players'), list):
+                        for player in away_team.get('players', []):
+                            player_record = match_record.copy()
+                            player_record.update({
+                                'player_name': player.get('Name', None),
+                                'player_number': player.get('Number', None),
+                                'position': player.get('Position', None),
+                                'minutes_played': player.get('Mins Played', None),
+                                'total_points': player.get('Total Points', None),
+                                'all_runs': player.get('All Runs', None),
+                                'all_run_metres': player.get('All Run Metres', None),
+                                'kick_return_metres': player.get('Kick Return Metres', None),
+                                # Add more stats as necessary
+                            })
+                            flattened_data.append(player_record)
 
 # Step 3: Create a pandas DataFrame
 df = pd.DataFrame(flattened_data)
