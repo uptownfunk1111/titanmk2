@@ -13,3 +13,7 @@ venv/
 # Ignore OS clutter
 .DS_Store
 Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+"nrl_data_main/predictions/model_1.ipynb"
+
