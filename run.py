@@ -1,45 +1,43 @@
-from downloader import fetch_player_stats
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import pandas as pd
+"""
+Master NRL Data Update and Prediction Runner
+Runs scraping, data flattening, and prediction in sequence.
+"""
+import subprocess
+import sys
+import os
 
-# Set up the Chrome WebDriver for Selenium
-def setup_driver():
-    options = Options()
-    options.add_argument('--headless')
-    driver = webdriver.Chrome(executable_path='C:/path_to_chromedriver/chromedriver.exe', options=options)
-    return driver
+# User-configurable parameters
+YEAR = 2025
+ROUND = 10  # Update as the season progresses
+COMP_TYPE = 'NRL'
 
-# Fetch match data and player statistics for a selected year
-def fetch_match_data(year):
-    driver = setup_driver()
+# Get absolute paths for all scripts
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+SCRAPING_SCRIPT = os.path.join(BASE_DIR, '..', 'nrl_data_main', 'scraping', 'update_nrl_data.py')
+FLATTEN_SCRIPT = os.path.join(BASE_DIR, 'utilities', 'flatten_nrl_data.py')
+PREDICT_SCRIPT = os.path.join(BASE_DIR, 'titan2.5+_processor', 'new_prediction_models', 'predictor_ml.py')
 
-    url = f"https://www.nrl.com/draw/{year}"
-    driver.get(url)
+# Step 1: Scrape latest data
+scrape_cmd = [
+    sys.executable, SCRAPING_SCRIPT,
+    "--year", str(YEAR), "--round", str(ROUND), "--type", COMP_TYPE
+]
+print("\n=== STEP 1: SCRAPING DATA ===\n")
+subprocess.run(scrape_cmd, check=True)
 
-    # Example of scraping match data (customize based on actual structure)
-    match_data = []
-    matches = driver.find_elements_by_class_name("match-list")
-    for match in matches:
-        team_home = match.find_element_by_class_name("team-home").text
-        team_away = match.find_element_by_class_name("team-away").text
-        round_num = match.find_element_by_class_name("round").text
+# Step 2: Flatten/process raw data
+print("\n=== STEP 2: FLATTENING DATA ===\n")
+flatten_cmd = [
+    sys.executable, FLATTEN_SCRIPT,
+    "--year", str(YEAR), "--type", COMP_TYPE
+]
+subprocess.run(flatten_cmd, check=True)
 
-        match_data.append({
-            'round': round_num,
-            'home_team': team_home,
-            'away_team': team_away
-        })
+# Step 3: Run prediction/model pipeline
+print("\n=== STEP 3: RUNNING PREDICTIONS ===\n")
+prediction_cmd = [
+    sys.executable, PREDICT_SCRIPT
+]
+subprocess.run(prediction_cmd, check=True)
 
-    driver.quit()
-
-    # Convert to DataFrame and save as CSV or JSON
-    match_df = pd.DataFrame(match_data)
-    match_df.to_csv(f'data/match_data_{year}.csv', index=False)
-    # match_df.to_json(f'data/match_data_{year}.json', orient='records', lines=True)
-
-# Main function to execute scraping
-if __name__ == "__main__":
-    year = 2025  # Update to desired year
-    fetch_player_stats(year)  # Fetch player stats first
-    fetch_match_data(year)    # Fetch match data second
+print("\n=== ALL STEPS COMPLETE ===\n")

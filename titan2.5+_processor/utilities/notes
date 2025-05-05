@@ -1,0 +1,19 @@
+# Load JSON data from file
+input_json_file = 'C:\\Users\\slangston1\\TITAN\\titan2.5+_processor\\NRL_fixed\\2019\\NRL_player_statistics_2019.json'  # Your JSON file path here
+output_csv_file = 'C:\\Users\\slangston1\\TITAN\\titan2.5+_processor\\outputs.csv'  # Output CSV file path
+
+
+C:\Users\slangston1\TITAN\titan2.5+_processor\utilities>extract_player_stats.py
+JSON file loaded successfully.
+Extracted 1 player stats.
+An error occurred: dict contains fields not in fieldnames: '2019-1-Titans-v-Raiders'
+
+C:\Users\slangston1\TITAN\titan2.5+_processor\utilities>extract_player_stats.py
+JSON file loaded successfully.
+Extracted 1 player stats.
+An error occurred: dict contains fields not in fieldnames: '2019-1-Titans-v-Raiders'
+
+C:\Users\slangston1\TITAN\titan2.5+_processor\utilities>extract_player_stats.py
+JSON file loaded successfully.
+Extracted 1 player stats.
+An error occurred: dict contains fields not in fieldnames: '2019-1-Titans-v-Raiders'
