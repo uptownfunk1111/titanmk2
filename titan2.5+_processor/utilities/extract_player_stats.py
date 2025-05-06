@@ -1,6 +1,8 @@
 import json
 import csv
 import math
+import os
+import argparse
 
 # Function to flatten the nested JSON structure
 def flatten_json(nested_json, parent_key='', sep='_'):
@@ -81,46 +83,72 @@ def write_to_multiple_csv_files(data, fieldnames, base_filename='output_file'):
 
 # Main function to extract player stats and write to CSV
 def main():
-    # Load JSON data
-    input_file = 'C:\\Users\\slangston1\\TITAN\\titan2.5+_processor\\NRL_fixed\\2019\\NRL_player_statistics_2019.json'  # Change this to the path of your JSON file
-    output_file = 'C:\\Users\\slangston1\\TITAN\\titan2.5+_processor\\outputs.csv'  # This will be used as the base filename for multiple files
-    
+    print("[START] Player Stats Extraction Script")
+    parser = argparse.ArgumentParser(description="Extract and flatten player stats from JSON.")
+    parser.add_argument('--input', type=str, default=os.path.join(os.path.dirname(__file__), '..', 'NRL_fixed', '2019', 'NRL_player_statistics_2019.json'), help='Path to input JSON file')
+    parser.add_argument('--output', type=str, default=os.path.join(os.path.dirname(__file__), '..', 'outputs', 'player_stats_2019'), help='Base path for output CSV file(s), no extension')
+    args = parser.parse_args()
+
+    input_file = args.input
+    output_file = args.output
+
+    print(f"[INFO] Input JSON file: {input_file}")
+    print(f"[INFO] Output base path: {output_file}")
+
+    # Ensure output directory exists
+    output_dir = os.path.dirname(output_file)
+    if output_dir and not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"[INFO] Created output directory: {output_dir}")
+    else:
+        print(f"[INFO] Output directory exists: {output_dir}")
+
     try:
         with open(input_file, 'r') as f:
             json_data = json.load(f)
-        print("JSON file loaded successfully.")
+        print(f"[SUCCESS] JSON file loaded successfully from {input_file}.")
     except Exception as e:
-        print(f"Error loading JSON file: {e}")
+        print(f"[ERROR] Failed to load JSON file: {e}")
         return
-    
+
     # Extract fixed and dynamic fields from the JSON data
     player_data = json_data.get('PlayerStats', [])
-    
+    print(f"[INFO] Found {len(player_data)} player entries in JSON root.")
+
     # Process fixed fields
     fixed_fields = process_fixed_fields(player_data)
-    print(f"Fixed Fields Extracted: {fixed_fields}")
-    
+    print(f"[INFO] Fixed Fields Extracted: {fixed_fields}")
+
     # Process dynamic fields (game stats)
+    print("[INFO] Extracting dynamic (game stats) fields for each player...")
     dynamic_fields = process_dynamic_fields(player_data)
-    print(f"Dynamic Fields Extracted: {len(dynamic_fields)} entries")
+    print(f"[INFO] Dynamic Fields Extracted: {len(dynamic_fields)} entries")
 
     # Replace "-" with "0" in dynamic fields
+    print("[INFO] Replacing '-' with '0' in all dynamic fields...")
     for dynamic in dynamic_fields:
         replace_dashes_with_zero(dynamic)
+    print("[INFO] Replacement complete.")
 
     # Combine fixed and dynamic fields
+    print("[INFO] Combining fixed and dynamic fields for each record...")
     combined_data = []
-    for dynamic in dynamic_fields:
+    for idx, dynamic in enumerate(dynamic_fields):
         combined_entry = {**fixed_fields, **dynamic}  # Merge fixed and dynamic fields
         combined_data.append(combined_entry)
-    
-    print(f"Data successfully combined. {len(combined_data)} records to write.")
+        if idx < 3:
+            print(f"[DEBUG] Sample combined record {idx+1}: {combined_entry}")
+    print(f"[INFO] Data successfully combined. {len(combined_data)} records to write.")
 
     # Write to multiple CSV files
     try:
-        write_to_multiple_csv_files(combined_data, fieldnames=combined_data[0].keys())
+        print("[INFO] Writing combined data to CSV file(s)...")
+        write_to_multiple_csv_files(combined_data, fieldnames=combined_data[0].keys(), base_filename=output_file)
+        print("[SUCCESS] All data written to CSV file(s).")
     except Exception as e:
-        print(f"Error writing to CSV: {e}")
+        print(f"[ERROR] Error writing to CSV: {e}")
+
+    print("[COMPLETE] Player stats extraction and flattening finished.")
 
 if __name__ == "__main__":
     main()

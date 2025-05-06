@@ -2,83 +2,38 @@ import os
 import json
 import pandas as pd
 
-def extract_nrl_data():
-    # Prompt user for the directory path
-    directory_path = input("Enter the directory path where the JSON file is located: ")
-    
-    # Check if the directory exists
-    if not os.path.isdir(directory_path):
-        print("The specified directory does not exist. Exiting.")
+def flatten_all_nrl_fixtures(input_base_dir, output_csv_path, years=range(2019, 2026)):
+    all_matches = []
+    for year in years:
+        json_path = os.path.join(input_base_dir, 'NRL', str(year), f'NRL_fixtures_{year}.json')
+        if not os.path.exists(json_path):
+            print(f"[WARN] No fixture file found for {year}: {json_path}")
+            continue
+        with open(json_path, 'r', encoding='utf-8') as f:
+            matches = json.load(f)
+        print(f"[INFO] Loaded {len(matches)} matches for {year}")
+        for match in matches:
+            # Flatten and standardize keys
+            all_matches.append({
+                'Year': year,
+                'Round': match.get('roundNumber', match.get('round', '')),
+                'HomeTeam': match.get('homeTeam', match.get('home', '')),
+                'HomeScore': match.get('homeScore', match.get('home_score', '')),
+                'AwayTeam': match.get('awayTeam', match.get('away', '')),
+                'AwayScore': match.get('awayScore', match.get('away_score', '')),
+                'Venue': match.get('venue', ''),
+                'Date': match.get('date', match.get('gameDate', '')),
+                'MatchCentreURL': match.get('matchCentreUrl', match.get('match_centre_url', ''))
+            })
+    if not all_matches:
+        print("[FATAL] No matches found in any year. Exiting flattening.")
         return
-    
-    # List all JSON files in the provided directory
-    files = [f for f in os.listdir(directory_path) if f.endswith('.json')]
-    
-    if not files:
-        print("No JSON files found in the specified directory.")
-        return
-
-    # Display the list of JSON files to the user
-    print("Available JSON files:")
-    for idx, file in enumerate(files, 1):
-        print(f"{idx}. {file}")
-    
-    # Prompt user to select a file
-    try:
-        choice = int(input("\nEnter the number of the file to extract data from: "))
-        if choice < 1 or choice > len(files):
-            print("Invalid choice. Exiting.")
-            return
-        file_name = files[choice - 1]
-    except ValueError:
-        print("Invalid input. Exiting.")
-        return
-
-    # Build the full file path
-    file_path = os.path.join(directory_path, file_name)
-
-    # Read the selected JSON file
-    try:
-        with open(file_path, 'r') as f:
-            data = json.load(f)
-    except Exception as e:
-        print(f"Error reading the file: {e}")
-        return
-
-    # Flattening the JSON data
-    flattened_data = []
-
-    # Iterate through the rounds and matches to extract all data
-    for season_data in data["NRL"]:
-        for year, rounds in season_data.items():
-            for round_key, round_data in rounds[0].items():
-                for match in round_data:
-                    match_data = {
-                        "Round": round_key,
-                        "Home": match["Home"],
-                        "Home_Score": match["Home_Score"],
-                        "Away": match["Away"],
-                        "Away_Score": match["Away_Score"],
-                        "Venue": match["Venue"],
-                        "Date": match["Date"],
-                        "Match_Centre_URL": match["Match_Centre_URL"]
-                    }
-                    flattened_data.append(match_data)
-
-    # Create a DataFrame from the flattened data
-    df = pd.DataFrame(flattened_data)
-
-    # Define the output file path (same directory)
-    output_file_name = f"flattened_{file_name.replace('.json', '.csv')}"
-    output_file_path = os.path.join(directory_path, output_file_name)
-
-    # Save the DataFrame to CSV
-    try:
-        df.to_csv(output_file_path, index=False)
-        print(f"\nSuccessfully extracted the data and saved it to {output_file_path}")
-    except Exception as e:
-        print(f"Error saving the file: {e}")
-        return
+    df = pd.DataFrame(all_matches)
+    df.to_csv(output_csv_path, index=False)
+    print(f"[SUCCESS] Flattened all matches to {output_csv_path} ({len(df)} rows)")
 
 if __name__ == "__main__":
-    extract_nrl_data()
+    # Always use titan2.5+_processor/outputs as the input/output base
+    base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'titan2.5+_processor', 'outputs'))
+    output_csv = os.path.abspath(os.path.join(base_dir, 'all_matches_2019_2025.csv'))
+    flatten_all_nrl_fixtures(base_dir, output_csv)

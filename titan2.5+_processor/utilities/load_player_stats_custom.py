@@ -82,18 +82,22 @@ def load_player_stats_custom(filepath, year):
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             raw = json.load(f)
+        print(f"[INFO] Successfully loaded JSON file: {filepath}")
     except Exception as e:
         print(f"❌ Error reading file: {e}")
         return pd.DataFrame()
 
     player_records = []
     root = raw.get("PlayerStats", [])
+    print(f"[INFO] Found {len(root)} year entries in PlayerStats root.")
 
     for year_entry in root:
         if not isinstance(year_entry, dict):
+            print(f"[WARN] Skipping non-dict year entry: {year_entry}")
             continue
         for round_group in year_entry.get(str(year), []):
             for round_num, match_blocks in round_group.items():
+                print(f"[PROGRESS] Processing Year {year}, Round {round_num}, {len(match_blocks)} matches.")
                 for match_dict in match_blocks:
                     for match_key, players in match_dict.items():
                         try:
@@ -103,7 +107,7 @@ def load_player_stats_custom(filepath, year):
                         except:
                             home_team = None
                             away_team = None
-
+                        print(f"[DEBUG] MatchKey: {match_key}, Home: {home_team}, Away: {away_team}, Players: {len(players)}")
                         for player in players:
                             jersey = player.get("Number")
                             inferred_team = infer_team(jersey, home_team, away_team)
@@ -143,6 +147,7 @@ def load_player_stats_custom(filepath, year):
                                 "Minutes": safe_minutes(player.get("Mins Played")),
                             }
                             player_records.append(entry)
+                        print(f"[INFO] Processed {len(players)} players for match {match_key}.")
 
     df = pd.DataFrame(player_records)
 
@@ -150,6 +155,7 @@ def load_player_stats_custom(filepath, year):
         print(f"⚠️ No valid players loaded from: {filepath}")
         return df
 
+    print(f"[INFO] Total player records loaded: {len(df)}")
     df["ImpactScore"] = (
         df["Tries"] * 10 +
         df["TryAssists"] * 8 +
@@ -159,4 +165,5 @@ def load_player_stats_custom(filepath, year):
     )
 
     print(f"✅ Loaded {len(df)} players with team and position inference.")
+    print(f"[COMPLETE] Player stats loading and processing finished.")
     return df

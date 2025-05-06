@@ -18,16 +18,21 @@ OUTPUT_PATH = os.path.abspath("outputs/player_impact_scores_2019_2025.csv")
 
 # 1. Load player stats and match outcomes
 def load_data():
+    print("[INFO] Loading player stats from:", PLAYER_STATS_PATH)
+    print("[INFO] Loading match data from:", MATCH_DATA_PATH)
     player_stats = pd.read_csv(PLAYER_STATS_PATH)
     match_data = pd.read_csv(MATCH_DATA_PATH)
+    print(f"[INFO] Player stats loaded: {player_stats.shape}")
+    print(f"[INFO] Match data loaded: {match_data.shape}")
     return player_stats, match_data
 
 # 2. Feature engineering: aggregate player stats per team per match
 def prepare_training_data(player_stats, match_data):
-    # Aggregate player stats for each team in each match
+    print("[INFO] Aggregating player stats by team, year, round...")
     agg_cols = [col for col in player_stats.columns if col not in ['Year', 'Round', 'Team', 'Player']]
     team_stats = player_stats.groupby(['Year', 'Round', 'Team'])[agg_cols].sum().reset_index()
-    # Merge with match data for home and away teams
+    print(f"[DEBUG] Aggregated team stats shape: {team_stats.shape}")
+    print("[INFO] Merging team stats with match data (home/away)...")
     merged = match_data.merge(
         team_stats.add_prefix('Home_'),
         left_on=['Year', 'Round', 'HomeTeam'], right_on=['Home_Year', 'Home_Round', 'Home_Team'], how='left'
@@ -37,38 +42,50 @@ def prepare_training_data(player_stats, match_data):
         left_on=['Year', 'Round', 'AwayTeam'], right_on=['Away_Year', 'Away_Round', 'Away_Team'], how='left'
     )
     merged['Margin'] = merged['HomeScore'] - merged['AwayScore']
+    print(f"[INFO] Merged data shape: {merged.shape}")
+    print(f"[DEBUG] Merged data columns: {merged.columns.tolist()}")
     return merged
 
 # 3. Train model to estimate team impact from player stats
 def train_team_impact_model(merged, agg_cols):
+    print("[INFO] Training RandomForestRegressor to estimate team impact...")
     feature_cols = [f'Home_{col}' for col in agg_cols] + [f'Away_{col}' for col in agg_cols]
     X = merged[feature_cols].fillna(0)
     y = merged['Margin'].fillna(0)
+    print(f"[DEBUG] Training features shape: {X.shape}")
+    print(f"[DEBUG] Training target shape: {y.shape}")
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    print(f"[INFO] Training set size: {X_train.shape[0]}, Test set size: {X_test.shape[0]}")
     model = RandomForestRegressor(n_estimators=100, random_state=42)
     model.fit(X_train, y_train)
     y_pred = model.predict(X_test)
-    print(f"Model R2 score: {r2_score(y_test, y_pred):.3f}")
+    r2 = r2_score(y_test, y_pred)
+    print(f"[RESULT] Model R2 score: {r2:.3f}")
     return model, feature_cols
 
 # 4. Calculate player impact scores (feature importances)
 def calculate_player_impact_scores(model, agg_cols):
+    print("[INFO] Calculating player impact scores from feature importances...")
     importances = model.feature_importances_
     n = len(agg_cols)
     # Average home/away importances for each stat
     stat_importances = [(agg_cols[i], (importances[i] + importances[i+n])/2) for i in range(n)]
     impact_scores = pd.DataFrame(stat_importances, columns=['Stat', 'ImpactScore'])
+    print("[INFO] Top 5 impact scores:")
+    print(impact_scores.sort_values('ImpactScore', ascending=False).head())
     return impact_scores
 
 # 5. Save player impact scores to CSV
 def save_impact_scores(impact_scores, output_path):
     impact_scores.to_csv(output_path, index=False)
-    print(f"Saved player impact scores to {output_path}")
+    print(f"[SUCCESS] Saved player impact scores to {output_path}")
 
 if __name__ == "__main__":
+    print("[START] Building player impact scores...")
     player_stats, match_data = load_data()
     agg_cols = [col for col in player_stats.columns if col not in ['Year', 'Round', 'Team', 'Player']]
     merged = prepare_training_data(player_stats, match_data)
     model, feature_cols = train_team_impact_model(merged, agg_cols)
     impact_scores = calculate_player_impact_scores(model, agg_cols)
     save_impact_scores(impact_scores, OUTPUT_PATH)
+    print("[COMPLETE] Player impact score build finished.")

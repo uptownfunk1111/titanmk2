@@ -20,35 +20,74 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 import os
+import sys  # Add this import for sys.exit
+
+print('--- TITAN 2.5+ NRL Prediction Model: Script Started ---')
 
 # ==========================================================
 # 2. DATA LOADING
 # ----------------------------------------------------------
-# Load match, player, and detailed match data.
-matches = pd.read_csv(r'C:\Users\slangston1\TITAN\titan2.5+_processor\outputs\all_matches_2019_2025.csv')
+# Use correct path for workspace compatibility
+outputs_dir = os.path.join(os.path.dirname(__file__), '../outputs')
+outputs_dir = os.path.abspath(outputs_dir)
+
+matches_path = os.path.join(outputs_dir, 'all_matches_2019_2025.csv')
+players_path = os.path.join(outputs_dir, 'all_players_2019_2025.csv')
+detailed_matches_path = os.path.join(outputs_dir, 'all_detailed_matches_2019_2025.csv')
+impact_scores_path = os.path.join(outputs_dir, 'player_impact_scores_2019_2025.csv')
+fixtures_path = os.path.join(outputs_dir, 'upcoming_fixtures_and_officials_2025_round10.csv')
+
+print('Loading data from:', outputs_dir)
+print('  matches_path:', matches_path)
+print('  players_path:', players_path)
+print('  detailed_matches_path:', detailed_matches_path)
+print('  impact_scores_path:', impact_scores_path)
+print('  fixtures_path:', fixtures_path)
+
 try:
-    players = pd.read_csv(r'C:\Users\slangston1\TITAN\titan2.5+_processor\outputs\all_players_2019_2025.csv')
-except Exception:
+    matches = pd.read_csv(matches_path)
+    print(f'Loaded matches: {matches.shape}')
+    print('[DEBUG] matches columns:', matches.columns.tolist())
+    print('[DEBUG] matches head:')
+    print(matches.head())
+    expected_cols = {'Year', 'Round', 'HomeTeam', 'HomeScore', 'AwayTeam', 'AwayScore', 'Venue', 'Date', 'MatchCentreURL'}
+    if not expected_cols.issubset(set(matches.columns)):
+        print(f"[FATAL] Matches file '{matches_path}' does not contain expected columns. Found columns: {matches.columns.tolist()}")
+        print("[HINT] Check the CSV header row and the script that generates this file.")
+        sys.exit(1)
+    if matches.empty:
+        print(f"[FATAL] Matches file '{matches_path}' is empty. Please check your data extraction and flattening pipeline.")
+        sys.exit(1)
+except Exception as e:
+    print(f'Error loading matches: {e}')
+    sys.exit()
+try:
+    players = pd.read_csv(players_path)
+    print(f'Loaded players: {players.shape}')
+except Exception as e:
+    print(f'Error loading players: {e}')
     players = pd.DataFrame()
 try:
-    detailed_matches = pd.read_csv(r'C:\Users\slangston1\TITAN\titan2.5+_processor\outputs\all_detailed_matches_2019_2025.csv')
-except Exception:
+    detailed_matches = pd.read_csv(detailed_matches_path)
+    print(f'Loaded detailed_matches: {detailed_matches.shape}')
+except Exception as e:
+    print(f'Error loading detailed_matches: {e}')
     detailed_matches = pd.DataFrame()
 
-# Load player impact scores
-impact_scores_path = os.path.abspath(r'C:\Users\slangston1\TITAN\outputs\player_impact_scores_2019_2025.csv')
 if os.path.exists(impact_scores_path):
     impact_scores = pd.read_csv(impact_scores_path)
     impact_score_dict = dict(zip(impact_scores['Stat'], impact_scores['ImpactScore']))
+    print(f'Loaded impact_scores: {impact_scores.shape}')
 else:
+    print('Impact scores file not found.')
     impact_scores = None
     impact_score_dict = {}
 
-# Load upcoming fixtures and team lists for prediction
-fixtures_path = os.path.abspath(r'C:\Users\slangston1\TITAN\outputs\upcoming_fixtures_and_officials_2025_round10.csv')
 if os.path.exists(fixtures_path):
     fixtures = pd.read_csv(fixtures_path)
+    print(f'Loaded fixtures: {fixtures.shape}')
 else:
+    print('Fixtures file not found.')
     fixtures = None
 
 # Ensure merge keys are of the same type and not nullable
@@ -64,25 +103,66 @@ for df_name in ['matches', 'players']:
         df['Round'] = df['Round'].astype(int)
     if 'Team' in df.columns:
         df['Team'] = df['Team'].astype(str)
-    locals()[df_name] = df
+    if df_name == 'matches':
+        matches = df
+    elif df_name == 'players':
+        players = df
+
+# === TEAM NAME NORMALIZATION AND DIAGNOSTICS ===
+def normalize_team_name(name):
+    if pd.isna(name):
+        return ''
+    return str(name).strip().lower().replace(' ', '').replace('-', '').replace('.', '')
+
+# Normalize team names in matches and players
+for col in ['HomeTeam', 'AwayTeam', 'Team']:
+    if col in matches.columns:
+        matches[col + '_norm'] = matches[col].apply(normalize_team_name)
+    if col in players.columns:
+        players[col + '_norm'] = players[col].apply(normalize_team_name)
+
+# Print diagnostics for merge keys
+print('--- Merge Key Diagnostics ---')
+print('matches Year dtype:', matches['Year'].dtype, 'unique:', sorted(matches['Year'].unique())[:5], '...')
+print('players Year dtype:', players['Year'].dtype, 'unique:', sorted(players['Year'].unique())[:5], '...')
+print('matches Round dtype:', matches['Round'].dtype, 'unique:', sorted(matches['Round'].unique())[:5], '...')
+print('players Round dtype:', players['Round'].dtype, 'unique:', sorted(players['Round'].unique())[:5], '...')
+print('matches HomeTeam_norm unique:', matches['HomeTeam_norm'].unique()[:5], '...')
+print('players Team_norm unique:', players['Team_norm'].unique()[:5], '...')
+
+print('Data loading complete. Proceeding to feature engineering...')
 
 # ==========================================================
 # 3. FEATURE ENGINEERING
 # ----------------------------------------------------------
 # Aggregate player stats, calculate recent form, margin, etc.
-if not players.empty and 'Team' in players.columns and 'Year' in players.columns and 'Round' in players.columns:
-    agg_cols = [col for col in players.columns if col not in ['Year', 'Round', 'Team', 'Player']]
-    player_agg = players.groupby(['Year', 'Round', 'Team'])[agg_cols].sum().reset_index()
-    # Merge for home and away teams
+merge_successful = False
+if not players.empty and 'Team_norm' in players.columns and 'Year' in players.columns and 'Round' in players.columns:
+    agg_cols = [col for col in players.columns if col not in ['Year', 'Round', 'Team', 'Player', 'Team_norm']]
+    player_agg = players.groupby(['Year', 'Round', 'Team_norm'])[agg_cols].sum().reset_index()
+    print('player_agg shape:', player_agg.shape)
+    print('player_agg head:')
+    print(player_agg.head())
+    # Merge for home and away teams using normalized keys
+    matches_before_merge = matches.copy()
     matches = matches.merge(
-        player_agg.rename(lambda x: f'Home_{x}' if x not in ['Year', 'Round', 'Team'] else x, axis=1),
-        left_on=['Year', 'Round', 'HomeTeam'], right_on=['Year', 'Round', 'Team'], how='left'
-    ).drop('Team', axis=1)
+        player_agg.rename(lambda x: f'Home_{x}' if x not in ['Year', 'Round', 'Team_norm'] else x, axis=1),
+        left_on=['Year', 'Round', 'HomeTeam_norm'], right_on=['Year', 'Round', 'Team_norm'], how='left'
+    ).drop('Team_norm', axis=1)
     matches = matches.merge(
-        player_agg.rename(lambda x: f'Away_{x}' if x not in ['Year', 'Round', 'Team'] else x, axis=1),
-        left_on=['Year', 'Round', 'AwayTeam'], right_on=['Year', 'Round', 'Team'], how='left', suffixes=('', '_away')
-    ).drop('Team', axis=1)
+        player_agg.rename(lambda x: f'Away_{x}' if x not in ['Year', 'Round', 'Team_norm'] else x, axis=1),
+        left_on=['Year', 'Round', 'AwayTeam_norm'], right_on=['Year', 'Round', 'Team_norm'], how='left', suffixes=('', '_away')
+    ).drop('Team_norm', axis=1)
+    print('matches shape after merge:', matches.shape)
+    print('matches head after merge:')
+    print(matches.head())
+    if matches.shape[0] == 0:
+        print('WARNING: Merge resulted in empty matches DataFrame. Reverting to original matches data.')
+        matches = matches_before_merge
+    else:
+        merge_successful = True
 
+# Always perform feature engineering, even if merge fails
 matches['HomeWin'] = (matches['HomeScore'] > matches['AwayScore']).astype(int)
 matches['Margin'] = matches['HomeScore'] - matches['AwayScore']
 matches = matches.sort_values(['Year', 'Round'])
@@ -91,6 +171,12 @@ for team_col, score_col, new_col in [
     ('AwayTeam', 'AwayScore', 'Away_RecentForm')
 ]:
     matches[new_col] = matches.groupby(team_col)[score_col].transform(lambda x: x.rolling(window=3, min_periods=1).mean())
+
+# Ensure HomeImpactScore and AwayImpactScore exist
+if 'HomeImpactScore' not in matches.columns:
+    matches['HomeImpactScore'] = np.nan
+if 'AwayImpactScore' not in matches.columns:
+    matches['AwayImpactScore'] = np.nan
 
 # Function to calculate team impact score from player list
 def get_team_impact_score(player_list_str, player_stats_df, impact_score_dict):
@@ -132,6 +218,8 @@ if impact_scores is not None and not players.empty:
     matches['AwayImpactScore'] = matches.apply(
         lambda row: get_team_impact_score_train(row['AwayTeam'], row['Year'], row['Round'], players, impact_score_dict), axis=1)
 
+print('Feature engineering complete. matches shape:', matches.shape)
+
 # ==========================================================
 # 4. CONTEXTUAL FEATURES (PLACEHOLDERS)
 # ----------------------------------------------------------
@@ -154,6 +242,8 @@ matches['Betting_Line_Movement'] = None
 # ==========================================================
 # 6. MODEL TRAINING AND EVALUATION
 # ----------------------------------------------------------
+print('Beginning model training and evaluation...')
+
 # Ensure 'HomeImpactScore' and 'AwayImpactScore' exist in matches
 for col in ['HomeImpactScore', 'AwayImpactScore']:
     if col not in matches.columns:
@@ -167,7 +257,12 @@ feature_cols = base_feature_cols + impact_cols
 model_data = matches.dropna(subset=feature_cols + ['HomeWin'])
 if model_data.empty:
     print('No data available for training after filtering. Please check your input data and feature engineering steps.')
-    exit()
+    print('Debug info:')
+    print('  matches columns:', matches.columns.tolist())
+    print('  feature_cols:', feature_cols)
+    print('  matches head:')
+    print(matches.head())
+    sys.exit()
 X = model_data[feature_cols]
 y = model_data['HomeWin']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -180,6 +275,7 @@ print('MODEL PERFORMANCE')
 print('='*40)
 print('Accuracy:', accuracy_score(y_test, y_pred))
 print(classification_report(y_test, y_pred))
+print('Model training complete.')
 
 # ==========================================================
 # 7. PREDICTION OUTPUT WITH CONFIDENCE
@@ -208,6 +304,8 @@ if fixtures is not None and 'HomeImpactScore' in fixtures.columns and 'AwayImpac
                              columns=feature_cols)
         pred, conf = predict_with_confidence(clf, X_pred)
         print(f"{row['HomeTeam']} vs {row['AwayTeam']}: Predicted winner: {row['HomeTeam'] if pred[0] == 1 else row['AwayTeam']}, Confidence: {conf[0]:.2f}")
+
+print('Prediction output complete.')
 
 # ==========================================================
 # 8. EXPORTING PREDICTIONS AND ONGOING MODEL USE
@@ -280,3 +378,5 @@ print('Predictions exported to nrl_predictions_output.csv')
 # import joblib
 # joblib.dump(clf, 'nrl_titan_model.joblib')
 # clf = joblib.load('nrl_titan_model.joblib')
+
+print('Script finished.')

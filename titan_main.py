@@ -6,6 +6,8 @@ from titan_model import predict_tips
 import pandas as pd
 from datetime import datetime
 import os
+import subprocess
+import sys
 
 def ensure_output_folder():
     if not os.path.exists("outputs"):
@@ -20,43 +22,50 @@ def save_tips_to_excel(tips):
     df.to_excel(timestamped_path, index=False)
     df.to_excel(latest_path, index=False)
     
-<<<<<<< HEAD
     print(f"✅ Tips saved to '{timestamped_path}' and 'titan_tips_latest.xlsx'.")
-=======>>>>>>>
+
+def main():
+    print("\n==============================")
+    print("[TITAN MAIN] Starting TITAN NRL Data & Prediction Pipeline")
+    print("==============================\n")
+
+    # Step 1: Data Download
+    print("[STEP 1] Downloading latest NRL data...")
+    scrape_cmd = [
+        sys.executable, "titan2.5+_processor/utilities/downloader.py",
+        "--years", "2025", "--type", "NRL"
+    ]
+    print(f"[INFO] Running: {' '.join(scrape_cmd)}")
+    try:
+        subprocess.run(scrape_cmd, check=True)
+        print("[SUCCESS] Data download completed.")
+    except subprocess.CalledProcessError as e:
+        print(f"[ERROR] Data download failed: {e}")
+        return
+
+    # Step 2: Data Processing
+    print("\n[STEP 2] Processing and flattening NRL data...")
+    try:
+        import process_nrl_data
+        process_nrl_data.main()
+        print("[SUCCESS] Data processing completed.")
+    except Exception as e:
+        print(f"[ERROR] Data processing failed: {e}")
+        return
+
+    # Step 3: Model Prediction
+    print("\n[STEP 3] Running prediction models...")
+    try:
+        import titan2_5__processor.new_prediction_models.predictor_ml as predictor_ml
+        predictor_ml.main()
+        print("[SUCCESS] Prediction/model pipeline completed.")
+    except Exception as e:
+        print(f"[ERROR] Prediction/model pipeline failed: {e}")
+        return
+
+    print("\n==============================")
+    print("[TITAN MAIN] All steps complete.")
+    print("==============================\n")
 
 if __name__ == "__main__":
-    print("TITAN: Starting tipping process...")
-    ensure_output_folder()
-
-    # Step 1: Fetch matchups
-    print("Step 1: Fetching NRL match data...")
-    matches = fetch_nrl_data()
-    if not matches:
-        print("⚠️ No matches found. Skipping prediction.")
-    else:
-        print(f"Fetched match data: {matches}")
-
-        # Step 2: Fetch team lists
-        print("Step 2: Fetching team lists...")
-        team_lists = fetch_team_lists()
-<<<<<<< HEAD
-        if not team_lists:
-=======
-        if team_lists.empty:
->>>>>>> cfcdcaa (Initial commit)
-            print("⚠️ Team lists could not be fetched. Proceeding without player data.")
-        else:
-            print(f"Fetched {len(team_lists)} player entries.")
-
-        # Step 3: Predict tips
-        print("Step 3: Predicting tips...")
-        tips = predict_tips(matches, team_lists)
-
-        # Step 4: Save to Excel
-        print("Step 4: Saving tips to Excel...")
-        save_tips_to_excel(tips)
-<<<<<<< HEAD
-=======
-
->>>>>>> cfcdcaa (Initial commit)
-        print("TITAN: Process complete.")
+    main()
