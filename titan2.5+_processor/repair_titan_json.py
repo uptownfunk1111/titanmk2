@@ -1,5 +1,6 @@
 import os
 import json
+import logging
 
 # === CONFIGURATION ===
 SOURCE_BASE = "C:/Users/slangston1/TITAN/titan2.5+_processor/nrl"
@@ -9,8 +10,11 @@ YEARS = list(range(2019, 2026))
 os.makedirs(DEST_BASE, exist_ok=True)
 
 def save_json(filepath, data):
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2)
+    try:
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+    except Exception as e:
+        logging.error(f"Failed to save {filepath}: {e}")
 
 def repair_player_file(path):
     repaired = []
@@ -32,11 +36,11 @@ def repair_player_file(path):
                         obj = json.loads(line.strip())
                         if isinstance(obj, dict) and isinstance(obj.get("Players", []), list):
                             repaired.append(obj)
-                    except:
-                        continue
+                    except Exception as e:
+                        logging.warning(f"NDJSON parse error: {e}")
         return {"PlayerStats": repaired}
     except Exception as e:
-        print(f"❌ Error repairing player file {path}: {e}")
+        logging.error(f"Error repairing player file {path}: {e}")
         return {"PlayerStats": []}
 
 def repair_detailed_file(path):
@@ -54,16 +58,16 @@ def repair_detailed_file(path):
                 repaired = [json.loads(raw)]
         return repaired
     except Exception as e:
-        print(f"❌ Error repairing detailed file {path}: {e}")
+        logging.error(f"Error repairing detailed file {path}: {e}")
         return []
 
 def repair_all():
-    print(f"\n🔧 Starting JSON Repair Process...")
-    print(f"📂 Source: {SOURCE_BASE}")
-    print(f"💾 Destination: {DEST_BASE}")
+    logging.info(f"\n🔧 Starting JSON Repair Process...")
+    logging.info(f"📂 Source: {SOURCE_BASE}")
+    logging.info(f"💾 Destination: {DEST_BASE}")
 
     for year in YEARS:
-        print(f"\n🗂 Processing year: {year}")
+        logging.info(f"\n🗂 Processing year: {year}")
         src_folder = os.path.join(SOURCE_BASE, str(year))
         dest_folder = os.path.join(DEST_BASE, str(year))
         os.makedirs(dest_folder, exist_ok=True)
@@ -78,29 +82,30 @@ def repair_all():
                 with open(match_file, "r", encoding="utf-8") as f:
                     data = json.load(f)
                 save_json(os.path.join(dest_folder, f"NRL_data_{year}.json"), data)
-                print(f"✅ Copied match file for {year}")
-            except:
-                print(f"❌ Invalid JSON in match file {year}")
+                logging.info(f"✅ Copied match file for {year}")
+            except Exception as e:
+                logging.error(f"❌ Invalid JSON in match file {year}: {e}")
         else:
-            print(f"⚠️  Missing match file for {year}")
+            logging.warning(f"⚠️  Missing match file for {year}")
 
         # === PLAYER FILE: Repair ===
         if os.path.exists(player_file):
             repaired = repair_player_file(player_file)
             save_json(os.path.join(dest_folder, f"NRL_player_statistics_{year}.json"), repaired)
-            print(f"✅ Repaired player stats for {year}")
+            logging.info(f"✅ Repaired player stats for {year}")
         else:
-            print(f"⚠️  Missing player file for {year}")
+            logging.warning(f"⚠️  Missing player file for {year}")
 
         # === DETAILED FILE: Repair ===
         if os.path.exists(detailed_file):
             repaired = repair_detailed_file(detailed_file)
             save_json(os.path.join(dest_folder, f"NRL_detailed_match_data_{year}.json"), repaired)
-            print(f"✅ Repaired detailed match data for {year}")
+            logging.info(f"✅ Repaired detailed match data for {year}")
         else:
-            print(f"⚠️  Missing detailed file for {year}")
+            logging.warning(f"⚠️  Missing detailed file for {year}")
 
-    print("\n✅ Repair complete. All fixed files saved to /nrl_fixed/.")
+    logging.info("\n✅ Repair complete. All fixed files saved to /nrl_fixed/.")
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO, format='[%(levelname)s] %(message)s')
     repair_all()

@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 import sys
 
-sys.path.append("..")
+sys.path.append("../../nrl_data_main")
 import ENVIRONMENT_VARIABLES as EV
 import requests
 import json

@@ -36,6 +36,7 @@ players_path = os.path.join(outputs_dir, 'all_players_2019_2025.csv')
 detailed_matches_path = os.path.join(outputs_dir, 'all_detailed_matches_2019_2025.csv')
 impact_scores_path = os.path.join(outputs_dir, 'player_impact_scores_2019_2025.csv')
 fixtures_path = os.path.join(outputs_dir, 'upcoming_fixtures_and_officials_2025_round10.csv')
+weather_impact_path = os.path.join(outputs_dir, 'weather_impact_analysis.csv')
 
 print('Loading data from:', outputs_dir)
 print('  matches_path:', matches_path)
@@ -43,6 +44,7 @@ print('  players_path:', players_path)
 print('  detailed_matches_path:', detailed_matches_path)
 print('  impact_scores_path:', impact_scores_path)
 print('  fixtures_path:', fixtures_path)
+print('  weather_impact_path:', weather_impact_path)
 
 try:
     matches = pd.read_csv(matches_path)
@@ -90,6 +92,14 @@ else:
     print('Fixtures file not found.')
     fixtures = None
 
+try:
+    weather_impact = pd.read_csv(weather_impact_path)
+    print(f'Loaded weather impact: {weather_impact.shape}')
+    print('[DEBUG] weather_impact columns:', weather_impact.columns.tolist())
+except Exception as e:
+    print(f'Error loading weather impact: {e}')
+    weather_impact = pd.DataFrame()
+
 # Ensure merge keys are of the same type and not nullable
 for df_name in ['matches', 'players']:
     df = locals()[df_name]
@@ -129,6 +139,15 @@ print('matches Round dtype:', matches['Round'].dtype, 'unique:', sorted(matches[
 print('players Round dtype:', players['Round'].dtype, 'unique:', sorted(players['Round'].unique())[:5], '...')
 print('matches HomeTeam_norm unique:', matches['HomeTeam_norm'].unique()[:5], '...')
 print('players Team_norm unique:', players['Team_norm'].unique()[:5], '...')
+
+# Merge weather features into matches on Date and Venue if available
+if not weather_impact.empty and 'Date' in matches.columns and 'Venue' in matches.columns:
+    matches = matches.merge(
+        weather_impact[['Date', 'Venue', 'Rain', 'WindSpeed', 'WindDirection', 'Temperature', 'Humidity', 'WeatherCondition', 'Pressure', 'CloudCover', 'DewPoint', 'UVIndex']],
+        on=['Date', 'Venue'], how='left', suffixes=('', '_weather')
+    )
+    print('[INFO] Weather features merged into matches.')
+    print('[DEBUG] matches columns after weather merge:', matches.columns.tolist())
 
 print('Data loading complete. Proceeding to feature engineering...')
 
@@ -252,7 +271,8 @@ for col in ['HomeImpactScore', 'AwayImpactScore']:
 # Dynamically set feature columns based on available columns
 base_feature_cols = ['Home_RecentForm', 'Away_RecentForm', 'Margin']
 impact_cols = [col for col in ['HomeImpactScore', 'AwayImpactScore'] if col in matches.columns]
-feature_cols = base_feature_cols + impact_cols
+weather_cols = [col for col in ['Rain', 'WindSpeed', 'WindDirection', 'Temperature', 'Humidity', 'Pressure', 'CloudCover', 'DewPoint', 'UVIndex'] if col in matches.columns]
+feature_cols = base_feature_cols + impact_cols + weather_cols
 
 model_data = matches.dropna(subset=feature_cols + ['HomeWin'])
 if model_data.empty:
