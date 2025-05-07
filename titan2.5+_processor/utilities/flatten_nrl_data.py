@@ -39,9 +39,10 @@ def flatten_nrl_match_data(input_base_dir, output_csv_path, years=range(2019, 20
         print("[FATAL] No matches found in any year. Exiting flattening.")
         return
     df = pd.DataFrame(all_matches)
-    # Fix: Drop rows with missing or NaN Round
-    df = df.dropna(subset=['Round'])
+    # Fix: Drop rows with missing or NaN Round and Year, and ensure both are int
+    df = df.dropna(subset=['Round', 'Year'])
     df['Round'] = df['Round'].astype(int)
+    df['Year'] = df['Year'].astype(int)
     print("[DEBUG] DataFrame info before saving:")
     print(df.info())
     print(df.head())
