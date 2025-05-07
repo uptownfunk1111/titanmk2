@@ -31,6 +31,10 @@ print('--- TITAN 2.5+ NRL Prediction Model: Script Started ---')
 outputs_dir = os.path.join(os.path.dirname(__file__), '../outputs')
 outputs_dir = os.path.abspath(outputs_dir)
 
+# Ensure the outputs directory exists before writing output
+if not os.path.exists(outputs_dir):
+    os.makedirs(outputs_dir)
+
 matches_path = os.path.join(outputs_dir, 'all_matches_2019_2025.csv')
 players_path = os.path.join(outputs_dir, 'all_players_2019_2025.csv')
 detailed_matches_path = os.path.join(outputs_dir, 'all_detailed_matches_2019_2025.csv')
@@ -254,8 +258,36 @@ def fetch_coaching_tactics(team, date):
 # ==========================================================
 # 5. BETTING, RISK, AND TACTICAL LAYERING PLACEHOLDERS
 # ----------------------------------------------------------
+# Edge Mismatch Calculation
+# Example: Use kick target mapping or player stats to flag edge mismatches
+try:
+    kick_report_path = os.path.join(outputs_dir, 'kick_report_{}.csv'.format(pd.Timestamp.today().date()))
+    if os.path.exists(kick_report_path):
+        kick_df = pd.read_csv(kick_report_path)
+        # Example: flag matches where a team targets a weak edge of the opponent
+        # (This is a placeholder. Replace with your own logic as needed)
+        edge_mismatch_flags = []
+        for idx, row in matches.iterrows():
+            home = row['HomeTeam'] if 'HomeTeam' in row else ''
+            away = row['AwayTeam'] if 'AwayTeam' in row else ''
+            # Example: if home team has more successful kicks to left edge, flag as left edge mismatch
+            left_kicks = kick_df[(kick_df['Team'] == home) & (kick_df['TargetZone'] == '0-20m')].shape[0]
+            right_kicks = kick_df[(kick_df['Team'] == home) & (kick_df['TargetZone'] == '40m+')].shape[0]
+            if left_kicks > right_kicks + 2:
+                edge = 'left'
+            elif right_kicks > left_kicks + 2:
+                edge = 'right'
+            else:
+                edge = ''
+            edge_mismatch_flags.append(edge)
+        matches['Edge_Mismatch'] = edge_mismatch_flags
+    else:
+        matches['Edge_Mismatch'] = None
+except Exception as e:
+    print(f"[WARN] Edge mismatch calculation failed: {e}")
+    matches['Edge_Mismatch'] = None
+
 matches['Upset_Risk'] = None
-matches['Edge_Mismatch'] = None
 matches['Betting_Line_Movement'] = None
 
 # ==========================================================
@@ -382,8 +414,10 @@ for match in wkd_matches:
     })
 
 predictions_df = pd.DataFrame(results)
-predictions_df.to_csv('nrl_predictions_output.csv', index=False)
-print('Predictions exported to nrl_predictions_output.csv')
+# At the end, export predictions to outputs directory for consistency
+output_predictions_path = os.path.join(outputs_dir, 'nrl_predictions_output.csv')
+predictions_df.to_csv(output_predictions_path, index=False)
+print(f'Predictions exported to {output_predictions_path}')
 
 # ==========================================================
 # 9. ONGOING USE WITH NEW DATA

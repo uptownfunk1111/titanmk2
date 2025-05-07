@@ -24,7 +24,20 @@ def load_data():
 
 # Placeholder tactical/contextual functions
 def get_edge_mismatch(row):
-    return "Left edge: Munster vs rookie edge"  # Placeholder
+    # Try to pull from kick report if available
+    try:
+        kick_report_path = os.path.abspath(f'outputs/kick_report_{datetime.now().date()}.csv')
+        if os.path.exists(kick_report_path):
+            kick_df = pd.read_csv(kick_report_path)
+            left_kicks = kick_df[(kick_df['Team'] == row['HomeTeam']) & (kick_df['TargetZone'] == '0-20m')].shape[0]
+            right_kicks = kick_df[(kick_df['Team'] == row['HomeTeam']) & (kick_df['TargetZone'] == '40m+')].shape[0]
+            if left_kicks > right_kicks + 2:
+                return 'Left edge mismatch'
+            elif right_kicks > left_kicks + 2:
+                return 'Right edge mismatch'
+    except Exception as e:
+        print(f"[WARN] Could not load edge mismatch: {e}")
+    return ''
 
 def get_ktm(row):
     return "Bomb threat, short-side grubber risk"  # Placeholder
@@ -42,7 +55,17 @@ def get_lineup_integrity(row):
     return "✅ Fully confirmed"  # Placeholder
 
 def get_ref_bunker_risk(row):
-    return "Penalty swing risk"  # Placeholder
+    # Try to pull from referee risk report if available
+    try:
+        ref_risk_path = os.path.abspath('outputs/referee_risk_report.csv')
+        if os.path.exists(ref_risk_path):
+            ref_risk_df = pd.read_csv(ref_risk_path)
+            ref_row = ref_risk_df[(ref_risk_df['Match'].str.contains(row['HomeTeam'], case=False, na=False)) & (ref_risk_df['Match'].str.contains(row['AwayTeam'], case=False, na=False))]
+            if not ref_row.empty:
+                return f"{ref_row.iloc[0].get('Referee','')} ({ref_row.iloc[0].get('RiskTier','')})"
+    except Exception as e:
+        print(f"[WARN] Could not load referee risk: {e}")
+    return ''
 
 def get_weather_impact(row):
     return "Dry track"  # Placeholder

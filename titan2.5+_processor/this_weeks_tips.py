@@ -83,16 +83,35 @@ for i in range(0, len(teamlists), 2):
         win_prob = 0.5 + np.tanh(margin/100) * 0.5  # crude proxy
         confidence = 'high' if abs(margin) > 50 else 'medium' if abs(margin) > 20 else 'low'
         upset_chance = 1 - win_prob if win_prob > 0.5 else win_prob
-        # Referee risk and edge mismatch placeholders
+        # Referee risk and edge mismatch overlays
         referee = ''
         risk = ''
         edge = ''
-        if not fixtures.empty:
-            match_row = fixtures[(fixtures['HomeTeam'] == home_team) & (fixtures['AwayTeam'] == away_team)]
-            if not match_row.empty:
-                referee = match_row.iloc[0].get('Referee', '')
-                risk = 'high' if 'rookie' in referee.lower() else 'medium' if referee else 'unknown'
-                edge = 'left' if np.random.rand() > 0.5 else 'right'  # placeholder
+        # Try to pull from officiating and kick mapping outputs if available
+        try:
+            ref_risk_path = os.path.join(outputs_dir, 'referee_risk_report.csv')
+            if os.path.exists(ref_risk_path):
+                ref_risk_df = pd.read_csv(ref_risk_path)
+                ref_row = ref_risk_df[(ref_risk_df['Match'].str.contains(home_team, case=False, na=False)) & (ref_risk_df['Match'].str.contains(away_team, case=False, na=False))]
+                if not ref_row.empty:
+                    referee = ref_row.iloc[0].get('Referee', '')
+                    risk = ref_row.iloc[0].get('RiskTier', '')
+        except Exception as e:
+            print(f"[WARN] Could not load referee risk: {e}")
+        try:
+            kick_report_path = os.path.join(outputs_dir, f'kick_report_{datetime.now().date()}.csv')
+            if os.path.exists(kick_report_path):
+                kick_df = pd.read_csv(kick_report_path)
+                left_kicks = kick_df[(kick_df['Team'] == home_team) & (kick_df['TargetZone'] == '0-20m')].shape[0]
+                right_kicks = kick_df[(kick_df['Team'] == home_team) & (kick_df['TargetZone'] == '40m+')].shape[0]
+                if left_kicks > right_kicks + 2:
+                    edge = 'left'
+                elif right_kicks > left_kicks + 2:
+                    edge = 'right'
+                else:
+                    edge = ''
+        except Exception as e:
+            print(f"[WARN] Could not load edge mismatch: {e}")
         results.append({
             'HomeTeam': home_team,
             'AwayTeam': away_team,

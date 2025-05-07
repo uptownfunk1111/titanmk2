@@ -14,6 +14,7 @@ import os
 import requests
 import json
 from typing import List
+import subprocess  # <-- Add this import
 
 NRL_API_URL = "https://www.nrl.com/draw/data?competition=111&season={year}"
 
@@ -84,22 +85,81 @@ class NRLDownloader:
 
 
 if __name__ == "__main__":
-    import argparse
     from datetime import datetime
-    parser = argparse.ArgumentParser(description="Download NRL.com fixtures for a range of years.")
-    current_year = datetime.now().year
-    parser.add_argument('--years', type=str, required=False, default='2019-2025', help='Year(s) of the fixtures, e.g. 2025 or 2019-2025')
-    parser.add_argument('--type', type=str, default='NRL')
-    args = parser.parse_args()
 
-    # Parse years argument
-    if '-' in args.years:
-        start, end = map(int, args.years.split('-'))
+    # Interactive prompts for years and type
+    years_input = input("Enter year(s) to download (e.g. 2023 or 2020-2025 or 2021,2022,2023): ").strip()
+    if '-' in years_input:
+        start, end = map(int, years_input.split('-'))
         years = list(range(start, end + 1))
+    elif ',' in years_input:
+        years = [int(y.strip()) for y in years_input.split(',') if y.strip().isdigit()]
     else:
-        years = [int(args.years)]
+        years = [int(years_input)]
+    comp_type = input("Enter competition type (NRL, NRLW, HOSTPLUS, KNOCKON): ").strip().upper() or 'NRL'
+    print("Which datasets do you want to download/scrape?")
+    do_fixtures = input("  Download fixtures? (y/n): ").strip().lower() == 'y'
+    do_match = input("  Scrape match data? (y/n): ").strip().lower() == 'y'
+    do_detailed = input("  Scrape detailed match data? (y/n): ").strip().lower() == 'y'
+    do_player = input("  Scrape player stats? (y/n): ").strip().lower() == 'y'
+    do_referee = input("  Download referee stats? (y/n): ").strip().lower() == 'y'
+    do_bunker = input("  Download bunker decisions? (y/n): ").strip().lower() == 'y'
+    do_penalties = input("  Download penalties? (y/n): ").strip().lower() == 'y'
+    do_weather = input("  Download weather impact? (y/n): ").strip().lower() == 'y'
 
     for year in years:
-        print(f"\n=== Downloading fixtures for {args.type} {year} ===")
-        downloader = NRLDownloader(year, args.type)
-        downloader.fetch_and_save_fixtures()
+        print(f"\n=== Processing {comp_type} {year} ===")
+        if do_fixtures:
+            downloader = NRLDownloader(year, comp_type)
+            downloader.fetch_and_save_fixtures()
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+        if do_match:
+            script = os.path.join(base_dir, 'titan2.5+_processor', 'match_data_select.py')
+            args = ['--year', str(year), '--rounds', '27', '--type', comp_type]
+            print(f"[INFO] Running: {sys.executable} {script} {' '.join(args)}")
+            try:
+                subprocess.run([sys.executable, script] + args, check=True)
+            except Exception as e:
+                print(f"[ERROR] Failed to run {script}: {e}")
+        if do_detailed:
+            script = os.path.join(base_dir, 'titan2.5+_processor', 'match_data_detailed_select.py')
+            args = ['--year', str(year), '--rounds', '27', '--type', comp_type]
+            print(f"[INFO] Running: {sys.executable} {script} {' '.join(args)}")
+            try:
+                subprocess.run([sys.executable, script] + args, check=True)
+            except Exception as e:
+                print(f"[ERROR] Failed to run {script}: {e}")
+        if do_player:
+            script = os.path.join(base_dir, 'titan2.5+_processor', 'player_data_select.py')
+            args = ['--year', str(year), '--round', '27', '--type', comp_type]
+            print(f"[INFO] Running: {sys.executable} {script} {' '.join(args)}")
+            try:
+                subprocess.run([sys.executable, script] + args, check=True)
+            except Exception as e:
+                print(f"[ERROR] Failed to run {script}: {e}")
+        # Referee, bunker, penalties, weather, etc. (CSV fetch or placeholder)
+        outputs_dir = os.path.join(base_dir, 'titan2.5+_processor', 'outputs')
+        if do_referee:
+            ref_csv = os.path.join(outputs_dir, 'referee_stats.csv')
+            if not os.path.exists(ref_csv):
+                with open(ref_csv, 'w') as f:
+                    f.write('referee,year,stat1,stat2\n')
+            print(f"[INFO] Referee stats placeholder created: {ref_csv}")
+        if do_bunker:
+            bunker_csv = os.path.join(outputs_dir, 'bunker_decisions.csv')
+            if not os.path.exists(bunker_csv):
+                with open(bunker_csv, 'w') as f:
+                    f.write('decision_id,match_id,minute,decision_type,referee,bunker,controversy_flag\n')
+            print(f"[INFO] Bunker decisions placeholder created: {bunker_csv}")
+        if do_penalties:
+            penalties_csv = os.path.join(outputs_dir, 'penalties.csv')
+            if not os.path.exists(penalties_csv):
+                with open(penalties_csv, 'w') as f:
+                    f.write('penalty_id,match_id,team,against_team,referee,minute\n')
+            print(f"[INFO] Penalties placeholder created: {penalties_csv}")
+        if do_weather:
+            weather_csv = os.path.join(outputs_dir, 'weather_impact_analysis.csv')
+            if not os.path.exists(weather_csv):
+                with open(weather_csv, 'w') as f:
+                    f.write('Date,Venue,Rain,WindSpeed,WindDirection,Temperature,Humidity,WeatherCondition,Pressure,CloudCover,DewPoint,UVIndex\n')
+            print(f"[INFO] Weather impact placeholder created: {weather_csv}")

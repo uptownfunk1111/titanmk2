@@ -3,6 +3,7 @@ import csv
 import math
 import os
 import argparse
+import pandas as pd
 
 # Function to flatten the nested JSON structure
 def flatten_json(nested_json, parent_key='', sep='_'):
@@ -149,6 +150,29 @@ def main():
         print(f"[ERROR] Error writing to CSV: {e}")
 
     print("[COMPLETE] Player stats extraction and flattening finished.")
+
+    # === Combine all yearly player CSVs into a single all_players_2019_2025.csv ===
+    print("\n[INFO] Combining all yearly player stats CSVs into outputs/all_players_2019_2025.csv ...")
+    outputs_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'outputs'))
+    os.makedirs(outputs_dir, exist_ok=True)
+    combined_csv_path = os.path.join(outputs_dir, "all_players_2019_2025.csv")
+    # Find all player_stats_*.csv in outputs_dir
+    import glob
+    player_csvs = sorted(glob.glob(os.path.join(outputs_dir, "player_stats_*.csv")))
+    all_dfs = []
+    for csv_path in player_csvs:
+        try:
+            df = pd.read_csv(csv_path)
+            all_dfs.append(df)
+            print(f"[INFO] Appended {csv_path} ({len(df)} rows)")
+        except Exception as e:
+            print(f"[WARN] Could not read {csv_path}: {e}")
+    if all_dfs:
+        combined_df = pd.concat(all_dfs, ignore_index=True)
+        combined_df.to_csv(combined_csv_path, index=False)
+        print(f"[SUCCESS] Combined player stats CSV written to {combined_csv_path} ({len(combined_df)} rows)")
+    else:
+        print("[FATAL] No player stats CSVs found to combine. all_players_2019_2025.csv not created.")
 
 if __name__ == "__main__":
     main()

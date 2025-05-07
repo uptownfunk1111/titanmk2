@@ -103,8 +103,32 @@ def generate_match_insights():
             "Key Matchup to Watch": get_key_matchup(row)
         })
     df = pd.DataFrame(insights)
-    df.to_csv(OUTPUT_PATH, index=False)
-    print(f"Match insights exported to {OUTPUT_PATH}")
+    # Export to tips folder with year, round, and timestamp
+    now = datetime.now().strftime("%Y%m%d_%H%M%S")
+    # Try to extract year and round from the fixtures file name or data
+    year = None
+    rnd = None
+    try:
+        # Try to parse from file name
+        import re
+        m = re.search(r'upcoming_fixtures_and_officials_(\d{4})_round(\d+)', FIXTURES_PATH)
+        if m:
+            year = m.group(1)
+            rnd = m.group(2)
+        else:
+            # Fallback: try from data
+            if not df.empty and 'Date' in df.columns:
+                year = pd.to_datetime(df['Date'].iloc[0]).year
+                rnd = 1  # fallback if round not available
+    except Exception:
+        year = datetime.now().year
+        rnd = 1
+    tips_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../tips'))
+    os.makedirs(tips_dir, exist_ok=True)
+    tips_filename = f"titan_tips_{year}_round{rnd}_{now}.csv"
+    tips_path = os.path.join(tips_dir, tips_filename)
+    df.to_csv(tips_path, index=False)
+    print(f"[SUCCESS] Match insights exported to {tips_path}")
 
 if __name__ == "__main__":
     generate_match_insights()
