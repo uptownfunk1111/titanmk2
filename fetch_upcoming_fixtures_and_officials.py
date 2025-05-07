@@ -1,7 +1,8 @@
-"""
-Fetches upcoming NRL fixtures, referees, bunker officials, and full team lists for a given round and year.
-Saves results to outputs/upcoming_fixtures_and_officials_{year}_round{round}.csv
-"""
+from colorama import init, Fore, Style
+init(autoreset=True)
+
+print(Fore.CYAN + Style.BRIGHT + ">>> Welcome, Commander. The TITAN AI is ready for mission deployment. <<<\n" + Style.RESET_ALL)
+
 import requests
 from bs4 import BeautifulSoup
 import csv

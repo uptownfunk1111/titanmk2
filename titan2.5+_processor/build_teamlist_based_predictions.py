@@ -36,14 +36,20 @@ def calc_team_impact(team_list):
         total += impact_scores["ImpactScore"].sum()
     return total
 
+# Helper: Normalize team names for comparison and lookup
+def normalize_team_name(name):
+    if not isinstance(name, str):
+        return ''
+    return name.strip().lower().replace(' ', '').replace('-', '').replace('.', '')
+
 # 3. For each match, calculate team impact and predict winner
 results = []
 for i in range(0, len(teamlists), 2):
     try:
         match1 = teamlists[i]
         match2 = teamlists[i+1] if i+1 < len(teamlists) else None
-        home_team = match1["matchup"].split(" v ")[0]
-        away_team = match1["matchup"].split(" v ")[-1]
+        home_team = normalize_team_name(match1["matchup"].split(" v ")[0])
+        away_team = normalize_team_name(match1["matchup"].split(" v ")[-1])
         home_list = match1["team_list"]
         away_list = match2["team_list"] if match2 else []
         home_score = calc_team_impact(home_list)

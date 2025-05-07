@@ -20,6 +20,20 @@ import numpy as np
 from datetime import datetime
 import subprocess
 import argparse
+from colorama import init, Fore, Style
+
+init(autoreset=True)
+
+# Fun ASCII banner
+print(Fore.CYAN + Style.BRIGHT + r'''
+████████╗██╗████████╗ █████╗ ███╗   ██╗    ████████╗██╗██████╗ ███████╗
+╚══██╔══╝██║╚══██╔══╝██╔══██╗████╗  ██║    ╚══██╔══╝██║██╔══██╗██╔════╝
+   ██║   ██║   ██║   ███████║██╔██╗ ██║       ██║   ██║██████╔╝█████╗  
+   ██║   ██║   ██║   ██╔══██║██║╚██╗██║       ██║   ██║██╔═══╝ ██╔══╝  
+   ██║   ██║   ██║   ██║  ██║██║ ╚████║       ██║   ██║██║     ███████╗
+   ╚═╝   ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝       ╚═╝   ╚═╝╚═╝     ╚══════╝
+''')
+print(Fore.YELLOW + Style.BRIGHT + "🏉 Welcome to TITAN NRL Tipping! 🏉\n" + Style.RESET_ALL)
 
 # --- CONFIG ---
 outputs_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'outputs'))
@@ -67,14 +81,20 @@ def calc_team_impact(team_list, impact_score_dict):
         return 0.0
     return len(team_list) * sum(impact_score_dict.values())
 
+# --- NORMALIZE TEAM NAME ---
+def normalize_team_name(name):
+    if not isinstance(name, str):
+        return ''
+    return name.strip().lower().replace(' ', '').replace('-', '').replace('.', '')
+
 # --- GENERATE TIPS TABLE ---
 results = []
 for i in range(0, len(teamlists), 2):
     try:
         match1 = teamlists[i]
         match2 = teamlists[i+1] if i+1 < len(teamlists) else None
-        home_team = match1['matchup'].split(' v ')[0]
-        away_team = match1['matchup'].split(' v ')[-1]
+        home_team = normalize_team_name(match1['matchup'].split(' v ')[0])
+        away_team = normalize_team_name(match1['matchup'].split(' v ')[-1])
         home_list = match1['team_list']
         away_list = match2['team_list'] if match2 else []
         home_impact = calc_team_impact(home_list, impact_score_dict)

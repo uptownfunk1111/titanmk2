@@ -12,6 +12,22 @@ import logging
 from colorama import init, Fore, Style
 init(autoreset=True)
 
+print(Fore.GREEN + Style.BRIGHT + r'''
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   ████████╗██╗████████╗ █████╗ ███╗   ██╗██╗   ██╗               ║
+║   ╚══██╔══╝██║╚══██╔══╝██╔══██╗████╗  ██║╚██╗ ██╔╝               ║
+║      ██║   ██║   ██║   ███████║██╔██╗ ██║ ╚████╔╝                ║
+║      ██║   ██║   ██║   ██╔══██║██║╚██╗██║  ╚██╔╝                 ║
+║      ██║   ██║   ██║   ██║  ██║██║ ╚████║   ██║                  ║
+║      ╚═╝   ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝                  ║
+║                                                                  ║
+║   [TITAN TIPPING PIPELINE - COMMAND INTERFACE ONLINE]             ║
+║   Status: ALL SYSTEMS NOMINAL | Awaiting Operator Input...        ║
+╚════════════════════════════════════════════════════════════════════╝
+''')
+print(Fore.CYAN + Style.BRIGHT + ">>> Welcome, Commander. The TITAN AI is ready for mission deployment. <<<\n" + Style.RESET_ALL)
+
 log_path = 'outputs/fetch_fixtures.log'
 logging.basicConfig(filename=log_path, level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s')
 

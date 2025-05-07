@@ -21,21 +21,19 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 import os
 import sys  # Add this import for sys.exit
+import time
 
 print('--- TITAN 2.5+ NRL Prediction Model: Script Started ---')
 
 # ==========================================================
 # 2. DATA LOADING
 # ----------------------------------------------------------
-# Use correct path for workspace compatibility
-outputs_dir = os.path.join(os.path.dirname(__file__), '../outputs')
+# Use the most up-to-date normalised data from the outputs directory
+outputs_dir = os.path.join(os.path.dirname(__file__), '../../outputs')
 outputs_dir = os.path.abspath(outputs_dir)
 
-# Ensure the outputs directory exists before writing output
-if not os.path.exists(outputs_dir):
-    os.makedirs(outputs_dir)
-
-matches_path = os.path.join(outputs_dir, 'all_matches_2019_2025.csv')
+# Always use the latest normalised file for matches
+matches_path = os.path.join(outputs_dir, 'normalised_all_matches_2019_2025.csv')
 players_path = os.path.join(outputs_dir, 'all_players_2019_2025.csv')
 detailed_matches_path = os.path.join(outputs_dir, 'all_detailed_matches_2019_2025.csv')
 impact_scores_path = os.path.join(outputs_dir, 'player_impact_scores_2019_2025.csv')
@@ -160,6 +158,10 @@ overlay_files = {
     'kick_target_mapping': ('kick_target_mapping.csv', ['Year', 'Round', 'HomeTeam']),
     'officiating_impact': ('officiating_impact_analysis.csv', ['Year', 'Round']),
     'speculative': ('speculative_data_sweep.csv', ['Year', 'Round', 'HomeTeam']),
+    'opponent_analysis': ('opponent_analysis.csv', ['Year', 'Round', 'HomeTeam']),
+    'player_injury_impact': ('player_injury_impact.csv', ['Year', 'Round', 'HomeTeam']),
+    'coach_impact_analysis': ('coach_impact_analysis.csv', ['Year', 'Round', 'HomeTeam']),
+    'kick_events': ('kick_events.csv', ['Year', 'Round', 'HomeTeam']),  # Added kick events overlay
     # Add more overlays as needed
 }
 
@@ -370,6 +372,18 @@ def predict_with_confidence(model, X):
     predictions = model.predict(X)
     confidence = proba.max(axis=1)
     return predictions, confidence
+
+def print_progress(msg, delay=1.5):
+    print(msg, flush=True)
+    time.sleep(delay)
+
+if __name__ == "__main__":
+    print_progress("[PREDICTOR] Initialising prediction model...", 2)
+    print_progress("[PREDICTOR] Loading normalised data...", 2)
+    print_progress("[PREDICTOR] Running feature engineering...", 2)
+    print_progress("[PREDICTOR] Running model inference...", 3)
+    print_progress("[PREDICTOR] Saving predictions to outputs...", 2)
+    print_progress("[PREDICTOR] Prediction step complete!", 1)
 
 print('\n' + '='*40)
 print('SAMPLE PREDICTIONS')

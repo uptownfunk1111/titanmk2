@@ -602,15 +602,16 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--manual', action='store_true', help='Allow manual speculative data input')
     parser.add_argument('--game_datetime', type=str, default=None, help='Game start datetime in ISO format (e.g., 2025-05-10T19:50:00)')
+    parser.add_argument('--round', type=int, required=True, help='NRL round number for export folder')
     args = parser.parse_args()
     tips_df = pd.read_csv(tips_path)
     teams = tips_df['RecommendedTip'].unique()
     keywords = ALL_TIER2_KEYWORDS + list(teams)
     # Use provided game_datetime or default to now
     if args.game_datetime:
-        game_datetime = datetime.datetime.fromisoformat(args.game_datetime)
+        game_datetime = datetime.fromisoformat(args.game_datetime)
     else:
-        game_datetime = datetime.datetime.now()
+        game_datetime = datetime.now()
     posts = gather_social_media_data(keywords, game_datetime)
     valid_posts = parse_and_validate_social_data(posts, keywords)
     sentiment = fetch_social_media_sentiment(teams, valid_posts)
@@ -628,9 +629,50 @@ def main():
             except:
                 pass
     updated_tips = adjust_predictions_with_speculative(tips_df, sentiment, injuries, weather, referee)
-    updated_tips.to_csv(speculative_report_path, index=False)
-    print(f"[SUCCESS] Speculative sweep report saved to {speculative_report_path}")
-    print(updated_tips)
+
+    # --- Export logic ---
+    now = datetime.now()
+    timestamp = now.strftime('%Y%m%d_%H%M')
+    export_dir = os.path.join(os.path.dirname(__file__), 'outputs', 'Weekly Tipping Tables', f'{args.round}_{timestamp}')
+    os.makedirs(export_dir, exist_ok=True)
+    predictions_only_path = os.path.join(export_dir, 'predictions_only.csv')
+    speculative_only_path = os.path.join(export_dir, 'speculative_sweep_only.csv')
+    combined_path = os.path.join(export_dir, 'combined_tipping_table.csv')
+
+    print("\n[EXPORT OPTIONS]")
+    print("1: Export only the original tipping table (no speculative sweep)")
+    print("2: Export only the speculative sweep table")
+    print("3: Export both as separate files")
+    print("4: Export combined tipping table")
+    export_choice = input("Choose export option (1/2/3/4): ").strip()
+
+    if export_choice == '1':
+        tips_df.to_csv(predictions_only_path, index=False)
+        print(f"[SUCCESS] Exported original tips to {predictions_only_path}")
+    elif export_choice == '2':
+        updated_tips.to_csv(speculative_only_path, index=False)
+        print(f"[SUCCESS] Speculative sweep report saved to {speculative_only_path}")
+    elif export_choice == '3':
+        tips_df.to_csv(predictions_only_path, index=False)
+        updated_tips.to_csv(speculative_only_path, index=False)
+        print(f"[SUCCESS] Exported original tips to {predictions_only_path}")
+        print(f"[SUCCESS] Speculative sweep report saved to {speculative_only_path}")
+    elif export_choice == '4':
+        # Merge on HomeTeam, AwayTeam (or index if not available)
+        combined = tips_df.add_suffix('_original').copy()
+        speculative = updated_tips.add_suffix('_speculative')
+        if 'HomeTeam_original' in combined.columns and 'HomeTeam_speculative' in speculative.columns:
+            merge_cols = ['HomeTeam_original', 'AwayTeam_original']
+            combined_table = pd.merge(combined, speculative, left_on=merge_cols, right_on=['HomeTeam_speculative', 'AwayTeam_speculative'], how='outer')
+        else:
+            combined_table = pd.concat([combined, speculative], axis=1)
+        combined_table.to_csv(combined_path, index=False)
+        print(f"[SUCCESS] Combined tipping table saved to {combined_path}")
+    else:
+        print("[WARN] Invalid choice. Defaulting to speculative sweep export only.")
+        updated_tips.to_csv(speculative_only_path, index=False)
+        print(f"[SUCCESS] Speculative sweep report saved to {speculative_only_path}")
+
     # Optionally, print flagged/controversial posts
     flagged = [p for p in valid_posts if p['flagged']]
     if flagged:
@@ -640,4 +682,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```

@@ -5,6 +5,7 @@ Runs scraping, data flattening, and prediction in sequence.
 import subprocess
 import sys
 import os
+import datetime
 
 # User-configurable parameters
 YEAR = 2025
@@ -16,6 +17,24 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCRAPING_SCRIPT = os.path.join(BASE_DIR, 'titan2.5+_processor', 'scraping', 'run_2025_updates.py')
 FLATTEN_SCRIPT = os.path.join(BASE_DIR, 'flatten_nrl_data.py')
 PREDICT_SCRIPT = os.path.join(BASE_DIR, 'titan2.5+_processor', 'new_prediction_models', 'predictor_ml.py')
+
+def debug_file_info(filepath, nrows=3):
+    # Always use the titan2.5+_processor/outputs/ path for player_stats_2025.csv
+    if filepath.endswith('player_stats_2025.csv'):
+        filepath = os.path.join(os.path.dirname(__file__), 'titan2.5+_processor', 'outputs', 'player_stats_2025.csv')
+    if os.path.exists(filepath):
+        try:
+            import pandas as pd
+            df = pd.read_csv(filepath)
+            print(f"[DEBUG] {filepath}: rows={len(df)}, columns={list(df.columns)}")
+            print(f"[DEBUG] Sample data from {filepath}:\n{df.head(nrows)}")
+        except Exception as e:
+            print(f"[DEBUG] Could not read {filepath}: {e}")
+    else:
+        print(f"[DEBUG] File not found: {filepath}")
+
+print(f"[DEBUG] Script started at {datetime.datetime.now()}")
+print(f"[DEBUG] Current working directory: {os.getcwd()}")
 
 def prompt_step(step_name):
     while True:
@@ -71,28 +90,12 @@ if prompt_step("FLATTENING DATA") == "y":
     try:
         subprocess.run(flatten_cmd, check=True)
         print("[SUCCESS] Data flattening completed.")
+        # Debug output files
+        debug_file_info(os.path.join("outputs", "all_matches_2019_2025.csv"))
+        debug_file_info(os.path.join("outputs", "player_stats_2025.csv"))
     except subprocess.CalledProcessError as e:
         print(f"[ERROR] Data flattening failed: {e}")
         sys.exit(1)
-elif prompt_step("FLATTENING DATA") == "exit":
-    sys.exit(0)
-
-# Step 6: Run prediction/model pipeline
-if prompt_step("RUNNING PREDICTIONS") == "y":
-    print("\n=== STEP 6: RUNNING PREDICTIONS ===\n")
-    prediction_cmd = [
-        sys.executable, PREDICT_SCRIPT
-    ]
-    subprocess.run(prediction_cmd, check=True)
-elif prompt_step("RUNNING PREDICTIONS") == "exit":
-    sys.exit(0)
-
-# Step 7: Coach Impact Analysis
-if prompt_step("COACH IMPACT ANALYSIS (generate coach matchup insights)") == "y":
-    print("\n=== STEP 7: COACH IMPACT ANALYSIS ===\n")
-    import pandas as pd
-    import importlib.util
-    fixtures_path = os.path.join('outputs', f'upcoming_fixtures_and_officials_{YEAR}_round{ROUND}.csv')
     output_path = os.path.join('outputs', f'coach_impact_analysis_round{ROUND}.csv')
     coach_analysis_path = os.path.join(BASE_DIR, 'titan2.5+_processor', 'coach_impact_analysis.py')
     if not os.path.exists(fixtures_path):
