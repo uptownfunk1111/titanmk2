@@ -153,6 +153,34 @@ if not weather_impact.empty and 'Date' in matches.columns and 'Venue' in matches
     print('[INFO] Weather features merged into matches.')
     print('[DEBUG] matches columns after weather merge:', matches.columns.tolist())
 
+# === LOAD AND MERGE ALL OVERLAY/ENHANCEMENT CSVs ===
+# Define overlay files and merge keys
+overlay_files = {
+    'lineup_impact': ('lineup_impact.csv', ['Year', 'Round', 'HomeTeam']),
+    'kick_target_mapping': ('kick_target_mapping.csv', ['Year', 'Round', 'HomeTeam']),
+    'officiating_impact': ('officiating_impact_analysis.csv', ['Year', 'Round']),
+    'speculative': ('speculative_data_sweep.csv', ['Year', 'Round', 'HomeTeam']),
+    # Add more overlays as needed
+}
+
+for overlay_name, (filename, merge_keys) in overlay_files.items():
+    overlay_path = os.path.join(outputs_dir, filename)
+    if os.path.exists(overlay_path):
+        try:
+            overlay_df = pd.read_csv(overlay_path)
+            # Normalize merge keys if needed
+            for key in merge_keys:
+                if key in overlay_df.columns and key in matches.columns:
+                    overlay_df[key] = overlay_df[key].astype(str)
+                    matches[key] = matches[key].astype(str)
+            # Merge overlay into matches
+            matches = matches.merge(overlay_df, on=merge_keys, how='left', suffixes=('', f'_{overlay_name}'))
+            print(f'[INFO] {overlay_name} overlay merged. Columns now: {matches.columns.tolist()}')
+        except Exception as e:
+            print(f'[WARN] Failed to merge {overlay_name}: {e}')
+    else:
+        print(f'[INFO] {overlay_name} overlay file not found: {overlay_path}')
+
 print('Data loading complete. Proceeding to feature engineering...')
 
 # ==========================================================
@@ -304,7 +332,12 @@ for col in ['HomeImpactScore', 'AwayImpactScore']:
 base_feature_cols = ['Home_RecentForm', 'Away_RecentForm', 'Margin']
 impact_cols = [col for col in ['HomeImpactScore', 'AwayImpactScore'] if col in matches.columns]
 weather_cols = [col for col in ['Rain', 'WindSpeed', 'WindDirection', 'Temperature', 'Humidity', 'Pressure', 'CloudCover', 'DewPoint', 'UVIndex'] if col in matches.columns]
-feature_cols = base_feature_cols + impact_cols + weather_cols
+# Add overlay columns dynamically
+overlay_feature_cols = []
+for overlay_name, (filename, _) in overlay_files.items():
+    overlay_cols = [col for col in matches.columns if overlay_name in col and col not in base_feature_cols + impact_cols + weather_cols]
+    overlay_feature_cols.extend(overlay_cols)
+feature_cols = base_feature_cols + impact_cols + weather_cols + overlay_feature_cols
 
 model_data = matches.dropna(subset=feature_cols + ['HomeWin'])
 if model_data.empty:

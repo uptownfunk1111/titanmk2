@@ -1,3 +1,14 @@
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env if present
+load_dotenv()
+
+REDDIT_CLIENT_ID = os.getenv('REDDIT_CLIENT_ID', 'IotOTpSRqhPthJ90E77Ng')
+REDDIT_CLIENT_SECRET = os.getenv('REDDIT_CLIENT_SECRET', 'Fa4n0_IkqxiZWQUba9XRL3leqCv0Xg')
+REDDIT_USER_AGENT = os.getenv('REDDIT_USER_AGENT', 'ShoppingImpossible45')
+YOUTUBE_API_KEY = os.getenv('YOUTUBE_API_KEY', 'AIzaSyBJdSVLprxbqJZPx_6PjaaxMVIcA8u5bvM')
+
 TEAMS = ["Broncos", "Roosters", "Wests Tigers", "Rabbitohs", "Storm", "Eels", "Raiders", "Knights", "Dragons", "Sea Eagles", "Panthers", "Sharks", "Bulldogs", "Dolphins", "Titans", "Cowboys", "Warriors"]
 
 NRL_WEBSITE = "https://www.nrl.com/draw/nrl-premiership/"

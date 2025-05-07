@@ -87,4 +87,45 @@ if prompt_step("RUNNING PREDICTIONS") == "y":
 elif prompt_step("RUNNING PREDICTIONS") == "exit":
     sys.exit(0)
 
+# Step 7: Coach Impact Analysis
+if prompt_step("COACH IMPACT ANALYSIS (generate coach matchup insights)") == "y":
+    print("\n=== STEP 7: COACH IMPACT ANALYSIS ===\n")
+    import pandas as pd
+    import importlib.util
+    fixtures_path = os.path.join('outputs', f'upcoming_fixtures_and_officials_{YEAR}_round{ROUND}.csv')
+    output_path = os.path.join('outputs', f'coach_impact_analysis_round{ROUND}.csv')
+    coach_analysis_path = os.path.join(BASE_DIR, 'titan2.5+_processor', 'coach_impact_analysis.py')
+    if not os.path.exists(fixtures_path):
+        print(f"[WARN] Fixtures file not found: {fixtures_path}")
+    elif not os.path.exists(coach_analysis_path):
+        print(f"[WARN] coach_impact_analysis.py not found: {coach_analysis_path}")
+    else:
+        # Dynamically import coach_impact_analysis
+        spec = importlib.util.spec_from_file_location("coach_impact_analysis", coach_analysis_path)
+        coach_mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(coach_mod)
+        fixtures = pd.read_csv(fixtures_path)
+        results = []
+        for _, row in fixtures.iterrows():
+            home = row['HomeTeam'] if 'HomeTeam' in row else None
+            away = row['AwayTeam'] if 'AwayTeam' in row else None
+            if home and away:
+                res = coach_mod.compare_coach_matchup(home, away)
+                results.append({
+                    'HomeTeam': home,
+                    'AwayTeam': away,
+                    'CoachMatchupSummary': res.get('summary', ''),
+                    'HomeCoachDesc': res.get('home_desc', ''),
+                    'AwayCoachDesc': res.get('away_desc', ''),
+                    'TacticalEdge': res.get('tactical_edge', '')
+                })
+        if results:
+            df = pd.DataFrame(results)
+            df.to_csv(output_path, index=False)
+            print(f"[SUCCESS] Coach impact analysis exported to {output_path}")
+        else:
+            print("[WARN] No coach matchup results generated.")
+elif prompt_step("COACH IMPACT ANALYSIS (generate coach matchup insights)") == "exit":
+    sys.exit(0)
+
 print("\n=== ALL STEPS COMPLETE ===\n")

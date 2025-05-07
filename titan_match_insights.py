@@ -71,7 +71,52 @@ def get_weather_impact(row):
     return "Dry track"  # Placeholder
 
 def get_upset_risk(row):
-    return np.random.choice(["Low", "Medium", "High"])  # Placeholder
+    """
+    Calculate upset risk based on model predictions and feature overlays.
+    Returns: 'Low', 'Medium', or 'High'.
+    Logic:
+      - If the non-tipped team (not the model's predicted winner) has a win probability > 40%: 'High'
+      - If 25–40%: 'Medium'
+      - Else: 'Low'
+    """
+    try:
+        # Load predictions file if not already loaded
+        if not hasattr(get_upset_risk, 'predictions_df'):
+            pred_path = PREDICTIONS_PATH
+            if os.path.exists(pred_path):
+                get_upset_risk.predictions_df = pd.read_csv(pred_path)
+            else:
+                get_upset_risk.predictions_df = None
+        predictions = get_upset_risk.predictions_df
+        if predictions is None:
+            return ""
+        # Find prediction row for this match
+        pred_row = predictions[(predictions['HomeTeam'] == row['HomeTeam']) & (predictions['AwayTeam'] == row['AwayTeam'])]
+        if pred_row.empty:
+            return ""
+        pred_row = pred_row.iloc[0]
+        # Get predicted winner and confidence (assume confidence is for predicted winner)
+        predicted = pred_row['PredictedWinner']
+        confidence = pred_row['Confidence']
+        home = row['HomeTeam']
+        away = row['AwayTeam']
+        # Determine non-tipped team and its win probability
+        if predicted == home:
+            non_tipped = away
+            non_tipped_prob = 1 - confidence
+        else:
+            non_tipped = home
+            non_tipped_prob = 1 - confidence
+        # Upset risk thresholds
+        if non_tipped_prob > 0.4:
+            return "High"
+        elif non_tipped_prob > 0.25:
+            return "Medium"
+        else:
+            return "Low"
+    except Exception as e:
+        print(f"[WARN] Upset risk calculation failed: {e}")
+        return ""
 
 def get_speculative_overlay(row):
     return "No major leaks"  # Placeholder
