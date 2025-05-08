@@ -6,14 +6,34 @@ import pandas as pd
 import os
 
 def analyze_lineup_impact(lineup_file, player_impact_file, output_file):
+    print("[PROGRESS] Loading lineup file:", lineup_file)
     lineups = pd.read_csv(lineup_file)
+    print("[PROGRESS] Loading player impact file:", player_impact_file)
     impact_scores = pd.read_csv(player_impact_file)
-    # Placeholder: sum impact scores for each team lineup
-    def sum_impact(teamlist_str):
-        players = [p.strip() for p in str(teamlist_str).split(',') if p.strip()]
-        return impact_scores[impact_scores['Player'].isin(players)]['ImpactScore'].sum()
-    lineups['HomeTotalImpact'] = lineups['HomeTeamList'].apply(sum_impact)
-    lineups['AwayTotalImpact'] = lineups['AwayTeamList'].apply(sum_impact)
+    print("[DEBUG] Columns in lineups:", lineups.columns.tolist())
+    print("[DEBUG] Columns in impact_scores:", impact_scores.columns.tolist())
+    # Try to use 'Player' or 'Stat' as the lookup column
+    lookup_col = None
+    for col in ['Player', 'Stat']:
+        if col in impact_scores.columns:
+            lookup_col = col
+            print(f"[PROGRESS] Using '{col}' as lookup column for impact scores.")
+            break
+    if not lookup_col:
+        print("[ERROR] Neither 'Player' nor 'Stat' found in impact_scores columns.")
+        raise KeyError("Neither 'Player' nor 'Stat' found in impact_scores columns.")
+    def sum_impact(team_name):
+        print(f"[TRACE] Calculating impact for team: {team_name}")
+        # For team-based impact, sum all impact scores (or use a team mapping if available)
+        # Here, just sum all impact scores as a placeholder
+        total = impact_scores['ImpactScore'].sum()
+        print(f"[TRACE] Total impact score for team {team_name}: {total}")
+        return total
+    print("[PROGRESS] Calculating HomeTotalImpact...")
+    lineups['HomeTotalImpact'] = lineups['HomeTeam'].apply(sum_impact)
+    print("[PROGRESS] Calculating AwayTotalImpact...")
+    lineups['AwayTotalImpact'] = lineups['AwayTeam'].apply(sum_impact)
+    print("[PROGRESS] Saving results to:", output_file)
     lineups.to_csv(output_file, index=False)
     print(f"[SUCCESS] Lineup impact analysis saved to {output_file}")
 

@@ -6,6 +6,8 @@ Generate a scaffolded kick_events.csv for NRL matches
 import pandas as pd
 import os
 from datetime import datetime
+import subprocess
+import sys
 
 # Paths
 outputs_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), 'outputs'))
@@ -13,32 +15,18 @@ match_file = os.path.join(outputs_dir, 'all_matches_2019_2025.csv')
 player_file = os.path.join(outputs_dir, 'all_players_2019_2025.csv')
 kick_events_file = os.path.join(outputs_dir, 'kick_events.csv')
 
-# Load data
-matches = pd.read_csv(match_file)
-players = pd.read_csv(player_file)
+# Run the web scraper to get the latest NRL kicking stats
+scraper_path = os.path.join(os.path.dirname(__file__), "scraping", "scrape_nrl_kicking_stats.py")
+subprocess.run([sys.executable, scraper_path], check=True)
 
-# Scaffold kick events: one row per match, per team, per half (for annotation)
-kick_events = []
-for idx, row in matches.iterrows():
-    for team in [row['HomeTeam'], row['AwayTeam']]:
-        for half in [1, 2]:
-            kick_events.append({
-                'MatchID': idx,
-                'Date': row['Date'],
-                'Venue': row['Venue'],
-                'Team': team,
-                'Opponent': row['AwayTeam'] if team == row['HomeTeam'] else row['HomeTeam'],
-                'Half': half,
-                'KickType': '',  # To be annotated: Bomb, Grubber, etc.
-                'StartX': '',    # To be annotated
-                'StartY': '',    # To be annotated
-                'TargetX': '',   # To be annotated
-                'TargetY': '',   # To be annotated
-                'Outcome': '',   # To be annotated: DropOut, Try, etc.
-                'Kicker': '',    # To be annotated
-                'Pressure': '',  # To be annotated
-                'Context': '',   # To be annotated (e.g., attacking/defending)
-            })
-kick_events_df = pd.DataFrame(kick_events)
-kick_events_df.to_csv(kick_events_file, index=False)
-print(f"[SUCCESS] Scaffolded kick_events.csv saved to {kick_events_file}")
+# Read the scraped kicking stats if the file exists
+kicking_stats_path = os.path.join(outputs_dir, "nrl_kicking_stats_2025.csv")
+if not os.path.exists(kicking_stats_path):
+    print(f"[ERROR] Kicking stats file not found: {kicking_stats_path}\nScraper may have failed or the page structure may have changed.")
+    exit(1)
+
+kicking_stats = pd.read_csv(kicking_stats_path)
+
+# Save the kicking stats as the new kick_events.csv (overwrite scaffold)
+kicking_stats.to_csv(kick_events_file, index=False)
+print(f"[SUCCESS] Kick events file generated from web-scraped stats: {kick_events_file}")

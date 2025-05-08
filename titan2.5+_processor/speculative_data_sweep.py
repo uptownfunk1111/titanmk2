@@ -115,12 +115,20 @@ def get_time_window(game_datetime):
     start_time = end_time - datetime.timedelta(days=5)
     return start_time, end_time
 
+# Debug and progress print functions
+def debug_print(msg):
+    print(f"[DEBUG] {msg}")
+
+def progress_print(msg):
+    print(f"[PROGRESS] {msg}")
+
 # Stealth Twitter scraping using Playwright
 async def scrape_twitter_stealth_async(keyword, max_results=10, headless=True, cookies_path=None):
     from playwright.async_api import async_playwright
     results = []
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
     url = f"https://twitter.com/search?q={keyword}&src=typed_query&f=live"
+    debug_print(f"Launching browser for Twitter search: {keyword}")
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=headless)
         context = await browser.new_context(
@@ -133,11 +141,13 @@ async def scrape_twitter_stealth_async(keyword, max_results=10, headless=True, c
             await context.add_cookies(cookies)
         page = await context.new_page()
         await page.goto(url)
+        debug_print(f"Navigated to Twitter search page for '{keyword}'")
         await page.wait_for_timeout(randint(2000, 4000))
         # Scroll to load more tweets if needed
         last_height = await page.evaluate("document.body.scrollHeight")
         while len(results) < max_results:
             tweets = await page.query_selector_all('article')
+            debug_print(f"Found {len(tweets)} tweets so far for '{keyword}'")
             for tweet in tweets[len(results):max_results]:
                 try:
                     username = await tweet.query_selector("a[role='link'][href*='/status/'] span")
@@ -154,16 +164,20 @@ async def scrape_twitter_stealth_async(keyword, max_results=10, headless=True, c
                         "timestamp": timestamp,
                         "link": link
                     })
+                    debug_print(f"Scraped tweet by {username} at {timestamp}")
                 except Exception as e:
+                    debug_print(f"Error scraping tweet: {e}")
                     continue
             # Scroll if not enough tweets
             await page.mouse.wheel(0, 2000)
             await page.wait_for_timeout(randint(1500, 3000))
             new_height = await page.evaluate("document.body.scrollHeight")
             if new_height == last_height:
+                debug_print("No more tweets loaded after scrolling.")
                 break
             last_height = new_height
         await browser.close()
+        debug_print(f"Finished scraping Twitter for '{keyword}', total tweets: {len(results)}")
     return results[:max_results]
 
 def scrape_twitter_stealth(keywords, max_results=10):

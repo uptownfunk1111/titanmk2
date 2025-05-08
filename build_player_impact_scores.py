@@ -53,8 +53,26 @@ def prepare_training_data(player_stats, match_data):
     player_stats['Team_norm'] = player_stats['Team'].apply(normalize_team_name)
     match_data['HomeTeam_norm'] = match_data['HomeTeam'].apply(normalize_team_name)
     match_data['AwayTeam_norm'] = match_data['AwayTeam'].apply(normalize_team_name)
-    # Aggregate player stats for each team in each match
-    agg_cols = [col for col in player_stats.columns if col not in ['Year', 'Round', 'Team', 'Player', 'Team_norm']]
+    
+    print("[DEBUG] player_stats dtypes:")
+    print(player_stats.dtypes)
+    print("[DEBUG] player_stats head:")
+    print(player_stats.head())
+
+    # Convert possible stat columns to numeric
+    for col in player_stats.columns:
+        if col not in ['Year', 'Round', 'Team', 'Player', 'Number', 'Team_norm']:
+            player_stats[col] = pd.to_numeric(player_stats[col].str.replace(',', ''), errors='coerce') if player_stats[col].dtype == object else pd.to_numeric(player_stats[col], errors='coerce')
+
+    numeric_cols = player_stats.select_dtypes(include=[np.number]).columns.tolist()
+    agg_cols = [col for col in numeric_cols if col not in ['Year', 'Round', 'Number']]
+    print(f"[DEBUG] Aggregation columns: {agg_cols}")
+
+    if not agg_cols:
+        print("[ERROR] No numeric/stat columns found in player stats. Please check your data file.")
+        exit(1)
+
+    print(f"[DEBUG] Grouping by: ['Year', 'Round', 'Team_norm']")
     team_stats = player_stats.groupby(['Year', 'Round', 'Team_norm'])[agg_cols].sum().reset_index()
     print(f"[DEBUG] player_stats rows: {len(player_stats)}")
     print(f"[DEBUG] match_data rows: {len(match_data)}")
@@ -83,7 +101,7 @@ def prepare_training_data(player_stats, match_data):
     merged_nan_stats = merged[merged.isna().any(axis=1)]
     if not merged_nan_stats.empty:
         print(f"[DEBUG] Sample merged rows with remaining NaNs after merge (first 5):\n{merged_nan_stats.head(5)}")
-    return merged
+    return merged, agg_cols
 
 # 3. Train model to estimate team impact from player stats
 def train_team_impact_model(merged, agg_cols):
@@ -136,8 +154,7 @@ if __name__ == "__main__":
             print(f"[INFO] Match data includes up to year {latest_year_m}, but no valid round data found.")
     except Exception as e:
         print(f"[WARN] Could not determine latest year/round in data: {e}")
-    agg_cols = [col for col in player_stats.columns if col not in ['Year', 'Round', 'Team', 'Player']]
-    merged = prepare_training_data(player_stats, match_data)
+    merged, agg_cols = prepare_training_data(player_stats, match_data)
     model, feature_cols = train_team_impact_model(merged, agg_cols)
     impact_scores = calculate_player_impact_scores(model, agg_cols)
     save_impact_scores(impact_scores, OUTPUT_PATH)

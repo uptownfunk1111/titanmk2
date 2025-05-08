@@ -149,6 +149,8 @@ print_info("==============================\n")
 
 try:
     base_dir = os.path.dirname(__file__)
+    # Set the correct path for player impact scores for downstream scripts
+    PLAYER_IMPACT_SCORES_PATH = os.path.join(base_dir, 'titan2.5+_processor', 'outputs', 'player_impact_scores_2019_2025.csv')
     current_stage = 1
     # Step 1: Harvest Match Data
     if current_stage >= start_stage and prompt_step("Harvest Match Data (2025)") == "y":
@@ -276,7 +278,8 @@ try:
             "opponent_analysis.py",
             "player_injury_impact.py",
             "coach_impact_analysis.py",
-            "generate_kick_events.py"
+            "generate_kick_events.py",
+            "new_prediction_models/predictor_ml.py"
         ]
         for script in feature_scripts:
             script_path = os.path.join(base_dir, script)
@@ -286,12 +289,16 @@ try:
                 print_info(f"[TACTICAL] Deploying enhancement: {os.path.basename(script_path)}")
                 if os.path.basename(script_path) == "fetch_upcoming_fixtures_and_officials.py":
                     cmd = [sys.executable, script_path, "--year", "2025", "--round", str(ROUND)]
+                elif os.path.basename(script_path) == "build_player_impact_scores.py":
+                    cmd = [sys.executable, script_path]
+                elif os.path.basename(script_path) == "predictor_ml.py":
+                    cmd = [sys.executable, script_path, "--player_impact_scores", PLAYER_IMPACT_SCORES_PATH]
                 else:
                     cmd = [sys.executable, script_path]
                 subprocess.run(cmd, check=True)
                 # Debug output for player impact scores
                 if os.path.basename(script_path) == "build_player_impact_scores.py":
-                    debug_file_info(os.path.join(base_dir, '..', 'outputs', 'player_impact_scores_2019_2025.csv'))
+                    debug_file_info(PLAYER_IMPACT_SCORES_PATH)
             else:
                 print_warn(f"[INTEL] Enhancement script not found: {script}")
         print_info("\n[MISSION] All enhancements loaded. Commander, the arsenal is ready.")
@@ -305,7 +312,7 @@ try:
             sys.exit(0)
         print_info("[SKYNET] Skynet is online. Initiating predictive model deployment. Good luck, Commander!\n")
         predictor_script = os.path.join(base_dir, "new_prediction_models", "predictor_ml.py")
-        cmd = [sys.executable, predictor_script]
+        cmd = [sys.executable, predictor_script, "--player_impact_scores", PLAYER_IMPACT_SCORES_PATH]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
         subprocess.run(cmd, check=True)
         print(Fore.MAGENTA + "\n🏉-------------------🏉\n" + Style.RESET_ALL)
