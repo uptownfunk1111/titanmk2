@@ -64,6 +64,37 @@ def replace_dashes_with_zero(data):
             data[key] = '0'
     return data
 
+# Function to convert time strings to minutes
+def convert_time_to_minutes(val):
+    if isinstance(val, str) and ':' in val:
+        try:
+            mins, secs = val.split(':')
+            return int(mins) + int(secs)/60
+        except:
+            return 0
+    try:
+        return float(val)
+    except:
+        return 0
+
+# Function to clean and convert data
+def clean_and_convert_data(data_list):
+    for data in data_list:
+        for key, value in data.items():
+            if isinstance(value, str):
+                if value.strip() in ['-', '', 'N/A', 'null', None]:
+                    data[key] = 0
+                elif ':' in value:
+                    data[key] = convert_time_to_minutes(value)
+                else:
+                    try:
+                        data[key] = float(value.replace(',', ''))
+                    except:
+                        data[key] = value
+            elif value is None:
+                data[key] = 0
+    return data_list
+
 # Function to write data to multiple CSV files if it exceeds Excel's row limit
 def write_to_multiple_csv_files(data, fieldnames, base_filename='output_file'):
     """Write data to multiple CSV files to avoid Excel's row limit."""
@@ -125,11 +156,16 @@ def main():
     dynamic_fields = process_dynamic_fields(player_data)
     print(f"[INFO] Dynamic Fields Extracted: {len(dynamic_fields)} entries")
 
-    # Replace "-" with "0" in dynamic fields
-    print("[INFO] Replacing '-' with '0' in all dynamic fields...")
-    for dynamic in dynamic_fields:
-        replace_dashes_with_zero(dynamic)
-    print("[INFO] Replacement complete.")
+    # Replace "-" with "0" in dynamic fields and convert to numeric
+    print("[INFO] Cleaning and converting all dynamic fields to numeric...")
+    dynamic_fields = clean_and_convert_data(dynamic_fields)
+    print("[INFO] Replacement and conversion complete.")
+
+    # Print summary stats for verification
+    if dynamic_fields:
+        df_check = pd.DataFrame(dynamic_fields)
+        print("[SUMMARY] Column means after cleaning:")
+        print(df_check.describe().T[['mean', 'min', 'max']])
 
     # Combine fixed and dynamic fields
     print("[INFO] Combining fixed and dynamic fields for each record...")

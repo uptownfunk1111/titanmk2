@@ -74,13 +74,13 @@ def load_player_stats(filepath, year):
 
     print("🧼 Cleaning and converting stat fields...")
 
-    # Convert relevant columns to numeric, handling missing data
-    for col in ["Tries", "TryAssists", "RunMetres", "Tackles", "Errors"]:
-        if col in df.columns:
-            df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
-        else:
-            df[col] = 0
-            print(f"⚠️  Field '{col}' not found — defaulting to 0.")
+    # Clean all stat columns: replace '-', '', 'N/A', 'null' with 0, and convert to numeric
+    stat_cols = [col for col in df.columns if col not in ['Date', 'Year', 'Round', 'MatchID', 'HomeTeam', 'AwayTeam', 'Player', 'Team', 'Position', 'Jersey']]
+    df[stat_cols] = df[stat_cols].replace(['-', '', 'N/A', 'null'], 0)
+    for col in stat_cols:
+        df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+    print(f"[INFO] Cleaned all stat columns: {stat_cols}")
+    print(df[stat_cols].head())
 
     # Convert the "Date" column to datetime format
     if "Date" in df.columns:

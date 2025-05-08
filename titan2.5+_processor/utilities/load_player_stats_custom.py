@@ -155,6 +155,14 @@ def load_player_stats_custom(filepath, year):
         print(f"⚠️ No valid players loaded from: {filepath}")
         return df
 
+    # Clean all stat columns: replace '-', '', 'N/A', 'null' with 0, and convert to numeric
+    stat_cols = [col for col in df.columns if col not in ['Year', 'Round', 'MatchKey', 'HomeTeam', 'AwayTeam', 'Player', 'Number', 'Team', 'Position', 'PosFromNumber']]
+    df[stat_cols] = df[stat_cols].replace(['-', '', 'N/A', 'null'], 0)
+    for col in stat_cols:
+        df[col] = pd.to_numeric(df[col], errors="coerce").fillna(0)
+    print(f"[INFO] Cleaned all stat columns: {stat_cols}")
+    print(df[stat_cols].head())
+
     print(f"[INFO] Total player records loaded: {len(df)}")
     df["ImpactScore"] = (
         df["Tries"] * 10 +
