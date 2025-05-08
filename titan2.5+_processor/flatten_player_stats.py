@@ -37,9 +37,50 @@ for year in YEARS:
                     if not isinstance(match_dict, dict):
                         continue
                     for game_key, player_data in match_dict.items():
+                        # --- Extract home/away teams from game_key ---
+                        # Example game_key: '2025-1-Raiders-v-Warriors'
+                        try:
+                            parts = game_key.split('-')
+                            # Find the index of 'v' (or 'vs')
+                            v_idx = None
+                            for i, p in enumerate(parts):
+                                if p.lower() in ('v', 'vs'):
+                                    v_idx = i
+                                    break
+                            if v_idx is not None and v_idx > 1 and v_idx < len(parts)-1:
+                                home_team = '-'.join(parts[2:v_idx])
+                                away_team = '-'.join(parts[v_idx+1:])
+                            else:
+                                home_team = ''
+                                away_team = ''
+                        except Exception as e:
+                            print(f"[WARN] Could not parse teams from game_key '{game_key}': {e}")
+                            home_team = ''
+                            away_team = ''
+                        # Assign team to each player: first N are home, next N are away
+                        n_players = len(player_data)
+                        # Heuristic: if 34 or 36, split in half; else, fallback to jersey number (1-17 home, 18+ away)
+                        split_idx = n_players // 2 if n_players >= 30 else None
                         for idx, player in enumerate(player_data):
                             row = {'Year': year, 'Round': round_key, 'MatchKey': game_key}
                             row.update(player)
+                            # Assign team
+                            team = ''
+                            if split_idx is not None:
+                                team = home_team if idx < split_idx else away_team
+                            else:
+                                # Try to use jersey number if available
+                                try:
+                                    num = int(player.get('Number', 0))
+                                    if 1 <= num <= 17:
+                                        team = home_team
+                                    elif num >= 18:
+                                        team = away_team
+                                    else:
+                                        team = ''
+                                except:
+                                    team = ''
+                            row['Team'] = team
                             all_rows.append(row)
 
 if not all_rows:
@@ -62,6 +103,26 @@ stat_cols = [col for col in df.columns if col not in ['Year', 'Round', 'MatchKey
 df[stat_cols] = df[stat_cols].replace(['-', '', 'N/A', 'null'], 0)
 for col in stat_cols:
     df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
+
+# Convert Round to int, warn if not possible
+try:
+    df['Round'] = df['Round'].astype(int)
+except Exception as e:
+    print(f"[WARN] Could not convert all Round values to int: {e}")
+    # Try to coerce, set errors to -1
+    import numpy as np
+    df['Round'] = pd.to_numeric(df['Round'], errors='coerce').fillna(-1).astype(int)
+
+# Debug: print unique values and types for Round and Team
+print("[DEBUG] Unique Round values and types in player stats:")
+print(df['Round'].value_counts(dropna=False).sort_index())
+print(f"[DEBUG] Team column unique values: {df['Team'].unique()}")
+
+# Print sample of rows with missing/invalid Team or Round
+invalid_rows = df[(df['Team'] == '') | (df['Round'] == -1)]
+if not invalid_rows.empty:
+    print("[WARN] Sample rows with missing/invalid Team or Round:")
+    print(invalid_rows.head())
 
 try:
     df.to_csv(OUTPUT_CSV, index=False)

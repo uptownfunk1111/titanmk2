@@ -50,6 +50,21 @@ print('  weather_impact_path:', weather_impact_path)
 
 try:
     matches = pd.read_csv(matches_path)
+    # --- FIX: Normalize column names to expected format ---
+    col_map = {
+        'year': 'Year',
+        'round': 'Round',
+        'hometeam': 'HomeTeam',
+        'homescore': 'HomeScore',
+        'awayteam': 'AwayTeam',
+        'awayscore': 'AwayScore',
+        'venue': 'Venue',
+        'date': 'Date',
+        'matchcentreurl': 'MatchCentreURL',
+        'data_issues': 'data_issues',
+    }
+    matches.columns = [col_map.get(c.lower(), c) for c in matches.columns]
+    print(f'[DEBUG] matches columns after normalization: {matches.columns.tolist()}')
     print(f'Loaded matches: {matches.shape}')
     print('[DEBUG] matches columns:', matches.columns.tolist())
     print('[DEBUG] matches head:')

@@ -19,6 +19,7 @@ FLATTEN_SCRIPT = os.path.join(BASE_DIR, 'flatten_nrl_data.py')
 PREDICT_SCRIPT = os.path.join(BASE_DIR, 'titan2.5+_processor', 'new_prediction_models', 'predictor_ml.py')
 
 def debug_file_info(filepath, nrows=3):
+    print(f"[DEBUG] Checking file: {filepath}")
     # Always use the titan2.5+_processor/outputs/ path for player_stats_2025.csv
     if filepath.endswith('player_stats_2025.csv'):
         filepath = os.path.join(os.path.dirname(__file__), 'titan2.5+_processor', 'outputs', 'player_stats_2025.csv')
@@ -45,28 +46,49 @@ def prompt_step(step_name):
 # Step 1: Harvest Match Data
 resp = prompt_step("Harvest Match Data (basic results, teams, scores, 2025)")
 if resp == "y":
+    print("[INFO] Starting: Harvest Match Data (basic results, teams, scores, 2025)")
     run_2025_updates_cmd = [sys.executable, "titan2.5+_processor/nrl_data_main/scraping/match_data_select.py", "--year", str(YEAR), "--rounds", str(ROUND), "--type", COMP_TYPE]
     print(f"[INFO] Running: {' '.join(run_2025_updates_cmd)}")
-    subprocess.run(run_2025_updates_cmd, check=True)
+    try:
+        subprocess.run(run_2025_updates_cmd, check=True)
+        print("[SUCCESS] Match data harvesting complete.")
+    except subprocess.CalledProcessError as e:
+        print(f"[ERROR] Match data harvesting failed: {e}")
+        sys.exit(1)
 elif resp == "exit":
+    print("[INFO] Exiting pipeline at user request.")
     sys.exit(0)
 
 # Step 2: Harvest Detailed Match Data
 resp = prompt_step("Harvest Detailed Match Data (in-depth stats, play-by-play, 2025)")
 if resp == "y":
+    print("[INFO] Starting: Harvest Detailed Match Data (in-depth stats, play-by-play, 2025)")
     run_2025_updates_cmd = [sys.executable, "titan2.5+_processor/nrl_data_main/scraping/match_data_detailed_select.py", "--year", str(YEAR), "--rounds", str(ROUND), "--type", COMP_TYPE]
     print(f"[INFO] Running: {' '.join(run_2025_updates_cmd)}")
-    subprocess.run(run_2025_updates_cmd, check=True)
+    try:
+        subprocess.run(run_2025_updates_cmd, check=True)
+        print("[SUCCESS] Detailed match data harvesting complete.")
+    except subprocess.CalledProcessError as e:
+        print(f"[ERROR] Detailed match data harvesting failed: {e}")
+        sys.exit(1)
 elif resp == "exit":
+    print("[INFO] Exiting pipeline at user request.")
     sys.exit(0)
 
 # Step 3: Harvest Player Stats
 resp = prompt_step("Harvest Player Stats (individual player statistics, 2025)")
 if resp == "y":
+    print("[INFO] Starting: Harvest Player Stats (individual player statistics, 2025)")
     run_2025_updates_cmd = [sys.executable, "titan2.5+_processor/nrl_data_main/scraping/player_data_select.py", "--year", str(YEAR), "--round", str(ROUND), "--type", COMP_TYPE]
     print(f"[INFO] Running: {' '.join(run_2025_updates_cmd)}")
-    subprocess.run(run_2025_updates_cmd, check=True)
+    try:
+        subprocess.run(run_2025_updates_cmd, check=True)
+        print("[SUCCESS] Player stats harvesting complete.")
+    except subprocess.CalledProcessError as e:
+        print(f"[ERROR] Player stats harvesting failed: {e}")
+        sys.exit(1)
 elif resp == "exit":
+    print("[INFO] Exiting pipeline at user request.")
     sys.exit(0)
 
 # Step 4: Harvest Detailed Player Stats (if you have a script for this)
@@ -74,10 +96,17 @@ detailed_player_stats_script = os.path.join('titan2.5+_processor', 'nrl_data_mai
 if os.path.exists(detailed_player_stats_script):
     resp = prompt_step("Harvest Detailed Player Stats (advanced per-player stats, 2025)")
     if resp == "y":
+        print("[INFO] Starting: Harvest Detailed Player Stats (advanced per-player stats, 2025)")
         run_2025_updates_cmd = [sys.executable, detailed_player_stats_script, "--year", str(YEAR), "--round", str(ROUND), "--type", COMP_TYPE]
         print(f"[INFO] Running: {' '.join(run_2025_updates_cmd)}")
-        subprocess.run(run_2025_updates_cmd, check=True)
+        try:
+            subprocess.run(run_2025_updates_cmd, check=True)
+            print("[SUCCESS] Detailed player stats harvesting complete.")
+        except subprocess.CalledProcessError as e:
+            print(f"[ERROR] Detailed player stats harvesting failed: {e}")
+            sys.exit(1)
     elif resp == "exit":
+        print("[INFO] Exiting pipeline at user request.")
         sys.exit(0)
 else:
     print("[INFO] Skipping 'Harvest Detailed Player Stats' step: player_data_detailed_select.py not found.")
@@ -98,12 +127,15 @@ if prompt_step("FLATTENING DATA") == "y":
         sys.exit(1)
     output_path = os.path.join('outputs', f'coach_impact_analysis_round{ROUND}.csv')
     coach_analysis_path = os.path.join(BASE_DIR, 'titan2.5+_processor', 'coach_impact_analysis.py')
+    fixtures_path = os.path.join('outputs', f'upcoming_fixtures_and_officials_{YEAR}_round{ROUND}.csv')
     if not os.path.exists(fixtures_path):
         print(f"[WARN] Fixtures file not found: {fixtures_path}")
     elif not os.path.exists(coach_analysis_path):
         print(f"[WARN] coach_impact_analysis.py not found: {coach_analysis_path}")
     else:
-        # Dynamically import coach_impact_analysis
+        print(f"[INFO] Running coach impact analysis for round {ROUND}...")
+        import importlib.util
+        import pandas as pd
         spec = importlib.util.spec_from_file_location("coach_impact_analysis", coach_analysis_path)
         coach_mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(coach_mod)
@@ -129,6 +161,7 @@ if prompt_step("FLATTENING DATA") == "y":
         else:
             print("[WARN] No coach matchup results generated.")
 elif prompt_step("COACH IMPACT ANALYSIS (generate coach matchup insights)") == "exit":
+    print("[INFO] Exiting pipeline at user request.")
     sys.exit(0)
 
 print("\n=== ALL STEPS COMPLETE ===\n")

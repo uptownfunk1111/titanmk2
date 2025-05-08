@@ -1,60 +1,57 @@
 Stat,ImpactScore
-MatchKey,0.0
-Name,0.0
-Position,0.0
 Mins Played,0.0
-Points,0.010269075039593768
-Tries,0.004345006112114416
-Conversions,0.010718959723383808
-Conversion Attempts,0.004146736259494364
-Penalty Goals,0.00786838009448633
+Points,0.0
+Tries,0.0
+Conversions,0.0
+Conversion Attempts,0.0
+Penalty Goals,0.0
 Goal Conversion Rate,0.0
-1 Point Field Goals,0.0008409305263257514
-2 Point Field Goals,0.0006716256427840558
-Total Points,0.015875960179477958
-All Runs,0.010894477960610785
-All Run Metres,0.018254482371094956
-Kick Return Metres,0.0157685680530743
-Post Contact Metres,0.018159823494584965
-Line Breaks,0.008958438242108298
-Line Break Assists,0.009335730432356698
-Try Assists,0.01033201721271136
+1 Point Field Goals,0.0
+2 Point Field Goals,0.0
+Total Points,0.0
+All Runs,0.0
+All Run Metres,0.0
+Kick Return Metres,0.0
+Post Contact Metres,0.0
+Line Breaks,0.0
+Line Break Assists,0.0
+Try Assists,0.0
 Line Engaged Runs,0.0
-Tackle Breaks,0.014088156591946933
-Hit Ups,0.013286335068316304
-Play The Ball,1.3830747246809534e-06
+Tackle Breaks,0.0
+Hit Ups,0.0
+Play The Ball,0.0
 Average Play The Ball Speed,0.0
-Dummy Half Runs,0.013646996054191372
-Dummy Half Run Metres,0.016967490021626105
-One on One Steal,0.005002737635080503
-Offloads,0.014334625768782633
-Dummy Passes,0.014609140681195574
-Passes,0.015482890122038465
-Receipts,0.010531438134521055
-Passes To Run Ratio,0.020802558906688307
+Dummy Half Runs,0.0
+Dummy Half Run Metres,0.0
+One on One Steal,0.0
+Offloads,0.0
+Dummy Passes,0.0
+Passes,0.0
+Receipts,0.0
+Passes To Run Ratio,0.0
 Tackle Efficiency,0.0
-Tackles Made,0.01613268663132686
-Missed Tackles,0.016348499897169765
-Ineffective Tackles,0.020966594805818865
-Intercepts,0.005057024470414358
-Kicks Defused,0.01285188069396252
-Kicks,0.008652330145384236
-Kicking Metres,0.014201921843809247
-Forced Drop Outs,0.008190794675472231
-Bomb Kicks,0.010462304031045071
-Grubbers,0.011067907378442304
-40/20,0.0017640222930926514
-20/40,1.6180392770360805e-06
-Cross Field Kicks,0.00847405352347037
-Kicked Dead,0.007852598706465073
-Errors,0.011446390074543483
-Handling Errors,0.01114677795408627
-One on One Lost,0.004699669393464154
-Penalties,0.010531360758580962
-Ruck Infringements,0.009545172231793289
-Inside 10 Metres,0.013049624191906056
-On Report,0.008178338148319973
-Sin Bins,0.003304804427062107
-Send Offs,0.0008796622817794186
+Tackles Made,0.0
+Missed Tackles,0.0
+Ineffective Tackles,0.0
+Intercepts,0.0
+Kicks Defused,0.0
+Kicks,0.0
+Kicking Metres,0.0
+Forced Drop Outs,0.0
+Bomb Kicks,0.0
+Grubbers,0.0
+40/20,0.0
+20/40,0.0
+Cross Field Kicks,0.0
+Kicked Dead,0.0
+Errors,0.0
+Handling Errors,0.0
+One on One Lost,0.0
+Penalties,0.0
+Ruck Infringements,0.0
+Inside 10 Metres,0.0
+On Report,0.0
+Sin Bins,0.0
+Send Offs,0.0
 Stint One,0.0
 Stint Two,0.0

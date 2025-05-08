@@ -4,7 +4,7 @@ Match and Weather Impact on Performance
 """
 import pandas as pd
 import requests
-from datetime import datetime
+from datetime import datetime, timedelta
 import os
 
 # Stadium coordinates mapping (add more as needed)
@@ -117,6 +117,15 @@ def main():
             continue
         coords = STADIUM_COORDS.get(venue)
         if not coords:
+            continue
+        # Only fetch weather for matches within the next 7 days
+        try:
+            kickoff_dt = datetime.fromisoformat(kickoff_time.replace('Z', ''))
+            now = datetime.now()
+            if kickoff_dt.date() < now.date() or kickoff_dt > now + timedelta(days=7):
+                continue  # Skip past matches and those more than 7 days ahead
+        except Exception as e:
+            print(f"[WARN] Could not parse kickoff time '{kickoff_time}': {e}")
             continue
         try:
             weather = get_nrl_game_weather(coords[0], coords[1], kickoff_time)

@@ -47,10 +47,36 @@ def normalize_team_name(name):
 
 # 2. Feature engineering: aggregate player stats per team per match
 def prepare_training_data(player_stats, match_data):
-    # Normalize team names in both dataframes
-    player_stats = player_stats.copy()
-    match_data = match_data.copy()
-    player_stats['Team_norm'] = player_stats['Team'].apply(normalize_team_name)
+    # --- Fix: Robustly find the 'Team' column or infer from MatchKey ---
+    team_col = None
+    for col in player_stats.columns:
+        if col.lower() == 'team':
+            team_col = col
+            break
+    if team_col is None:
+        # Try to find a close match (e.g., 'teamname', 'club', etc.)
+        for col in player_stats.columns:
+            if 'team' in col.lower():
+                team_col = col
+                print(f"[WARN] Using '{col}' as the team column.")
+                break
+    if team_col is None:
+        # Try to infer team from MatchKey if possible
+        if 'MatchKey' in player_stats.columns:
+            # Attempt to parse team from MatchKey (format: 'TeamA vs TeamB', or similar)
+            def infer_team(row):
+                # If Name matches Home or Away team, assign accordingly (requires more context)
+                # Here, just return None as placeholder
+                return None
+            print("[WARN] No 'Team' column found. Attempting to infer from 'MatchKey' (will set as 'Unknown' for now).")
+            player_stats['Team'] = 'Unknown'  # Placeholder, user should update flattening to include team info
+            team_col = 'Team'
+        else:
+            print("[ERROR] Could not find a 'Team' column in player stats. Available columns:")
+            print(list(player_stats.columns))
+            raise KeyError("No 'Team' column found in player stats CSV. Please check your data file and ensure a 'Team' column is present.")
+    # Use the detected or created team_col
+    player_stats['Team_norm'] = player_stats[team_col].apply(normalize_team_name)
     match_data['HomeTeam_norm'] = match_data['HomeTeam'].apply(normalize_team_name)
     match_data['AwayTeam_norm'] = match_data['AwayTeam'].apply(normalize_team_name)
     
@@ -59,13 +85,24 @@ def prepare_training_data(player_stats, match_data):
     print("[DEBUG] player_stats head:")
     print(player_stats.head())
 
+    # Print unique Round values and counts for both match_data and player_stats before merging
+    print("[DEBUG] Unique Round values in match_data:")
+    print(match_data['Round'].value_counts(dropna=False).sort_index())
+    print("[DEBUG] Unique Round values in player_stats:")
+    print(player_stats['Round'].value_counts(dropna=False).sort_index())
+    # Ensure both are int
+    match_data['Round'] = match_data['Round'].fillna(-1).astype(int)
+    player_stats['Round'] = player_stats['Round'].fillna(-1).astype(int)
+
     # Convert possible stat columns to numeric
     for col in player_stats.columns:
-        if col not in ['Year', 'Round', 'Team', 'Player', 'Number', 'Team_norm']:
+        if col not in ['Year', 'Round', 'Team', 'Player', 'Number', 'Team_norm', 'MatchKey', 'Name', 'Position']:
             player_stats[col] = pd.to_numeric(player_stats[col].str.replace(',', ''), errors='coerce') if player_stats[col].dtype == object else pd.to_numeric(player_stats[col], errors='coerce')
 
+    # Only use numeric/stat columns for aggregation (exclude non-stats)
+    non_stat_cols = ['Year', 'Round', 'Number', 'Team', 'Player', 'Team_norm', 'MatchKey', 'Name', 'Position']
     numeric_cols = player_stats.select_dtypes(include=[np.number]).columns.tolist()
-    agg_cols = [col for col in numeric_cols if col not in ['Year', 'Round', 'Number']]
+    agg_cols = [col for col in numeric_cols if col not in non_stat_cols]
     print(f"[DEBUG] Aggregation columns: {agg_cols}")
 
     if not agg_cols:
@@ -101,6 +138,10 @@ def prepare_training_data(player_stats, match_data):
     merged_nan_stats = merged[merged.isna().any(axis=1)]
     if not merged_nan_stats.empty:
         print(f"[DEBUG] Sample merged rows with remaining NaNs after merge (first 5):\n{merged_nan_stats.head(5)}")
+    # After merging, check for NaN in Round and print a warning/sample if found
+    if merged['Round'].isna().any():
+        print("[WARN] Some merged rows have NaN in 'Round' after merging. Sample:")
+        print(merged[merged['Round'].isna()].head())
     return merged, agg_cols
 
 # 3. Train model to estimate team impact from player stats
@@ -130,8 +171,12 @@ def calculate_player_impact_scores(model, agg_cols):
 
 # 5. Save player impact scores to CSV
 def save_impact_scores(impact_scores, output_path):
-    impact_scores.to_csv(os.path.join(BASE_DIR, 'outputs', 'player_impact_scores_2019_2025.csv'), index=False)
-    print(f"Saved player impact scores to {os.path.join(BASE_DIR, 'outputs', 'player_impact_scores_2019_2025.csv')}")
+    try:
+        impact_scores.to_csv(os.path.join(BASE_DIR, 'outputs', 'player_impact_scores_2019_2025.csv'), index=False)
+        print(f"Saved player impact scores to {os.path.join(BASE_DIR, 'outputs', 'player_impact_scores_2019_2025.csv')}")
+    except PermissionError as e:
+        print(f"[ERROR] Permission denied when writing player_impact_scores_2019_2025.csv. Please close the file if it is open in Excel or another program and try again.")
+        raise
 
 if __name__ == "__main__":
     player_stats, match_data = load_data()

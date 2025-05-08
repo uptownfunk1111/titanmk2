@@ -74,17 +74,23 @@ def extract_player_stats(data):
                                 data_issues.append({'game': match_key, 'player': player_details, 'issues': player_issue})
     return extracted_data, data_issues
 
-def main():
+if __name__ == "__main__":
+    print("[DEBUG] Starting process_nrl_data.py as standalone script.")
     file_path = input("Enter the file path: ")
+    print(f"[DEBUG] Inspecting JSON structure for: {file_path}")
     inspect_json_structure(file_path)
     with open(file_path, 'r') as f:
         data = json.load(f)
+    print("[DEBUG] Extracting match data...")
     match_data, match_issues = extract_match_data(data)
+    print(f"[DEBUG] Extracted {len(match_data)} match records.")
+    print("[DEBUG] Extracting player stats...")
     player_stats, player_issues = extract_player_stats(data)
-    print("Extracted Match Data:")
-    print(match_data[:5])
-    print("Extracted Player Stats:")
-    print(player_stats[:5])
+    print(f"[DEBUG] Extracted {len(player_stats)} player records.")
+    print("[DEBUG] Sample match data:")
+    print(match_data[:3])
+    print("[DEBUG] Sample player stats:")
+    print(player_stats[:3])
     if match_issues:
         with open("match_data_issues.json", "w", encoding="utf-8") as f:
             json.dump(match_issues, f, indent=2)
@@ -93,6 +99,9 @@ def main():
         with open("player_data_issues.json", "w", encoding="utf-8") as f:
             json.dump(player_issues, f, indent=2)
         print(f"[WARN] Player data issues found and saved to player_data_issues.json")
-
-if __name__ == "__main__":
-    main()
+    print("[DEBUG] Processing complete. Inspect your outputs and issues files.")
+    while True:
+        user_input = input("Type 'exit' to close process_nrl_data.py: ").strip().lower()
+        if user_input == 'exit':
+            print("[DEBUG] Exiting process_nrl_data.py.")
+            break

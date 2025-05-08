@@ -21,6 +21,7 @@ from datetime import datetime
 import logging
 from colorama import init, Fore, Style
 import json
+import time
 
 init(autoreset=True)
 
@@ -51,6 +52,9 @@ def prompt_step(step_name):
         print_warn("Please enter 'y', 'n', or 'exit'.")
 
 def debug_file_info(filepath, nrows=3):
+    # Always use the root outputs/ path for player_impact_scores_2019_2025.csv
+    if filepath.endswith('player_impact_scores_2019_2025.csv'):
+        filepath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'outputs', 'player_impact_scores_2019_2025.csv'))
     if os.path.exists(filepath):
         try:
             import pandas as pd
@@ -61,6 +65,14 @@ def debug_file_info(filepath, nrows=3):
             print_warn(f"[DEBUG] Could not read {filepath}: {e}")
     else:
         print_warn(f"[DEBUG] File not found: {filepath}")
+
+def time_step(step_name, func, *args, **kwargs):
+    print_info(f"[TIMER] Starting step: {step_name}")
+    start = time.time()
+    result = func(*args, **kwargs)
+    elapsed = time.time() - start
+    print_info(f"[TIMER] Step '{step_name}' completed in {elapsed:.2f} seconds.")
+    return result
 
 COMP_TYPE = 'NRL'
 
@@ -157,7 +169,7 @@ try:
         script_path = os.path.join(base_dir, "nrl_data_main", "scraping", "match_data_select.py")
         cmd = [sys.executable, script_path, "--year", "2025", "--rounds", str(ROUND), "--type", COMP_TYPE]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
-        subprocess.run(cmd, check=True)
+        time_step("Harvest Match Data", subprocess.run, cmd, check=True)
         # Feedback: count matches in output JSON
         try:
             data_dir = os.path.join(base_dir, 'nrl_data_main', 'data', COMP_TYPE, '2025')
@@ -180,7 +192,7 @@ try:
         script_path = os.path.join(base_dir, "nrl_data_main", "scraping", "match_data_detailed_select.py")
         cmd = [sys.executable, script_path, "--year", "2025", "--rounds", str(ROUND), "--type", COMP_TYPE]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
-        subprocess.run(cmd, check=True)
+        time_step("Harvest Detailed Match Data", subprocess.run, cmd, check=True)
         # Feedback: count detailed matches in output JSON
         try:
             data_dir = os.path.join(base_dir, 'nrl_data_main', 'data', COMP_TYPE, '2025')
@@ -203,7 +215,7 @@ try:
         script_path = os.path.join(base_dir, "nrl_data_main", "scraping", "player_data_select.py")
         cmd = [sys.executable, script_path, "--year", "2025", "--rounds", str(ROUND), "--type", COMP_TYPE]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
-        subprocess.run(cmd, check=True)
+        time_step("Harvest Player Stats", subprocess.run, cmd, check=True)
         # Feedback: count player stats in output JSON
         try:
             data_dir = os.path.join(base_dir, 'nrl_data_main', 'data', COMP_TYPE, '2025')
@@ -232,10 +244,10 @@ try:
         flatten_player_stats_script = os.path.join(base_dir, "flatten_player_stats.py")
         # Run match flattening
         print_info(f"[INFO] Running: {sys.executable} {flatten_script}")
-        subprocess.run([sys.executable, flatten_script], check=True)
+        time_step("Flatten Match Data", subprocess.run, [sys.executable, flatten_script], check=True)
         # Run player stats flattening (ensures player_stats_2025.csv is created in the correct location)
         print_info(f"[INFO] Running: {sys.executable} {flatten_player_stats_script}")
-        subprocess.run([sys.executable, flatten_player_stats_script], check=True)
+        time_step("Flatten Player Stats", subprocess.run, [sys.executable, flatten_player_stats_script], check=True)
         # Debug output files
         debug_file_info(os.path.join(base_dir, 'outputs', 'all_matches_2019_2025.csv'))
         debug_file_info(os.path.join(base_dir, 'outputs', 'player_stats_2025.csv'))
@@ -250,7 +262,7 @@ try:
         normalise_script = os.path.join(base_dir, "normalise_nrl_data.py")
         cmd = [sys.executable, normalise_script]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
-        subprocess.run(cmd, check=True)
+        time_step("Normalise/Process Data", subprocess.run, cmd, check=True)
         # Debug output files
         debug_file_info(os.path.join(base_dir, '..', 'outputs', 'normalised_all_matches_2019_2025.csv'))
         print(Fore.MAGENTA + "\n🏉-------------------🏉\n" + Style.RESET_ALL)
@@ -295,7 +307,7 @@ try:
                     cmd = [sys.executable, script_path, "--player_impact_scores", PLAYER_IMPACT_SCORES_PATH]
                 else:
                     cmd = [sys.executable, script_path]
-                subprocess.run(cmd, check=True)
+                time_step(f"Run {os.path.basename(script_path)}", subprocess.run, cmd, check=True)
                 # Debug output for player impact scores
                 if os.path.basename(script_path) == "build_player_impact_scores.py":
                     debug_file_info(PLAYER_IMPACT_SCORES_PATH)
@@ -314,7 +326,7 @@ try:
         predictor_script = os.path.join(base_dir, "new_prediction_models", "predictor_ml.py")
         cmd = [sys.executable, predictor_script, "--player_impact_scores", PLAYER_IMPACT_SCORES_PATH]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
-        subprocess.run(cmd, check=True)
+        time_step("Run Prediction Model", subprocess.run, cmd, check=True)
         print(Fore.MAGENTA + "\n🏉-------------------🏉\n" + Style.RESET_ALL)
         print(Fore.GREEN + "✅ Step 6 complete! Moving to Step 7..." + Style.RESET_ALL)
     elif current_stage >= start_stage and prompt_step("Run Prediction Model") == "exit":
@@ -326,7 +338,7 @@ try:
         print_info("\n=== STEP 7: GENERATING TACTICAL TIPPING TABLE ===\n")
         tactical_table_cmd = [sys.executable, "tactical_tipping_table.py"]
         print_info(f"[INFO] Running: {' '.join(tactical_table_cmd)}")
-        subprocess.run(tactical_table_cmd, check=True)
+        time_step("Generate Tactical Tipping Table", subprocess.run, tactical_table_cmd, check=True)
         print_success("[SUCCESS] Tactical tipping table generated.")
 
 except KeyboardInterrupt:
