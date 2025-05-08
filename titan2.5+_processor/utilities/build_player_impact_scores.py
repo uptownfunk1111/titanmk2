@@ -46,26 +46,55 @@ def load_data():
     print_info("[INFO] Loading match data from: " + MATCH_DATA_PATH)
     player_stats = pd.read_csv(PLAYER_STATS_PATH)
     match_data = pd.read_csv(MATCH_DATA_PATH)
+    print_info(f"[DEBUG] Player stats shape: {player_stats.shape}")
     print_info(f"[DEBUG] Player stats columns: {player_stats.columns.tolist()}")
+    print_info(f"[DEBUG] Player stats head:\n{player_stats.head(3)}")
+    print_info(f"[DEBUG] Player stats dtypes:\n{player_stats.dtypes}")
+    print_info(f"[DEBUG] Match data shape: {match_data.shape}")
     print_info(f"[DEBUG] Match data columns: {match_data.columns.tolist()}")
-    # --- PATCH: Add Team column by extracting from MatchKey ---
+    print_info(f"[DEBUG] Match data head:\n{match_data.head(3)}")
+    print_info(f"[DEBUG] Match data dtypes:\n{match_data.dtypes}")
+    # Add 'Team' column if missing, using MatchKey and row order (assume 13 or 17 players per team per match)
     if 'Team' not in player_stats.columns:
-        print_info("[DEBUG] 'Team' column not found in player_stats. Extracting from MatchKey...")
-        def extract_team(row):
-            mk = row['MatchKey']
-            if '-v-' in mk:
-                teams = mk.split('-v-')
-                match_rows = player_stats[player_stats['MatchKey'] == mk]
-                idx = match_rows.index.get_loc(row.name)
-                if idx < 17:
-                    team = teams[0].split('-')[-1]
+        print_info("[TRACE] 'Team' column missing, inferring from 'MatchKey' and row order...")
+        # Count players per match
+        player_stats['Team'] = None
+        match_groups = player_stats.groupby('MatchKey').indices
+        for match_key, indices in match_groups.items():
+            # Try to extract home and away team from MatchKey
+            parts = str(match_key).split('-')
+            if len(parts) >= 5 and 'v' in parts[3]:
+                home_team = parts[2]
+                away_team = parts[4]
+            elif 'v' in str(match_key):
+                # fallback: split on 'v'
+                mk = str(match_key)
+                if mk.count('-') >= 3 and 'v' in mk:
+                    pre, post = mk.split('v', 1)
+                    home_team = pre.split('-')[-1]
+                    away_team = post.split('-')[1] if '-' in post else post
                 else:
-                    team = teams[1]
-                print_info(f"[TRACE] Assigning team '{team}' for player '{row['Name']}' in match '{mk}' (idx={idx})")
-                return team
-            return None
-        player_stats['Team'] = player_stats.apply(extract_team, axis=1)
+                    home_team = 'Unknown'
+                    away_team = 'Unknown'
+            else:
+                home_team = 'Unknown'
+                away_team = 'Unknown'
+            n = len(indices)
+            # Assume first half is home, second half is away
+            split = n // 2
+            for idx, row_idx in enumerate(indices):
+                if idx < split:
+                    player_stats.at[row_idx, 'Team'] = home_team
+                else:
+                    player_stats.at[row_idx, 'Team'] = away_team
         print_info("[DEBUG] 'Team' column added to player_stats.")
+    # Clean player_stats: replace '-' and blanks with NaN, convert to numeric where possible
+    player_stats = player_stats.replace(['-', ' ', ''], pd.NA)
+    for col in player_stats.columns:
+        if col not in ['Year', 'Round', 'Number', 'Player', 'Name', 'MatchKey', 'Position', 'Team', 'Team_norm']:
+            player_stats[col] = pd.to_numeric(player_stats[col], errors='coerce')
+    print_info(f"[DEBUG] Player stats after cleaning head:\n{player_stats.head(3)}")
+    print_info(f"[DEBUG] Player stats after cleaning dtypes:\n{player_stats.dtypes}")
     print_info(f"[INFO] Player stats loaded: {player_stats.shape}")
     print_info(f"[INFO] Match data loaded: {match_data.shape}")
     return player_stats, match_data
@@ -75,20 +104,24 @@ def prepare_training_data(player_stats, match_data):
     print_info("[INFO] Aggregating player stats by team, year, round...")
     print_info(f"[DEBUG] player_stats dtypes before conversion:\n{player_stats.dtypes}")
     print_info(f"[DEBUG] player_stats head before conversion:\n{player_stats.head()}")
+    # Exclude non-numeric/stat columns from aggregation
+    exclude_cols = ['Year', 'Round', 'Number', 'Player', 'Name', 'MatchKey', 'Position', 'Team', 'Team_norm']
     # Convert all possible stat columns to numeric, handling commas and dashes
     for col in player_stats.columns:
-        if col not in ['Year', 'Round', 'Team', 'Player', 'Number', 'Team_norm']:
+        if col not in exclude_cols:
             player_stats[col] = pd.to_numeric(player_stats[col].astype(str).str.replace(',', '').replace('-', ''), errors='coerce')
     print_info(f"[DEBUG] player_stats dtypes after conversion:\n{player_stats.dtypes}")
     print_info(f"[DEBUG] player_stats head after conversion:\n{player_stats.head()}")
+    # Only use columns that are numeric and have sufficient non-NaN values
     numeric_cols = player_stats.select_dtypes(include=[np.number]).columns.tolist()
-    agg_cols = [col for col in numeric_cols if col not in ['Year', 'Round', 'Number']]
-    print_info(f"[DEBUG] Aggregation columns: {agg_cols}")
-    if not agg_cols:
-        print_error("[ERROR] No numeric/stat columns found in player stats. Please check your data file.")
+    # Remove columns with >80% NaN values
+    valid_numeric_cols = [col for col in numeric_cols if player_stats[col].isna().mean() < 0.8 and col not in ['Year', 'Round', 'Number']]
+    print_info(f"[DEBUG] Aggregation columns: {valid_numeric_cols}")
+    if not valid_numeric_cols:
+        print_error("[ERROR] No valid numeric/stat columns found in player stats. Please check your data file.")
         exit(1)
     print_info(f"[DEBUG] Grouping by: ['Year', 'Round', 'Team']")
-    team_stats = player_stats.groupby(['Year', 'Round', 'Team'])[agg_cols].sum().reset_index()
+    team_stats = player_stats.groupby(['Year', 'Round', 'Team'])[valid_numeric_cols].sum().reset_index()
     print_info(f"[DEBUG] Aggregated team stats shape: {team_stats.shape}")
     print_info("[INFO] Merging team stats with match data (home/away)...")
     merged = match_data.merge(
@@ -102,7 +135,7 @@ def prepare_training_data(player_stats, match_data):
     merged['Margin'] = merged['HomeScore'] - merged['AwayScore']
     print_info(f"[INFO] Merged data shape: {merged.shape}")
     print_info(f"[DEBUG] Merged data columns: {merged.columns.tolist()}")
-    return merged, agg_cols
+    return merged, valid_numeric_cols
 
 # 3. Train model to estimate team impact from player stats
 def train_team_impact_model(merged, agg_cols):
