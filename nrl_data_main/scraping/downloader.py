@@ -114,7 +114,7 @@ if __name__ == "__main__":
             downloader.fetch_and_save_fixtures()
         base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
         if do_match:
-            script = os.path.join(base_dir, 'titan2.5+_processor', 'match_data_select.py')
+            script = os.path.join(base_dir, 'titan2.5+_processor', 'utilities', 'match_data_select.py')
             args = ['--year', str(year), '--rounds', '27', '--type', comp_type]
             print(f"[INFO] Running: {sys.executable} {script} {' '.join(args)}")
             try:
@@ -122,7 +122,7 @@ if __name__ == "__main__":
             except Exception as e:
                 print(f"[ERROR] Failed to run {script}: {e}")
         if do_detailed:
-            script = os.path.join(base_dir, 'titan2.5+_processor', 'match_data_detailed_select.py')
+            script = os.path.join(base_dir, 'titan2.5+_processor', 'utilities', 'match_data_detailed_select.py')
             args = ['--year', str(year), '--rounds', '27', '--type', comp_type]
             print(f"[INFO] Running: {sys.executable} {script} {' '.join(args)}")
             try:
@@ -130,7 +130,7 @@ if __name__ == "__main__":
             except Exception as e:
                 print(f"[ERROR] Failed to run {script}: {e}")
         if do_player:
-            script = os.path.join(base_dir, 'titan2.5+_processor', 'player_data_select.py')
+            script = os.path.join(base_dir, 'nrl_data_main', 'scraping', 'downloader.py')
             args = ['--year', str(year), '--round', '27', '--type', comp_type]
             print(f"[INFO] Running: {sys.executable} {script} {' '.join(args)}")
             try:

@@ -4,9 +4,9 @@ Script to run the data scraper for match and player data.
 
 import os
 
-from match_data_select import match_data_select
-from match_data_detailed_select import match_data_detailed_select
-from player_data_select import player_data_select
+from utilities.match_data_select import match_data_select
+from utilities.match_data_detailed_select import match_data_detailed_select
+from utilities.player_data_select import player_data_select
 
 # Define the selection type for the dataset
 # Options: 'NRL', 'NRLW', 'HOSTPLUS', 'KNOCKON'

@@ -7,9 +7,9 @@ import shutil
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from match_data_select import match_data_select
+from utilities.match_data_select import match_data_select
 from match_data_detailed_select import match_data_detailed_select
-from player_data_select import player_data_select
+from utilities.player_data_select import player_data_select
 
 # Define the selection type for the dataset
 # Options: 'NRL', 'NRLW', 'HOSTPLUS', 'KNOCKON'

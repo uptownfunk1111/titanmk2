@@ -9,9 +9,9 @@ import os
 SCRAPING_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRAPING_DIR)
 
-from match_data_select import match_data_select
+from utilities.match_data_select import match_data_select
 from match_data_detailed_select import match_data_detailed_select
-from player_data_select import player_data_select
+from utilities.player_data_select import player_data_select
 
 def update_nrl_data(year, round_num, selection_type):
     print(f"\n=== Updating NRL Data for {selection_type} {year} up to Round {round_num} ===\n")

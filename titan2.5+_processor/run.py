@@ -166,7 +166,7 @@ try:
     current_stage = 1
     # Step 1: Harvest Match Data
     if current_stage >= start_stage and prompt_step("Harvest Match Data (2025)") == "y":
-        script_path = os.path.join(base_dir, "nrl_data_main", "scraping", "match_data_select.py")
+        script_path = os.path.join(base_dir, "utilities", "match_data_select.py")
         cmd = [sys.executable, script_path, "--year", "2025", "--rounds", str(ROUND), "--type", COMP_TYPE]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
         time_step("Harvest Match Data", subprocess.run, cmd, check=True)
@@ -187,9 +187,33 @@ try:
         sys.exit(0)
     current_stage += 1
 
-    # Step 2: Harvest Detailed Match Data
+    # Step 2: Repair JSON Data
+    if current_stage >= start_stage and prompt_step("Repair JSON Data") == "y":
+        repair_script = os.path.join(base_dir, "utilities", "repair_titan_json.py")
+        if os.path.exists(repair_script):
+            print_info(f"[INFO] Running: {sys.executable} {repair_script}")
+            time_step("Repair JSON Data", subprocess.run, [sys.executable, repair_script], check=True)
+        else:
+            print_warn(f"[WARN] Repair script not found: {repair_script}")
+    elif current_stage >= start_stage and prompt_step("Repair JSON Data") == "exit":
+        sys.exit(0)
+    current_stage += 1
+
+    # Step X: Validate JSON Structure
+    if current_stage >= start_stage and prompt_step("Validate JSON Structure") == "y":
+        validate_script = os.path.join(base_dir, "utilities", "validate_titan_json_structure.py")
+        if os.path.exists(validate_script):
+            print_info(f"[INFO] Running: {sys.executable} {validate_script}")
+            time_step("Validate JSON Structure", subprocess.run, [sys.executable, validate_script], check=True)
+        else:
+            print_warn(f"[WARN] Validation script not found: {validate_script}")
+    elif current_stage >= start_stage and prompt_step("Validate JSON Structure") == "exit":
+        sys.exit(0)
+    current_stage += 1
+
+    # Step 3: Harvest Detailed Match Data
     if current_stage >= start_stage and prompt_step("Harvest Detailed Match Data (2025)") == "y":
-        script_path = os.path.join(base_dir, "nrl_data_main", "scraping", "match_data_detailed_select.py")
+        script_path = os.path.join(base_dir, "utilities", "match_data_detailed_select.py")
         cmd = [sys.executable, script_path, "--year", "2025", "--rounds", str(ROUND), "--type", COMP_TYPE]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
         time_step("Harvest Detailed Match Data", subprocess.run, cmd, check=True)
@@ -205,14 +229,14 @@ try:
         except Exception as e:
             print_warn(f"[WARN] Could not count detailed matches: {e}")
         print(Fore.MAGENTA + "\n🏉-------------------🏉\n" + Style.RESET_ALL)
-        print(Fore.GREEN + "✅ Step 2 complete! Moving to Step 3..." + Style.RESET_ALL)
+        print(Fore.GREEN + "✅ Step 3 complete! Moving to Step 4..." + Style.RESET_ALL)
     elif current_stage >= start_stage and prompt_step("Harvest Detailed Match Data (2025)") == "exit":
         sys.exit(0)
     current_stage += 1
 
-    # Step 3: Harvest Player Stats
+    # Step 4: Harvest Player Stats
     if current_stage >= start_stage and prompt_step("Harvest Player Stats (2025)") == "y":
-        script_path = os.path.join(base_dir, "nrl_data_main", "scraping", "player_data_select.py")
+        script_path = os.path.join(base_dir, "utilities", "player_data_select.py")
         cmd = [sys.executable, script_path, "--year", "2025", "--rounds", str(ROUND), "--type", COMP_TYPE]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
         time_step("Harvest Player Stats", subprocess.run, cmd, check=True)
@@ -233,12 +257,12 @@ try:
         except Exception as e:
             print_warn(f"[WARN] Could not count player stats: {e}")
         print(Fore.MAGENTA + "\n🏉-------------------🏉\n" + Style.RESET_ALL)
-        print(Fore.GREEN + "✅ Step 3 complete! Moving to Step 4..." + Style.RESET_ALL)
+        print(Fore.GREEN + "✅ Step 4 complete! Moving to Step 5..." + Style.RESET_ALL)
     elif current_stage >= start_stage and prompt_step("Harvest Player Stats (2025)") == "exit":
         sys.exit(0)
     current_stage += 1
 
-    # Step 4: Flatten Data
+    # Step 5: Flatten Data
     if current_stage >= start_stage and prompt_step("Flatten Data") == "y":
         flatten_script = os.path.join(os.path.dirname(base_dir), "flatten_nrl_data.py")
         flatten_player_stats_script = os.path.join(base_dir, "flatten_player_stats.py")
@@ -249,29 +273,29 @@ try:
         print_info(f"[INFO] Running: {sys.executable} {flatten_player_stats_script}")
         time_step("Flatten Player Stats", subprocess.run, [sys.executable, flatten_player_stats_script], check=True)
         # Debug output files
-        debug_file_info(os.path.join(base_dir, 'outputs', 'all_matches_2019_2025.csv'))
-        debug_file_info(os.path.join(base_dir, 'outputs', 'player_stats_2025.csv'))
+        debug_file_info(os.path.join(base_dir, 'titan2.5+_processor', 'outputs', 'all_matches_2019_2025.csv'))
+        debug_file_info(os.path.join(base_dir, 'titan2.5+_processor', 'outputs', 'player_stats_2025.csv'))
         print(Fore.MAGENTA + "\n🏉-------------------🏉\n" + Style.RESET_ALL)
-        print(Fore.GREEN + "✅ Step 4 complete! Moving to Step 5..." + Style.RESET_ALL)
+        print(Fore.GREEN + "✅ Step 5 complete! Moving to Step 6..." + Style.RESET_ALL)
     elif current_stage >= start_stage and prompt_step("Flatten Data") == "exit":
         sys.exit(0)
     current_stage += 1
 
-    # Step 5: Normalise/Process Data
+    # Step 6: Normalise/Process Data
     if current_stage >= start_stage and prompt_step("Normalise/Process Data") == "y":
-        normalise_script = os.path.join(base_dir, "normalise_nrl_data.py")
+        normalise_script = os.path.join(base_dir, "utilities", "normalise_nrl_data.py")
         cmd = [sys.executable, normalise_script]
         print_info(f"[INFO] Running: {' '.join(cmd)}")
         time_step("Normalise/Process Data", subprocess.run, cmd, check=True)
         # Debug output files
-        debug_file_info(os.path.join(base_dir, '..', 'outputs', 'normalised_all_matches_2019_2025.csv'))
+        debug_file_info(os.path.join(base_dir, '..', 'titan2.5+_processor', 'outputs', 'normalised_all_matches_2019_2025.csv'))
         print(Fore.MAGENTA + "\n🏉-------------------🏉\n" + Style.RESET_ALL)
-        print(Fore.GREEN + "✅ Step 5 complete! Moving to Step 6..." + Style.RESET_ALL)
+        print(Fore.GREEN + "✅ Step 6 complete! Moving to Step 7..." + Style.RESET_ALL)
     elif current_stage >= start_stage and prompt_step("Normalise/Process Data") == "exit":
         sys.exit(0)
     current_stage += 1
 
-    # Step 6: Run Prediction Model
+    # Step 7: Run Prediction Model
     if current_stage >= start_stage and prompt_step("Run Prediction Model") == "y":
         print_info("\n[COMMAND] Commander, confirm: All feature enhancement modules will be loaded into the predictive modelling arsenal.\n")
         confirm_enhancements = input(Fore.YELLOW + "[PROMPT] Do you wish to proceed with loading all feature enhancements for maximum tactical advantage? (y/n): " + Style.RESET_ALL).strip().lower()
@@ -282,15 +306,15 @@ try:
         feature_scripts = [
             "build_player_impact_scores.py",
             "fetch_upcoming_fixtures_and_officials.py",
-            "weather_impact_analysis.py",
-            "lineup_impact.py",
-            "kick_target_mapping.py",
-            "officiating_impact_analysis.py",
-            "speculative_data_sweep.py",
-            "opponent_analysis.py",
-            "player_injury_impact.py",
+            "utilities/weather_impact_analysis.py",
+            "utilities/lineup_impact.py",
+            "utilities/officiating_impact_analysis.py",
+            "utilities/speculative_data_sweep.py",
+            "utilities/opponent_analysis.py",
+            "utilities/player_injury_impact.py",
             "coach_impact_analysis.py",
-            "generate_kick_events.py",
+            "utilities/generate_kick_events.py",
+            "utilities/kick_target_mapping.py",
             "new_prediction_models/predictor_ml.py"
         ]
         for script in feature_scripts:
@@ -328,15 +352,16 @@ try:
         print_info(f"[INFO] Running: {' '.join(cmd)}")
         time_step("Run Prediction Model", subprocess.run, cmd, check=True)
         print(Fore.MAGENTA + "\n🏉-------------------🏉\n" + Style.RESET_ALL)
-        print(Fore.GREEN + "✅ Step 6 complete! Moving to Step 7..." + Style.RESET_ALL)
+        print(Fore.GREEN + "✅ Step 7 complete! Moving to Step 8..." + Style.RESET_ALL)
     elif current_stage >= start_stage and prompt_step("Run Prediction Model") == "exit":
         sys.exit(0)
     current_stage += 1
 
-    # Step 7: Generate Tactical Tipping Table
+    # Step 8: Generate Tactical Tipping Table
     if current_stage >= start_stage:
-        print_info("\n=== STEP 7: GENERATING TACTICAL TIPPING TABLE ===\n")
-        tactical_table_cmd = [sys.executable, "tactical_tipping_table.py"]
+        print_info("\n=== STEP 8: GENERATING TACTICAL TIPPING TABLE ===\n")
+        reporting_script = os.path.join(base_dir, "utilities", "titan_match_insights.py")
+        tactical_table_cmd = [sys.executable, os.path.join(base_dir, "utilities", "tactical_tipping_table.py")]
         print_info(f"[INFO] Running: {' '.join(tactical_table_cmd)}")
         time_step("Generate Tactical Tipping Table", subprocess.run, tactical_table_cmd, check=True)
         print_success("[SUCCESS] Tactical tipping table generated.")
