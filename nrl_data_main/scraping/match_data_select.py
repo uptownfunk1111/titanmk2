@@ -6,9 +6,14 @@ This script fetches NRL  match data for the selected year and saves it to a JSON
 from utilities.get_nrl_data import get_nrl_data
 import json
 import sys
-sys.path.append('..')
-import ENVIRONMENT_VARIABLES as EV
 import os
+
+# Add project root to sys.path for absolute import
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+# Import ENVIRONMENT_VARIABLES from nrl_data_main
+from nrl_data_main import ENVIRONMENT_VARIABLES as EV
 
 
 def match_data_select(SELECT_YEAR, SELECT_ROUNDS, SELECTION_TYPE):

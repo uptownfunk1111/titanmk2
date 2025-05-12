@@ -2,11 +2,18 @@
 Script to run the data scraper for match and player data.
 """
 
+import sys
 import os
 
-from .match_data_select import match_data_select
-from .match_data_detailed_select import match_data_detailed_select
-from .player_data_select import player_data_select
+# Ensure project root is in sys.path for absolute imports
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+# Absolute imports for direct script execution
+from nrl_data_main.scraping.match_data_select import match_data_select
+from nrl_data_main.scraping.match_data_detailed_select import match_data_detailed_select
+from nrl_data_main.scraping.player_data_select import player_data_select
 
 # Define the selection type for the dataset
 # Options: 'NRL', 'NRLW', 'HOSTPLUS', 'KNOCKON'

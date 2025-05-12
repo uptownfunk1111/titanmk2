@@ -5,9 +5,15 @@ Optimized Web Scraper for NRL Team Statistics
 import requests
 from bs4 import BeautifulSoup
 import sys
+import os
 
-sys.path.append("..")
-import ENVIRONMENT_VARIABLES as EV
+# Add project root to sys.path for absolute import
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
+# Import ENVIRONMENT_VARIABLES from nrl_data_main
+from nrl_data_main import ENVIRONMENT_VARIABLES as EV
 import requests
 import json
 from bs4 import BeautifulSoup
